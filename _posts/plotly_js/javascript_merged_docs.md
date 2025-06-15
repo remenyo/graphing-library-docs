@@ -1,14 +1,7 @@
 ---
 name: Stacked Histograms
-plot\_url: https://plotly.com/~PlotBot/56
-arrangement: horizontal
-language: nodejs
 suite: histogram
-order: 7
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x0 = Math.random() \* 500
 var x1 = Math.random() \* 500 + 1
 require('plotly')(username, api\_key);
@@ -28,15 +21,8 @@ console.log(msg);
 });
 ---
 name: Horizontal Histogram
-plot\_url: https://plotly.com/~PlotBot/53
-arrangement: horizontal
-language: nodejs
 suite: histogram
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var y = [];
 for (var i = 0; i < 500; i ++) {
 y[i] = Math.random();
@@ -54,15 +40,8 @@ console.log(msg);
 });
 ---
 name: Basic Histogram
-plot\_url: https://plotly.com/~PlotBot/52
-arrangement: horizontal
-language: nodejs
 suite: histogram
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x = [];
 for (var i = 0; i < 500; i ++) {
 x[i] = Math.random();
@@ -80,15 +59,8 @@ console.log(msg);
 });
 ---
 name: Colored and Styled Histograms
-plot\_url: https://plotly.com/~PlotBot/55
-arrangement: horizontal
-language: nodejs
 suite: histogram
-order: 8
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x0 = [];
 var x1 = [];
 for (var i = 0; i < 500; i ++) {
@@ -146,9 +118,7 @@ console.log(msg);
 name: Histograms
 permalink: nodejs/histograms/
 description: How to make a histogram in nodejs. Seven examples of colored, horizontal, and normal histogram bar charts.
-layout: base
 thumbnail: thumbnail/histogram.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -156,15 +126,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Overlaid Histogram
-plot\_url: https://plotly.com/~PlotBot/54
-arrangement: horizontal
-language: nodejs
 suite: histogram
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x0 = [];
 var x1 = [];
 for (var i = 0; i < 500; i ++) {
@@ -190,15 +153,8 @@ console.log(msg);
 });
 ---
 name: Public Graphs
-plot\_url: https://plotly.com/~PlotBot/0
-arrangement: horizontal
-language: nodejs
 suite: privacy
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -215,9 +171,7 @@ console.log(msg);
 name: Public vs Private Graphs
 permalink: nodejs/privacy/
 description: How to set the privacy settings of plotly graphs in nodejs.
-layout: base
 thumbnail: thumbnail/privacy.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: file\_settings
 ---
@@ -225,15 +179,8 @@ display\_as: file\_settings
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Private Graphs
-plot\_url: https://plotly.com/~PlotBot/1
-arrangement: horizontal
-language: nodejs
 suite: privacy
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -250,9 +197,7 @@ console.log(msg);
 name: Multiple Axes
 permalink: nodejs/multiple-axes/
 description: How to make a graph with multiple axes in nodejs.
-layout: base
 thumbnail: thumbnail/multiple-axes.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -260,15 +205,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Two Y-Axes
-plot\_url: https://plotly.com/~PlotBot/22
-arrangement: horizontal
-language: nodejs
 suite: multiple-axes
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -301,15 +239,8 @@ console.log(msg);
 });
 ---
 name: Multiple Y-Axes
-plot\_url: https://plotly.com/~PlotBot/23
-arrangement: horizontal
-language: nodejs
 suite: multiple-axes
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -381,15 +312,8 @@ console.log(msg);
 });
 ---
 name: Basic Contour Plot
-plot\_url: https://plotly.com/~PlotBot/58
-arrangement: horizontal
-language: nodejs
 suite: contour
-order: 3
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var linspace = require('linspace');
 var unpack = require('ndarray-unpack');
 var zeros = require('zeros');
@@ -421,9 +345,7 @@ console.log(msg);
 name: Contour Plots
 permalink: nodejs/contour-plots/
 description: How to make a contour plot in nodejs. Seven examples of contour plots of matrices with subplots, custom color-scales, and smoothing.
-layout: base
 thumbnail: thumbnail/contour.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -432,15 +354,8 @@ display\_as: chart\_type
 ---
 name: 2D Histogram Contour Plot
 with Histogram Subplots
-plot\_url: https://plotly.com/~PlotBot/95
-arrangement: horizontal
-language: nodejs
 suite: contour
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var linspace = require('linspace');
 var t = linspace(-1,1.2,2000);
 var x = (Math.pow(t, 3)) + (0.3 \* (Math.random() \* 2000));
@@ -520,9 +435,7 @@ console.log(msg);
 name: 3D Surface Plots
 permalink: nodejs/3d-surface-plots/
 description: How to make 3D surface plots in nodejs.
-layout: base
 thumbnail: thumbnail/3d-surface.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -530,15 +443,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Topographical 3D Surface Plot
-plot\_url: https://plotly.com/~PlotBot/193
-arrangement: horizontal
-language: nodejs
 suite: 3d-surface
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -564,15 +470,8 @@ console.log(msg);
 });
 ---
 name: Grouped Box Plot
-plot\_url: https://plotly.com/~PlotBot/32
-arrangement: horizontal
-language: nodejs
 suite: box
-order: 3
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x = ['day 1', 'day 1', 'day 1', 'day 1', 'day 1', 'day 1',
 'day 2', 'day 2', 'day 2', 'day 2', 'day 2', 'day 2']
 require('plotly')(username, api\_key);
@@ -611,15 +510,8 @@ console.log(msg);
 });
 ---
 name: Basic Box Plot
-plot\_url: https://plotly.com/~PlotBot/33
-arrangement: horizontal
-language: nodejs
 suite: box
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 for (var i = 0; i < 50; i ++) {
 y0[i] = Math.random();
 y1[i] = Math.random() + 1;
@@ -642,9 +534,7 @@ console.log(msg);
 name: Box Plots
 permalink: nodejs/box-plots/
 description: How to make a box plot in nodejs. Seven examples of box plots in nodejs that are grouped, colored, and display the underlying data distribution.
-layout: base
 thumbnail: thumbnail/box.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -652,15 +542,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Box Plot That Displays the Underlying Data
-plot\_url: https://plotly.com/~PlotBot/34
-arrangement: horizontal
-language: nodejs
 suite: box
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -679,9 +562,7 @@ console.log(msg);
 name: Inset Plots
 permalink: nodejs/insets/
 description: How to make an inset graph in nodejs.
-layout: base
 thumbnail: thumbnail/insets.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: basic
 ---
@@ -689,15 +570,8 @@ display\_as: basic
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Simple Inset Graph
-plot\_url: https://plotly.com/~PlotBot/26
-arrangement: horizontal
-language: nodejs
 suite: insets
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -728,15 +602,8 @@ console.log(msg);
 });
 ---
 name: Adjusting Height, Width, and Margins
-plot\_url: https://plotly.com/~PlotBot/2
-arrangement: horizontal
-language: nodejs
 suite: sizing
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -767,9 +634,7 @@ console.log(msg);
 name: Setting Graph Size
 permalink: nodejs/setting-graph-size/
 description: How to change the size of graphs in nodejs.
-layout: base
 thumbnail: thumbnail/sizing.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -779,8 +644,6 @@ display\_as: layout\_opt
 name: Getting Started with Plotly
 permalink: nodejs/getting-started/
 description: Plotly's Node.js graphing library makes interactive, publication-quality graphs online. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts and bubble charts.
-layout: base
-language: nodejs
 ---
 
 # Getting started with Plotly for Nodejs
@@ -839,15 +702,8 @@ plotly.plot(data, layout, function (err, msg) {
 [view examples](/nodejs/)
 ---
 name: Get Requests
-plot\_url: https://plotly.com/~PlotBot/152
-arrangement: horizontal
-language: nodejs
 suite: get-requests
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -868,9 +724,7 @@ console.log(msg);
 name: Get Requests
 permalink: nodejs/get-requests/
 description: How to download plotly users's public graphs and data with nodejs.
-layout: base
 thumbnail: thumbnail/get-requests.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: get\_request
 ---
@@ -878,15 +732,8 @@ display\_as: get\_request
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Colored and Styled Bar Chart
-plot\_url: https://plotly.com/~PlotBot/41
-arrangement: horizontal
-language: nodejs
 suite: bar
-order: 8
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
@@ -936,15 +783,8 @@ console.log(msg);
 });
 ---
 name: Bar Chart with Hover Text
-plot\_url: https://plotly.com/~PlotBot/179
-arrangement: horizontal
-language: nodejs
 suite: bar
-order: 9
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -974,9 +814,7 @@ console.log(msg);
 name: Bar Charts
 permalink: nodejs/bar-charts/
 description: How to make a bar chart in nodejs. Seven examples of grouped, stacked, overlaid, and colored bar charts.
-layout: base
 thumbnail: thumbnail/bar.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -984,15 +822,9 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Customizing Individual Bar Colors
-plot\_url: https://plotly.com/~PlotBot/177
-arrangement: horizontal
-language: nodejs
 suite: bar
 order: 10
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1008,15 +840,8 @@ console.log(msg);
 });
 ---
 name: Stacked Bar Chart
-plot\_url: https://plotly.com/~PlotBot/38
-arrangement: horizontal
-language: nodejs
 suite: bar
-order: 7
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: ["giraffes", "orangutans", "monkeys"],
@@ -1038,15 +863,8 @@ console.log(msg);
 });
 ---
 name: Basic Bar Chart
-plot\_url: https://plotly.com/~PlotBot/39
-arrangement: horizontal
-language: nodejs
 suite: bar
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1061,15 +879,8 @@ console.log(msg);
 });
 ---
 name: Grouped Bar Chart
-plot\_url: https://plotly.com/~PlotBot/40
-arrangement: horizontal
-language: nodejs
 suite: bar
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: ["giraffes", "orangutans", "monkeys"],
@@ -1091,15 +902,8 @@ console.log(msg);
 });
 ---
 name: Horizontal Error Bars
-plot\_url: https://plotly.com/~PlotBot/48
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 3
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1118,15 +922,8 @@ console.log(msg);
 });
 ---
 name: Basic Symmetric Error Bars
-plot\_url: https://plotly.com/~PlotBot/45
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1146,15 +943,8 @@ console.log(msg);
 });
 ---
 name: Bar Chart with Error Bars
-plot\_url: https://plotly.com/~PlotBot/51
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: ["Trial 1", "Trial 2", "Trial 3"],
@@ -1186,15 +976,8 @@ console.log(msg);
 });
 ---
 name: Asymmetric Error Bars
-plot\_url: https://plotly.com/~PlotBot/50
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1217,9 +1000,7 @@ console.log(msg);
 name: Error Bars
 permalink: nodejs/error-bars/
 description: How to add error bars to a line, scatter, or bar chart. Seven examples of symmetric, asymmetric, horizontal, and colored error bars.
-layout: base
 thumbnail: thumbnail/error-bar.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -1227,15 +1008,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Colored and Styled Error Bars
-plot\_url: https://plotly.com/~PlotBot/49
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var linspace = require('linspace')
 x\_theo = linspace(-4, 4, 100)
 sincx = Math.sin(x\_theo) / x\_theo
@@ -1282,15 +1056,8 @@ console.log(msg);
 });
 ---
 name: Error Bars as a Percentage of the y-Value
-plot\_url: https://plotly.com/~PlotBot/47
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1310,15 +1077,8 @@ console.log(msg);
 });
 ---
 name: Asymmetric Error Bars with a Constant Offset
-plot\_url: https://plotly.com/~PlotBot/46
-arrangement: horizontal
-language: nodejs
 suite: error-bar
-order: 7
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1339,15 +1099,8 @@ console.log(msg);
 });
 ---
 name: Global Font Properties
-plot\_url: https://plotly.com/~PlotBot/18
-arrangement: horizontal
-language: nodejs
 suite: font
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -1372,9 +1125,7 @@ console.log(msg);
 name: Text and Font Styling
 permalink: nodejs/font/
 description: How to edit and style the font of graphs in nodejs.
-layout: base
 thumbnail: thumbnail/font.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -1384,12 +1135,9 @@ display\_as: layout\_opt
 name: Static Image Export
 permalink: nodejs/static-image-export/
 description: How to export plotly graphs as static images in nodejs. Plotly supports png, svg, jpg, and pdf image export.
-layout: base
 thumbnail: thumbnail/static-image.jpg
-language: nodejs
 page_type: example_index
 display_as: get_request
-sitemap: false
 ---
 <div class="content-box">
 <p>These docs have moved!</p><br>
@@ -1399,15 +1147,8 @@ sitemap: false
 
 ---
 name: Logarithmic Axes
-plot\_url: https://plotly.com/~PlotBot/175
-arrangement: horizontal
-language: nodejs
 suite: log
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -1438,9 +1179,7 @@ console.log(msg);
 name: Log Plots
 permalink: nodejs/log-plot/
 description: How to make a plot with logarithmic axes in nodejs.
-layout: base
 thumbnail: thumbnail/log.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -1448,15 +1187,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: 3D Scatter Plot
-plot\_url: https://plotly.com/~PlotBot/191
-arrangement: horizontal
-language: nodejs
 suite: 3d-scatter
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [-0.858927762914, 0.759678101763, 1.6178351592, 1.87830282065, 0.809847170863, 0.268555760283, 2.30810416239, 0.282888011561, 1.75225768912, -0.0858584825427, -0.664926809221, -0.548288732801, 0.935236191463, -1.02421230779, 0.644847152488, 0.0793568349027, 0.376719868063, 0.462240513173, 0.973028103151, -0.114269985428, -0.033940830122, 0.811377010177, 0.173216762098, 1.13050378279, 0.553484661867, 0.440805181912, 0.148990837935, -0.493219257424, -0.40049507589, 0.624356936003, -1.34714271255, -1.33109047124, 0.580407752205, 1.31228189798, 1.16625104479, 0.372976659017, 0.33595979347, -0.791263889586, 2.95679346521, -1.44635853127, 0.802371733213, 2.69594639721, -1.80577115012, -0.585443782182, 1.74147234306, 0.0551660441537, 0.218995819792, 1.56944606413, -0.947713487167, 0.21531704968, 0.283274664607, -1.03433101051, 0.427567525355, -0.29651815918, 1.71666047058, -0.0124001672318, 1.25319441867, -0.94507428328, 3.09647680347, -0.287215190821, 1.45119951375, 1.69922212558, 2.69850672147, -0.0289175063451, 1.21716676273, 2.46646810578, -0.112577515009, 2.38520630018, -0.894226360843, 1.38400031789, -0.769002241532, 1.92561814496, -0.296718019513, -0.718227769059, 0.208753284183, 2.52782757368, 1.9361555668, -0.754003559785, 2.14063096306, 0.779847993597, 0.502973381133, 0.798184138778, -0.401231296439, -0.758368669985, 0.44767244853, -0.188431184199, 1.79497692012, -0.625306719407, -0.615724277639, -2.06735998972, 1.06474596869, -0.128866941481, -0.452517179795, 0.0200862867444, 0.421379325457, -1.0878312666, 3.09022738748, 0.0277330763081, -1.59553907708, 3.02447398417, 0.742938898095, -0.0669009525229, 1.11353510686, 0.349691325914, 1.27464565235, -0.849660878806, -0.718772836336, 1.4081636604, -0.753321894364, 2.51796096719, 0.623461242752, 2.47835521332, -1.53642964244, 0.159871420819, -0.395698796269, -1.11679091882, 0.448245168587, 1.55502024702, -0.343749743664, 0.724058499487, -0.686090692568, 1.32581077832, 1.25616394504, -0.484964890584, -0.460271614238, -0.841487231275, -1.36820594572, 0.90824794356, 0.67051351088, 0.0212121330424, -1.12267184074, 2.52453987516, 0.0849019587581, 1.7420758675, -1.0027007829, 1.9055764672, -2.14654088662, -1.52908707279, -0.640644116837, 1.67643856705, 2.25602889401, 1.83134219276, -1.72010278768, 2.74926371156, -1.74782046385, 2.00838277274, 2.77375902631, -0.809602500716, 0.444810361123, -0.862546878298, 1.9793213189, -0.0161110137557, -0.567182783683, -0.0148935369382, 1.29136015936, -0.447459511967, 2.01203302064, 3.65266094596, 3.51134603014, -2.60770981104, 2.24846069441, 0.966890489218, -0.880918847259, 1.56450901864, 3.23166864465, -1.18467635833, -1.64698877553, 1.0999706466, 1.37462800435, 0.0355155515869, 1.68461213782, 2.80665024521, 0.934728277386, 0.102742523087, -0.142481480764, -0.984400134993, 2.5408834026, -2.64514400656, 0.193597356785, -1.58222850849, 3.09908565915, 3.5367959438, 2.82880122941, 2.71306112901, 1.517531762, -1.60549123973, 2.06582826664, 0.415256545358, 0.802958397668, -1.83345209613, 2.89468274141, 1.08320823732, 1.10851585661, 2.35824916881, -0.0895465416277, 2.07564212248, -0.540300516929, -2.51315675561, 2.56087015306, -1.68477549995, 0.159617997414, -0.0096568387549, 2.38189315442, -1.77047179409, 0.823566144949, 2.19725973561, -2.30700971811, -2.68543507278, -2.09356427203, -1.62280421582, 3.5241757433, 0.982110745145, -1.44340169645, -3.1226208118, -1.79323527952, 2.37436121305, 1.41047281102, 3.94967038564, 0.890115902236, 1.29209752987, 0.157511695483, 2.03596315641, -0.239538147332, 0.667456763767, 1.46034222522, 1.42065240797, 2.40161812211, 2.81953536735, 3.1390491576, -0.809424460922, -0.613515342979, -2.37597124604, -0.102454450897, 1.10278080375, 1.35979036965, 1.43984057107, -1.32602471093, 0.232247238328, 2.22467629273, 1.32827158852, -0.592266211766, -2.2764609507, 0.377205738192, 0.353227718086, 1.93656584033, 1.9508653414, 1.38500252215, 2.73544615079, 1.1370189711, 1.87643818509, 0.935931377767, 0.147656457965, 0.707402783465, -2.27034360469, -0.21549529712, 1.84701270869, -1.59166018736, -0.0899279120141, -1.76780153178, 1.63174609695, -0.928495296123, 3.19960649446, 2.33011909541, 2.39706138327, 1.01785296718, 0.658242617297, 2.66337911939, -0.813082076212, -1.43347515326, -1.81743262746, -1.23249869238, 1.70358645138, 2.34830652544, -0.0312840792134, 0.556217873043, -2.09254676742, 2.20147446573, 2.26118757695, -0.13608553051, -1.17785812512, 3.00970271063, -2.38857976504, 1.60700925067, -0.31031752125, -0.0530433912159, -1.92633563006, -0.792793130711, 0.294658223896, -1.07807475309, 1.77597120332, 2.30471864914, 0.735157921792, 0.30693398648, 3.00091538111, -0.371353401071, -2.71001705707, -0.341155396452, 0.522613457871, -1.93085965936, 2.79478499215, -0.313871029869, 2.12051092648, 3.00141389588, -0.00535802781989, -2.0777556239, 0.717521153879, -1.96895226957, -0.123500384528, 3.82298949539, 2.64457625817, 0.851122568224, -0.433454261117, 1.32732171987, 2.92422971474, 1.60461821114, -1.57943427664, -0.471902204405, -1.71156258393, 3.66543091282, -0.79395254324, 2.77030702295, 3.92417977108, 0.178819511546, 0.627177838003, -0.107267457054, 1.03713811579, 0.852699587768, -0.710137602566, 2.59665240922, 3.51028489298, -0.0302576844334, -1.57247826785, -0.268406153014, -0.238958380149, 0.386329291232, 2.75650827998, 2.65374593439, 3.32308579008, 2.63394725262, -2.31611284957, 0.792368481101, 1.75250198315, -2.0863833566, -0.580824210252, -2.37313764374, 3.15809501972, 0.119166412194, -0.408202532592, -1.40792875754, 1.73369421215, 0.853135858155, 1.76013699958, -0.470156083617, 1.60540076601, 1.91131704998, 0.800832273894, 0.877989562347, 1.02142060122, 0.775024681003, -1.03816091377, -0.67240219194, -2.08830184156, 2.07126969944, 0.589118614708, -2.43246352324, -1.775012952, 0.338603801466, -1.36587825694, -1.01785435861, -0.251202362196, 0.240488465005, 3.37427125017, -0.427744032382, -0.0160438693411, -2.12360820093, -0.0136300160675, 1.6457583931, -0.398113568909, 2.53618579496, 1.99732502068, 3.03757893274, -1.542951805, 3.29032020554, 0.408597217183, -0.784512643074, 1.92727780511, 1.53237207726, -1.21123169572, -0.533099191238, -0.648573260417, -0.413723569224, 1.70961621052, -0.438637351355, 1.28189816388, -1.00815357379, -0.355421335745, 2.31287621579, 1.04410395208, 0.712592911641, -0.706727456723, -1.8960033809, 1.67320401337, 1.80477328126, -0.24666442478, -0.16108368822, -1.56370587204, 2.06107198416, -0.195931176216, 0.177288395826, -1.20729352235, 0.294135054063, 1.09730702538, 0.203291908383, -0.965609543176, 3.29553773891, -2.74479491047, -1.53148234693, 0.182945314599, 2.79105526804, 3.00847199565, 0.371686924352, -1.4676453197, -1.36196230158, -2.25640972442, -1.62081764515, 0.819163569299, -1.87813351684, 3.64231404007, -1.81342504306, -2.67452608479, -3.09528194535, -2.43224150927, 2.33231557534, 0.926829077971, -1.7157590476, -0.346085084905, -0.976704966679, 0.174122242602, -0.709571668723, -0.814946854616, -1.18937177368, 3.22661237692, 1.76487935387, 4.02168707708, 1.54253760561, 3.0684272825, 1.0766193676, 4.15039042142, -3.89394265607, -0.556788955049, 1.13104626799, -1.55159845843, -0.198247541327, -2.76365241834, -0.0437864059995, -1.1073471829, -2.22224941621, 2.18238487631, -1.88335356177, -1.44496819666, 1.15761562632, 0.601653653672, -1.52132522619, 3.72553746998, 3.34108341777, -1.76822827956, 2.77883375288, -1.83153667401, -1.99139499711, 1.97110727621, 3.61045236073, 1.78405333363, -3.07193793839, 3.59599391471, 2.86251718553, 0.756925211083, 3.43366242359, -0.713059647626, 3.34974067292, 1.06337642201, 0.0538352092257, -1.18727079658, -2.58573940196, 3.50750797235, -4.19551857748, 0.866834312384, 4.30363965594, 4.42541330197, 3.61456171231, -1.65607835843, 3.66914469514, -0.972301726054, 0.599171933545, 2.67894428534, 5.10664252733, -3.14997643882, 1.19941589947, -0.879386256104, -0.0259763360274, 4.09510806754, 3.43126239346, -1.18332293012, -3.11943368535, -0.643549187597, 0.123823429761, -2.77618764727, -2.08034348596, -1.12432451465, 0.799946742559, 0.638328163648, -1.29251792259, -2.0542306177, 3.22065702648, -2.46356134508, 3.37201979384, 2.50438240253, 3.97282056193, 2.71881280561, -2.9158864435, -3.28019303156, -3.10078035913, -0.734835442796, 0.959373739046, 1.1559574549, 2.39594583166, 3.13623943927, 3.37614503798, 2.75058031051, 1.50860950621, 1.46241227783, 3.45922400833, 4.72631615213, -3.43100652587, -1.72221955634, -0.975194108385, 4.20553757114, -2.62125819173, -1.13312733822, 1.88730868047, 1.6541632978, -2.59610704346, 1.15081366305, -1.03630719384, 3.45788622168, 0.639681868146, 2.82020884316, 2.37564446769, 3.27115765369, -1.26343773125, 1.45473962263, 0.00286176428154, 3.27535731623, -1.17140282966, 3.09924196837, 3.03267877809, 1.78511499261, -0.778420535471, -0.134379090833, 2.63877606224, 0.18277247683, -0.499556478565, 2.5813620685, 4.31823094167, 2.36684231859, 4.69734629954, 0.946046667237, 2.79465226142, 2.35736099073, 2.45848802124, 2.68120416047, 4.69362553102, 0.638104883716, 3.53346501409, -1.44606032139, -2.56104725937, 0.576801496142, 1.89699102685, -1.6347767405, -1.77764899257, -0.561879823945, 1.86177406036, 1.63059355365, 3.26898808078, 3.3389060153, -1.34368099274, -0.758128145199, -1.53955573605, -1.5992941923, 1.45428245865, 2.2232530871, 1.45384089708, -1.25036293191, 1.88168443914, 2.69946860476, -0.465826890784, 2.62221137577, 3.22855398135, 2.50436997995, 2.51680081341, 1.49805627454, 1.53685767869, -1.06190548994, 3.09158772759, 3.83825570337, 3.01739920313, 2.70321852027, -0.85718483251, 3.00647974554, -0.924208904843, 3.53032679291, 0.947653719512, 3.39073210706, -1.73332260474, -0.625987415303, 0.185971453854, 3.58225086672, 2.43555668298, 2.24681830569, 3.10745658206, -0.439852447281, 1.43443295631, -0.602383078451, 1.88437057044, 3.00661254036, 4.30151619719, 1.88411811149, 0.150312286689, -3.27525815778, 2.67269037181, -0.263319377466, -1.97676943299, 1.70079582215, 1.2141806404, 2.77435948268, -1.51565303988, 5.00882394354, 2.91914631481, 0.457616187688, -0.209673742902, 4.43503073188, 1.19247934425, -0.456937585971, -2.07779156963, 0.380014366574, -1.36371948682, 4.52062607666, -2.69784942812, -1.69672924589, 1.87215121045, 4.223311628, 0.410468836593, 3.79334797798, 3.24742241822, 4.01385774235, -1.90429254872, 1.42196218064, -0.0471062840955, 0.449089781812, -1.29162743202, 2.01299388237, -2.86555061708, 1.10082849539, 0.354190595237, 2.04126976047, -0.104602014704, 4.49224046065, 2.48638342595, 1.19547671213, 3.12986698547, 0.846866021451, -0.497774446696, 0.063062926305, -0.15960487312, 0.25714897901, 0.0292483892514, 3.09038076845, 3.51875485458, 0.327628239814, 4.7135527499, -2.57824908233, 1.73197959972, 2.68889806146, -2.86993925102, -2.97131945271, -1.24845796036, 2.74591831895, 1.93856886144, -0.046903689675, -2.5991560384, 0.386753042481, 2.90890220201, -3.597770169, -3.245774372, 3.14940672678, -2.14693412708, 1.87480014828, 2.20562206425, -2.43906562979, 4.73708106607, 0.0309644739696, 3.87143205026, 2.72726582774, 1.8514373677, 3.15180199391, 2.62604087016, -3.76009831969, -2.38328428959, -0.877221152294, -1.48383897363, 1.75965659589, 2.96591035733, 0.313303279724, -2.83574504618, 0.0800642694519, 3.89167665324, 1.3664003396, -1.71124623126, 3.56450068027, 2.4155653456, -1.43528702514, 3.22765930743, 2.38873811316, 2.02046011943, -1.19882933864, 2.6406229992, -3.2089185479, 2.95026663271, -3.63471156089, -0.649521388966, 1.6117139495, -2.72401626101, -1.96593960914, 2.95105213714, 3.64012858366, 1.54231069852, 3.73179413064, -3.34481308024, -2.22253695946, 1.99122616076, 0.353287297963, -2.79890068692, -1.57167851523, 3.07573913687, 3.4117374699, 0.610616324035, 2.83773059793, -2.19347305082, 0.397884857293, -0.974986607405, 3.24993538791, -0.940966176035, 4.80741215787, 2.82353674993, 4.71588788786, -3.12876280414, 1.43073266825, -0.203993415234, 0.28026234191, -1.55925520286, 4.9552108066, 0.352842398051, -2.49854848981, -0.132552008728, 3.34892003862, 3.05787364212, -1.63091690016, -0.184162785943, 2.68858103873, -1.01947817658, 1.0048399553, 5.22021824018, -0.39720547266, -1.06126498685, -1.9202336148, 0.811020545502, 3.20457894589, -1.33436117346, -1.98105017508, 2.15422964012, 0.451933250755, 4.34961179361, 3.26326396146, 1.17833104348, -3.51756161678, -0.288732549541, 0.893291484464, 3.30353990004, -2.5809991132, 4.09410011471, -1.98888457952, -4.05687907192, -1.18836640137, 1.305382615, 1.65696996364, 1.78966738959, 3.22097538395, 0.755757112515, -0.739925658487, -0.567695467429, 0.848485462153, 1.15101462962, -2.71239439449, 2.86664632354, 0.488249645374, 0.840652578165, -1.42297525428, -0.0755520122848, 5.17287437449, -0.553138434327, -2.64199082737, 0.180841391438, 2.4632414642, -0.232470420282, 4.97254523671, 0.0810415357898, -0.140018194457, 2.56562591725, 0.495424299718, 0.312675639707, 1.93012951594, -2.55568382821, 2.70514247648, -2.79877255855, 4.98854819708, 3.46584615796, -3.06454651661, -0.853701409499, -2.71091365291, -3.57037359194, 3.47088456285, 2.1418569755, -2.68047005472, 3.42043757672, -3.26604803727, 5.33485694131, -0.239895117086, 3.86668928799, 1.24405788081, 1.74723638513, 4.62206564375, -2.38010220025, 2.27356996649, -2.97287257056, -1.4089170725, 1.65998739322, -1.39009119576, 0.768328122511, -1.27493995859, 4.94251197134, 3.98512179771, -0.421039544483, -2.10169947094, 4.55426363574, -0.3367959076, -2.45387540477, 0.843639703699, 3.81233632447, -2.57883266647, -1.3074357814, -0.920415603475, 2.6887645862, -2.76330018616, -2.30186128816, -1.27577642285, -2.19398840759, -0.225242794663, -3.14661318937, 4.15105124753, 0.686238095301, -4.17498322472, -2.39059448319, 0.414929579683, 2.28813450043, 1.83083442469, 0.889450770708, 3.74095175878, -1.94875735935, -4.09874879026, -3.84327926312, 0.74483574938, 3.51170974605, -1.40472903196, 3.07073768303, 3.22055365466, 0.833381130627, 3.39980309861, -0.847013048474, 3.05119077118, -3.12787881198, -0.760331290229, 2.61407497301, -2.38893710234, -3.5566008536, 1.12853805186, -1.47864285073, -0.0767897548524, 4.39411971208, -1.68671668554, -2.66519872519, -2.91712822838, -3.96703065969, 0.488548858866, 2.1308958141, 4.40421079018, -2.54831394444, 2.23456494882, 0.334495725258, 3.99170719064, 0.376688898215, 3.05311987133, -2.261655463, 0.533432111175, -0.384993258895, 1.63706552778, -3.58766606769, -1.23545000999, -2.72899361933, 4.23120961538, -1.32779512678, 2.60724223257, -2.32247877958, 3.31602718913, 2.46547035899, 0.822486751233, -0.0912452696003, -1.14762193636, -2.03760232, -0.196450065178, -0.424021897756, 0.141686829758, -2.05886457452, 1.20232620207, 1.77289886522, 0.760238632869, -0.470403534897, 1.77288860806, -0.699140309353, 1.53081692396, -2.22262482935, 1.61991359828],
@@ -1505,9 +1237,7 @@ console.log(msg);
 name: 3D Scatter Plots
 permalink: nodejs/3d-scatter-plots/
 description: How to make 3D scatter plots in nodejs.
-layout: base
 thumbnail: thumbnail/3d-scatter.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -1515,15 +1245,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Overlaid Area Chart
-plot\_url: https://plotly.com/~PlotBot/42
-arrangement: horizontal
-language: nodejs
 suite: area
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -1546,9 +1269,7 @@ console.log(msg);
 name: Filled Area Plots
 permalink: nodejs/filled-area-plots/
 description: How to make a filled area plot in nodejs. An area chart displays a solid color between the traces of a graph.
-layout: base
 thumbnail: thumbnail/area.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -1558,9 +1279,7 @@ display\_as: chart\_type
 name: Line and Scatter Plots
 permalink: nodejs/line-and-scatter/
 description: How to make line and scatter plots in nodejs. Seven examples of basic and colored line and scatter plots.
-layout: base
 thumbnail: thumbnail/line-and-scatter.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -1568,15 +1287,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Line Shape Options for Interpolation
-plot\_url: https://plotly.com/~PlotBot/184
-arrangement: horizontal
-language: nodejs
 suite: line\_and\_scatter
-order: 8
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4, 5],
@@ -1640,15 +1352,8 @@ console.log(msg);
 });
 ---
 name: Colored and Styled Scatter Plot
-plot\_url: https://plotly.com/~PlotBot/81
-arrangement: horizontal
-language: nodejs
 suite: line\_and\_scatter
-order: 7
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [52698, 43117],
@@ -1733,15 +1438,8 @@ console.log(msg);
 });
 ---
 name: Basic Line Plot
-plot\_url: https://plotly.com/~PlotBot/82
-arrangement: horizontal
-language: nodejs
 suite: line\_and\_scatter
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -1760,15 +1458,8 @@ console.log(msg);
 });
 ---
 name: Line and Scatter Plot
-plot\_url: https://plotly.com/~PlotBot/84
-arrangement: horizontal
-language: nodejs
 suite: line\_and\_scatter
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -1797,8 +1488,6 @@ console.log(msg);
 name: Embedding Graphs in HTML
 permalink: nodejs/embedding-plotly-graphs-in-HTML/
 description: How to embed plotly graphs with an iframe in HTML.
-layout: base
-language: nodejs
 page\_type: example\_index
 display\_as: get\_request
 ---
@@ -1810,9 +1499,7 @@ For more on embedding Plotly graphs in HTML documents, [see our tutorial](https:
 name: Polar Charts
 permalink: nodejs/polar-chart/
 description: How to graph polar charts in nodejs. Seven examples of polar line, polar scatter and polar area charts.
-layout: base
 thumbnail: thumbnail/polar.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -1820,15 +1507,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Polar Line Chart
-plot\_url: https://plotly.com/~PlotBot/36
-arrangement: horizontal
-language: nodejs
 suite: polar
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 r: [1, 0.995, 0.978, 0.951, 0.914, 0.866, 0.809, 0.743, 0.669, 0.588, 0.5, 0.407, 0.309, 0.208, 0.105, 0, 0.105, 0.208, 0.309, 0.407, 0.5, 0.588, 0.669, 0.743, 0.809, 0.866, 0.914, 0.951, 0.978, 0.995, 1, 0.995, 0.978, 0.951, 0.914, 0.866, 0.809, 0.743, 0.669, 0.588, 0.5, 0.407, 0.309, 0.208, 0.105, 0, 0.105, 0.208, 0.309, 0.407, 0.5, 0.588, 0.669, 0.743, 0.809, 0.866, 0.914, 0.951, 0.978, 0.995, 1],
@@ -1913,15 +1593,8 @@ console.log(msg);
 });
 ---
 name: Polar Area Chart
-plot\_url: https://plotly.com/~PlotBot/37
-arrangement: horizontal
-language: nodejs
 suite: polar
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 r: [77.5, 72.5, 70.0, 45.0, 22.5, 42.5, 40.0, 62.5],
@@ -1965,15 +1638,8 @@ console.log(msg);
 });
 ---
 name: Polar Scatter Chart
-plot\_url: https://plotly.com/~PlotBot/35
-arrangement: horizontal
-language: nodejs
 suite: polar
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 r: [6.80498578527, 3.38959601061, 5.38147211075, 8.05954021942, 5.31822922787, 2.98509993563, 1.96658700238, 6.76926540821, 4.07340189872, 6.50437182527, 7.556369819, 4.04745609407, 7.38666249607, 5.41362473698, 7.47071653116, 7.98211021694, 4.73781408009, 4.20645304293, 5.47860480459, 4.8245202807, 5.5996006099, 6.86679521708, 3.08567136626, 7.77181094323, 3.6877944351, 5.36035668519, 5.1404467393, 6.04544568093, 6.83392094019, 3.62076946254, 3.9894305834, 5.3118244995, 4.60821348028, 6.64058471615, 3.05518885448, 7.49256416375, 5.48507817779, 3.89779499662, 5.97624511403, 5.44706156091, 5.37703411681, 4.69080578773, 4.71164049118, 3.62991932939, 5.95766807637, 5.35712128439, 3.84923528282, 6.25050713632, 7.12224335715, 3.39940423384, 3.51055667227, 4.10099760366, 4.0963821002, 6.23358307481, 3.93948852677, 3.9254450774, 6.11813250146, 3.94045034629, 7.58301557326, 3.51320214534],
@@ -2066,15 +1732,8 @@ console.log(msg);
 });
 ---
 name: Line Chart and a Bar Chart
-plot\_url: https://plotly.com/~PlotBot/59
-arrangement: horizontal
-language: nodejs
 suite: mixed
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5],
@@ -2094,15 +1753,8 @@ console.log(msg);
 ---
 name: A Contour and Scatter Plot
 of the Method of Steepest Descent
-plot\_url: https://plotly.com/~PlotBot/90
-arrangement: horizontal
-language: nodejs
 suite: mixed
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 z: [[1.5, 1.23469387755, 1.01020408163, 0.826530612245, 0.683673469388, 0.581632653061, 0.520408163265, 0.5, 0.520408163265, 0.581632653061, 0.683673469388, 0.826530612245, 1.01020408163, 1.23469387755, 1.5], [1.36734693878, 1.10204081633, 0.877551020408, 0.69387755102, 0.551020408163, 0.448979591837, 0.387755102041, 0.367346938776, 0.387755102041, 0.448979591837, 0.551020408163, 0.69387755102, 0.877551020408, 1.10204081633, 1.36734693878], [1.25510204082, 0.989795918367, 0.765306122449, 0.581632653061, 0.438775510204, 0.336734693878, 0.275510204082, 0.255102040816, 0.275510204082, 0.336734693878, 0.438775510204, 0.581632653061, 0.765306122449, 0.989795918367, 1.25510204082], [1.16326530612, 0.897959183673, 0.673469387755, 0.489795918367, 0.34693877551, 0.244897959184, 0.183673469388, 0.163265306122, 0.183673469388, 0.244897959184, 0.34693877551, 0.489795918367, 0.673469387755, 0.897959183673, 1.16326530612], [1.09183673469, 0.826530612245, 0.602040816327, 0.418367346939, 0.275510204082, 0.173469387755, 0.112244897959, 0.0918367346939, 0.112244897959, 0.173469387755, 0.275510204082, 0.418367346939, 0.602040816327, 0.826530612245, 1.09183673469], [1.04081632653, 0.775510204082, 0.551020408163, 0.367346938776, 0.224489795918, 0.122448979592, 0.0612244897959, 0.0408163265306, 0.0612244897959, 0.122448979592, 0.224489795918, 0.367346938776, 0.551020408163, 0.775510204082, 1.04081632653], [1.01020408163, 0.744897959184, 0.520408163265, 0.336734693878, 0.19387755102, 0.0918367346939, 0.030612244898, 0.0102040816327, 0.030612244898, 0.0918367346939, 0.19387755102, 0.336734693878, 0.520408163265, 0.744897959184, 1.01020408163], [1.0, 0.734693877551, 0.510204081633, 0.326530612245, 0.183673469388, 0.0816326530612, 0.0204081632653, 0.0, 0.0204081632653, 0.0816326530612, 0.183673469388, 0.326530612245, 0.510204081633, 0.734693877551, 1.0], [1.01020408163, 0.744897959184, 0.520408163265, 0.336734693878, 0.19387755102, 0.0918367346939, 0.030612244898, 0.0102040816327, 0.030612244898, 0.0918367346939, 0.19387755102, 0.336734693878, 0.520408163265, 0.744897959184, 1.01020408163], [1.04081632653, 0.775510204082, 0.551020408163, 0.367346938776, 0.224489795918, 0.122448979592, 0.0612244897959, 0.0408163265306, 0.0612244897959, 0.122448979592, 0.224489795918, 0.367346938776, 0.551020408163, 0.775510204082, 1.04081632653], [1.09183673469, 0.826530612245, 0.602040816327, 0.418367346939, 0.275510204082, 0.173469387755, 0.112244897959, 0.0918367346939, 0.112244897959, 0.173469387755, 0.275510204082, 0.418367346939, 0.602040816327, 0.826530612245, 1.09183673469], [1.16326530612, 0.897959183673, 0.673469387755, 0.489795918367, 0.34693877551, 0.244897959184, 0.183673469388, 0.163265306122, 0.183673469388, 0.244897959184, 0.34693877551, 0.489795918367, 0.673469387755, 0.897959183673, 1.16326530612], [1.25510204082, 0.989795918367, 0.765306122449, 0.581632653061, 0.438775510204, 0.336734693878, 0.275510204082, 0.255102040816, 0.275510204082, 0.336734693878, 0.438775510204, 0.581632653061, 0.765306122449, 0.989795918367, 1.25510204082], [1.36734693878, 1.10204081633, 0.877551020408, 0.69387755102, 0.551020408163, 0.448979591837, 0.387755102041, 0.367346938776, 0.387755102041, 0.448979591837, 0.551020408163, 0.69387755102, 0.877551020408, 1.10204081633, 1.36734693878], [1.5, 1.23469387755, 1.01020408163, 0.826530612245, 0.683673469388, 0.581632653061, 0.520408163265, 0.5, 0.520408163265, 0.581632653061, 0.683673469388, 0.826530612245, 1.01020408163, 1.23469387755, 1.5]],
@@ -2129,9 +1781,7 @@ console.log(msg);
 name: Multiple Chart Types
 permalink: nodejs/graphing-multiple-chart-types/
 description: How to design figures with multiple chart types in nodejs. An example of a contour plot with a scatter plot and a bar chart with a line chart.
-layout: base
 thumbnail: thumbnail/mixed.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -2139,15 +1789,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Legend Names
-plot\_url: https://plotly.com/~PlotBot/14
-arrangement: horizontal
-language: nodejs
 suite: legends
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -2170,9 +1813,7 @@ console.log(msg);
 name: Legends
 permalink: nodejs/legend/
 description: How to modify the legend in nodejs graphs. Seven examples of how to move, color, and hide the legend.
-layout: base
 thumbnail: thumbnail/legends.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -2180,15 +1821,8 @@ display\_as: layout\_opt
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Positioning the Legend Inside the Plot
-plot\_url: https://plotly.com/~PlotBot/15
-arrangement: horizontal
-language: nodejs
 suite: legends
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -2214,15 +1848,8 @@ console.log(msg);
 });
 ---
 name: Hiding the Legend
-plot\_url: https://plotly.com/~PlotBot/12
-arrangement: horizontal
-language: nodejs
 suite: legends
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -2242,15 +1869,8 @@ console.log(msg);
 });
 ---
 name: Hiding Legend Entries
-plot\_url: https://plotly.com/~PlotBot/123
-arrangement: horizontal
-language: nodejs
 suite: legends
-order: 8
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2],
@@ -2273,15 +1893,8 @@ console.log(msg);
 });
 ---
 name: Styling and Coloring the Legend
-plot\_url: https://plotly.com/~PlotBot/13
-arrangement: horizontal
-language: nodejs
 suite: legends
-order: 7
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -2313,15 +1926,8 @@ console.log(msg);
 });
 ---
 name: Positioning the Legend Outside the Plot
-plot\_url: https://plotly.com/~PlotBot/16
-arrangement: horizontal
-language: nodejs
 suite: legends
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -2350,7 +1956,6 @@ name: Plotly Node.js Graphing Library
 permalink: /nodejs/
 description: Plotly's Nodejs graphing library makes interactive, publication-quality graphs online. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts and bubble charts.
 layout: langindex
-language: nodejs
 redirect\_from: nodejs/reference/
 ---
 
@@ -2364,9 +1969,7 @@ redirect\_from: nodejs/reference/
 name: 3D Line Plots
 permalink: nodejs/3d-line-plots/
 description: How to make 3D line plots in nodejs.
-layout: base
 thumbnail: thumbnail/3d-line.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -2375,15 +1978,8 @@ display\_as: chart\_type
 ---
 name: 3D Line Plot
 3D Random Walk
-plot\_url: https://plotly.com/~PlotBot/192
-arrangement: horizontal
-language: nodejs
 suite: 3d-line
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [-0.014460360111, 0.420723053511, 0.471955637602, -1.5980850775, -1.1696928974, 0.62887815642, 1.64225480141, 1.84538844321, 2.39903055756, 2.74061873532, 2.98184534361, 3.63482281441, 3.51947216482, 3.24422002592, 1.97987531822, 2.49306912443, 1.98065348142, 2.49148828382, 1.8166301311, -0.418444162232, -1.91452615762, -1.26261858994, -0.702841491138, -2.53578213432, -2.96566072736, -5.06110427809, -7.00637040896, -6.9990237396, -8.80043516671, -8.71239917157, -10.4880913229, -14.0237638556, -14.3444267254, -12.0425575011, -10.8147720387, -9.77322085369, -7.8871343368, -10.1779694809, -7.7922357105, -4.06012871996, -3.25503609007, -2.98098865248, -1.1460800781, -4.7132235257, -5.96126803183, -6.08422139999, -2.67777205929, -4.22903304342, -4.01470370535, -5.4925628554, -3.41315115276, -4.09417736042, -5.92604468977, -7.0398214854, -4.54137742868, -4.48795563261, -3.70646317414, -4.33965125791, -4.76111378599, -3.34964004567, -2.79516815968, -0.985062514936, -1.19713635343, -3.14305435084, -4.26844060776, -3.35551475326, -2.97635400821, -3.11226810057, -5.00517291984, -4.45828762509, -2.92964495631, -3.0340518455, -2.63137123131, -0.5984251984, 1.46882692707, 1.91813591611, 0.931131009822, -0.198698414513, -3.10258584158, -5.10707707985, -5.53978453609, -5.87190440655, -6.15266139896, -6.09909315047, -3.56047669739, -3.55761346254, -1.23993200533, 0.474795919986, -1.02959575087, -1.24291855948, -1.31426952875, -2.32409070416, -2.74719528672, 0.285902173824, 3.46346174555, 5.55064318821, 7.93131324422, 7.99242651171, 8.5373199465, 11.0752351805, 10.3205319282, 11.7581891849, 13.4949527524, 14.402257039, 14.3341961315, 16.7118900516, 14.2627254109, 16.5382962436, 15.3067781388, 18.1656461106, 17.0995160962, 15.934693484, 12.360748197, 12.4371219166, 13.5501064722, 13.2089378056, 14.1279104195, 13.4566914737, 15.9390080651, 15.2023626211, 12.443013371, 11.6235738652, 12.3093408538, 13.413332176, 13.3378554542, 12.7324527487, 10.9583926979, 12.4770860368, 10.3856928769, 11.2769203911, 10.9252342885, 10.5648842903, 9.90341705159, 8.90109222607, 8.74410691403, 5.62013558101, 5.75894407649, 7.14620387683, 7.82192882076, 9.99752533649, 11.4669502774, 10.3036227351, 10.6353641791, 14.7873630054, 14.6815788314, 17.4222005324, 15.9305759257, 16.4283318184, 17.5594396448, 17.8371814833, 16.6537129297, 12.9698129546, 8.22890747877, 10.4446077726, 13.148096571, 16.5755720498, 17.0970366987, 18.4260467093, 17.8427544622, 16.153890924, 16.1188692931, 17.0701110598, 16.5592444246, 16.7801876574, 18.7058755511, 16.8994733969, 15.093160324, 17.6321434315, 13.7980907919, 10.9898205761, 11.30276208, 9.37855259325, 10.9117452673, 11.0812344068, 12.8525922512, 10.7657134117, 11.555475122, 8.96571434472, 5.60051748344, 6.89258971926, 6.41484884007, 5.87972395348, 8.33839027511, 10.9814037915, 11.6656886194, 9.902573022, 8.96599982974, 9.70357715902, 9.47267497888, 7.59562651098, 8.05171507272, 6.81324160259, 5.93272558092, 5.66885758889, 8.38838033493, 4.29354010421, 4.72704863187, 7.2565249243, 7.97067463359, 6.38361598112, 5.68639720468, 2.3657444534, 1.70934714165, 2.45720993286, 2.03355212971, -0.174752482635, -2.38494583162, -3.61461123073, -5.76496371563, -7.50254742778, -9.2956270284, -9.36776589712, -5.91491283109, -8.43918270326, -11.0162806727, -10.4725899139, -11.2769921424, -10.5641008534, -11.9928147849, -12.7483073835, -14.7672001844, -13.4777929449, -15.7901116746, -14.5569502867, -16.4933826324, -19.358021726, -18.9508511213, -18.0968256136, -16.0255273907, -19.0290483393, -19.3290168721, -18.4769531356, -19.225163488, -23.0562321371, -24.2830335385, -23.438117191, -23.6555178343, -20.2726489546, -19.455048731, -19.7863053144, -18.6545983156, -19.3574121043, -19.2048630105, -16.5631387925, -15.9213347995, -13.1730323144, -11.2452962616, -12.1456072698, -9.42917902507, -9.75066084596, -12.4902089244, -10.76325461, -10.2495453882, -10.0696692325, -7.83101325354, -9.68160249681, -11.2012611972, -9.37769680478, -11.3548260447, -9.56939528372, -7.55818751635, -7.94327560797, -4.51860599279, -5.96428843721, -7.43356147407, -5.53530146882, -5.1413890716, -5.9311125606, -7.23379839661, -4.92435468262, -6.20244740005, -7.56491772354, -6.43501630667, -7.36860703403, -9.544850133, -9.35905877848, -10.7724736225, -10.1929460888, -10.2769806516, -11.5945844717, -10.2076146177, -9.17566745132, -6.44234561378, -3.03685959579, 0.108979069684, 1.63292321945, -3.08231707893, -3.99824601089, -4.76766751779, -3.92895570577, -5.07233023067, -8.06734947554, -8.50264105061, -6.53794408326, -10.9236159279, -9.30379256484, -10.6467278331, -8.18200271162, -10.059796806, -13.0293717991, -9.35950632056, -9.4789239713, -8.54771091302, -6.87012462088, -8.06314781495, -6.81596908504, -3.64375134679, -2.73147927876, -0.969365998405, 0.046563582321, -1.98724358604, -2.29256165664, -4.43869105617, -3.44517225471, -5.05223966562, -5.70299749891, -4.72847971208, -5.37093764623, -8.65020440945, -10.6837253481, -10.1912707497, -8.08829638699, -7.35358781352, -10.5409366475, -9.59489645073, -11.125325334, -11.7185324629, -9.09013732852, -9.53073643867, -8.2904173021, -7.45330020383, -11.3149293215, -16.3884225385, -18.1348641881, -18.3769467479, -17.1871943902, -15.3328226006, -17.2201521411, -17.6087543443, -15.6965494364, -15.8888438242, -20.0427030899, -23.5741499961, -19.9267862136, -21.7932428801, -23.7805433321, -25.2903769751, -25.8224052919, -24.0756715863, -25.1160211799, -25.546393164, -26.5906593435, -28.3738626728, -27.212679408, -27.8648258452, -26.5382940526, -25.586916026, -23.9564109112, -24.8999843293, -24.5346644423, -25.2946855379, -27.0004062596, -26.6711396325, -25.7663475401, -23.6294743054, -22.2400241472, -23.4733888841, -22.0949183054, -23.7355531844, -23.9509775377, -21.3666238956, -21.0093678628, -22.5848073055, -23.0656215594, -23.2985810682, -24.9971474878, -25.6633129801, -23.0545809277, -22.4892842952, -22.0735508018, -20.7213650517, -17.2799752137, -18.7207128821, -17.1134175191, -17.3409263049, -16.8129416381, -15.0749359741, -15.8271086115, -14.8564727297, -15.8419171177, -16.001723019, -14.7008670014, -15.16605393, -16.5309096861, -17.1568547726, -15.8705096954, -15.0024494448, -15.7021808293, -12.2844657768, -10.5479018293, -7.4518005957, -10.5802392826, -10.4006493629, -11.6842892572, -13.5834689025, -13.0607161531, -12.4155448759, -11.4505012147, -10.3850909339, -11.2515723444, -9.55434784734, -7.43312830104, -2.16593821075, -4.08221762842, -3.73195393908, -1.32326575066, -3.36692537518, -0.991913066176, -3.42123571217, -1.02113081403, 2.74183254031, 4.60885625505, 5.1861551236, 7.94967179126, 7.23625922783, 11.4668733809, 12.9839283711, 13.6676413556, 12.7973009454, 13.1099156282, 12.09218766, 11.5220142187, 11.1301441484, 11.8974589099, 12.6259500047, 12.5506560285, 11.7623224739, 11.9614908808, 11.0550734881, 10.7542274336, 11.4893880995, 12.6656611233, 11.9535123108, 13.1726500228, 12.7314023273, 11.4541551565, 13.5044145125, 14.659728697, 11.3050455557, 14.062830264, 11.6768006716, 14.205718455, 13.2378021907, 13.4086026846, 14.4872875275, 12.9146726617, 12.4278865741, 13.2699726471, 13.326369081, 17.7321012457, 16.1246193103, 17.2657086042, 15.8107330738, 19.1422205396, 20.0189257722, 20.6044386727, 21.7737473969, 21.8620350915, 23.4052117833, 24.4199787578, 25.7428708104, 26.0596029916, 29.900994098, 30.8273076541, 29.2632766369, 33.977461361, 32.9119469068, 36.9031371045, 36.6210092539, 37.3810650386, 37.3800860511, 35.8506871095, 34.5116207281, 31.8895747896, 28.6998961332, 27.2500469629, 26.3289359688, 27.0121527705, 27.0073442404, 27.0392676401, 25.5561594425, 23.8864018552, 22.9447401451, 22.4172756724, 24.8788043801, 25.785845786, 28.6473894815, 26.7868658329, 27.5716168017, 26.4848733333, 26.5473856292, 25.0235839332, 22.9507844486, 22.3705473521, 23.0130013465, 24.5364341706, 26.1916301396, 28.1858461289, 30.1234486307, 32.5482323589, 31.2720236008, 34.5838642411, 35.644628907, 38.5257176675, 42.4925301959, 41.0921638938, 40.5893719849, 39.9537576988, 41.5217578144, 41.4516919132, 40.9703271571, 43.8515189499, 40.7185932407, 40.0531803268, 43.6235911876, 45.0562420092, 44.5143791877, 45.0235896159, 43.1257801982, 43.3970785006, 43.1575387646, 44.267676731, 43.2642346276, 42.2388280464, 45.4752424723, 43.6610022886, 44.6357649311, 45.8362684079, 42.7975292245, 43.2518617821, 41.4902799952, 43.5055420864, 42.3654159831, 44.9633016211, 46.8406823939, 47.8887328253, 47.9668184741, 48.9315527199, 52.0774477511, 50.4074982543, 49.3129414837, 53.6993364348, 54.1705941421, 54.5423200842, 56.7860194537, 57.1697614709, 56.1456841836, 57.7825365701, 54.5700332444, 54.2747855578, 55.0148321021, 56.3828996237, 56.4979510016, 55.5551435977, 58.6687455234, 59.7987737712, 59.490021811, 57.7925471809, 57.7848243747, 58.1126777348, 59.2771454495, 60.3714657896, 60.4654095288, 62.0979812011, 64.0445832126, 62.3265390894, 64.433462931, 66.0708752918, 66.8132448713, 64.919562555, 66.8318835583, 66.6807507547, 66.3618170889, 64.7141243477, 68.0190617941, 67.1748720444, 66.7790297365, 67.1344583348, 68.7205666699, 66.8746665317, 65.4228818483, 63.6824943346, 63.2110711395, 61.4630477416, 60.160529121, 60.0023262306, 61.308739689, 63.1511086518, 63.9968569346, 63.4103923724, 62.8785884775, 63.1801833899, 65.6496168924, 66.8742131604, 69.4065817654, 66.9407261063, 66.348872735, 67.8490003057, 66.3591373994, 61.5285102571, 60.0786185511, 55.6865152346, 55.4261810103, 59.3586831537, 58.5617655876, 59.3370454932, 59.8693996196, 58.4997380382, 61.3595077562, 60.6908718815, 56.0713399861, 58.9818262092, 56.6953229396, 55.9019733387, 56.7590598976, 57.0977619898, 54.7502581374, 56.4088301793, 56.3319197665, 56.5191730601, 57.7448195729, 57.1951254613, 57.4723658916, 60.7836321755, 59.5657474523, 63.3232262653, 63.2017233682, 65.0418743014, 61.8925706021, 63.8624216121, 64.4870835027, 66.3342804835, 70.5746462219, 69.5412971747, 66.1308154526, 65.072105087, 63.9830876463, 61.425255881, 60.7530095384, 61.3581366493, 60.3132497969, 60.7165011718, 60.2314953019, 61.1103637904, 62.4995182621, 63.6216438761, 64.5448830092, 63.7572127674, 63.8412024403, 63.2765181115, 63.6584882487, 65.9013307744, 64.8794091133, 62.3599178175, 59.0226125922, 60.7843513319, 62.556626775, 62.3464276, 62.6287127393, 62.7824361713, 61.9148039496, 59.6383012348, 59.1349526478, 57.6856738612, 58.3342304827, 57.2040584005, 55.9491561977, 56.8243075432, 55.0884209903, 56.8794368898, 55.285452174, 58.0693251387, 59.7783520447, 62.5440804306, 63.1427439828, 63.2173713084, 65.5492712044, 66.3009604696, 66.6940375158, 67.8726403748, 66.771771401, 69.8100758199, 70.4313785817, 69.6078541068, 68.1961598081, 69.5945761468, 69.7547279655, 71.737612621, 72.4832271444, 70.6844975053, 73.2479102143, 74.2757903207, 74.0251073728, 72.6113826391, 73.7521518798, 74.51406016, 74.9694116435, 72.2454743118, 71.1529155199, 72.087158784, 72.77217393, 71.778467844, 71.7533884196, 72.736839194, 72.9313807389, 72.3826989006, 75.869437254, 77.6021138202, 76.6294127673, 79.0019216484, 81.4762500799, 84.2385393944, 85.8238219283, 85.5760074495, 80.6270824484, 84.7759731016, 84.0918935393, 81.4937948004, 86.2164901735, 83.1733890063, 83.4503710474, 82.469403447, 80.4361206696, 79.2584155092, 80.0119982236, 78.9468764208, 79.171276713, 77.2525971309, 76.8162765189, 74.2080827849, 75.0750644022, 70.4276889275, 68.889748712, 68.2728662039, 71.2782704572, 69.4696507855, 69.5264757893, 68.8814630763, 68.5369706541, 67.6833912747, 68.7605061811, 71.1359403938, 70.6514105765, 68.1477343287, 67.0681859241, 67.0143174695, 67.3309641758, 68.051288646, 67.2024340697, 67.522050559, 67.7768475243, 65.9401471412, 66.1606463793, 66.9394316429, 68.3787264063, 70.1164009085, 71.5875038748, 69.4863500194, 69.503932177, 68.4593671173, 69.7260909554, 70.3114451756, 68.9902131352, 68.1104721958, 69.6990612438, 73.4661064448, 71.2599777213, 69.8595185982, 69.8563665114, 69.1884587717, 70.6731408565, 74.1189893226, 72.6613288594, 70.601515339, 67.5954381813, 64.8042814989, 64.368869946, 65.030008523, 65.0750925331, 65.2120176045, 67.0617269418, 69.5072301416, 70.0417127449, 73.219968293, 74.4577736319, 78.6334179825, 78.4998247775, 79.4984869678, 78.2933075197, 77.8802690836, 82.1025258923, 84.2673838315, 84.5024079994, 87.9125780504, 84.9027605109, 83.4489526179, 83.6203632289, 86.0516726291, 82.9342348231, 80.5382639536, 79.4315811918, 79.4709527024, 77.833266341, 72.9443818607, 71.8695966992, 75.0071259156, 72.3356105012, 74.8382695529, 73.9867068264, 74.1502448275, 73.3961146984, 74.6866475558, 76.1647130381, 81.3792454538, 83.0898140881, 83.5703481672, 83.3619488417, 79.8434495299, 79.9798284671, 78.7834261893, 80.2016337124, 80.0854233355, 79.5858995036, 82.9467070041, 81.0584297251, 82.3406042543, 82.3497075558, 82.02318963, 83.4218032879, 81.7436225133, 80.6308856437, 81.8953039976, 82.5536304317, 83.8170600513, 82.285337025, 83.445632418, 81.6442593082, 80.8701149169, 82.2632316989, 81.8132870898, 83.3743074098, 83.5245415036, 80.8755582912, 82.641331334, 84.2105682984, 84.5059549198, 82.8742303999, 83.4868755931, 87.0114564693, 85.0548085735, 84.6732648307, 85.3988840053, 86.398073196, 87.635826975, 85.125332009, 86.7850600206, 88.7834352317, 88.7121604182, 90.4957720327, 93.2530966351, 93.7006763997, 95.9122515356, 90.6071562219, 89.6360388581, 89.7689351168, 90.508488805, 90.8024094231, 91.3521511706, 90.8740843537, 90.6114494675, 90.378597497, 90.4905410862, 91.8700449357, 92.0920913333, 91.3769153169, 92.9084047541, 91.9801147605, 92.2725572176, 96.2282955953, 97.6011351014, 96.3048425226, 92.0017330229, 93.6998482244, 92.1516547087, 90.4886979463, 88.7565861076, 87.1598017971, 82.6225983227, 81.0225331869, 82.0096206011, 79.7153256246, 79.2710505653, 80.7829985936, 79.3561148892, 77.4492923931, 77.210016984, 77.5214035384, 77.9476673686, 80.5921028916, 80.4612388252, 79.9060554572, 80.1382417279, 80.9408844523, 80.3270430752, 81.9091714899, 83.4775154585, 82.4026664316, 79.5633067904, 80.5511571044, 80.0485082617, 83.8785852927, 84.0499914594, 82.1064077627, 82.6537411793, 83.8663351885, 80.5428108202, 82.8996714899, 85.6714275061, 86.7391232939, 84.7512994856, 84.7123969168, 81.1873842526, 80.2613181049, 81.3452681394, 80.8831808646, 82.1562199058, 83.6822931961, 85.2977827713, 85.3698398712, 82.9174494353, 80.7415153155, 82.9815591522, 83.7999967628, 85.932085419, 89.1889236698, 88.1228474501, 87.8773812519, 89.5473733898, 86.8021469904, 84.5604303088, 83.7426210713, 82.2049861386, 83.6368939144, 82.2237844715, 81.8154448647, 81.3624534674, 82.867351418, 84.3284800652, 81.3763481066, 82.9182259427, 80.672995694, 80.297248479, 84.7274219803, 85.6342701532, 82.6644946146, 83.9627659672, 83.9236946689, 83.9318005501, 85.3685800687, 86.0838994658, 86.5992794351, 86.1049833089, 86.75811886, 86.7870200065, 87.8954686811, 87.8070648794, 90.0322693794, 87.4410457048, 86.1615654814, 83.9933370833, 86.9096744723, 86.4147198163, 86.4025383343, 88.4553477356, 87.6466679167, 88.3482345117, 86.0620340473, 84.6692035945, 84.6585094628, 82.8138595718, 82.6674980887, 83.341210921, 81.8268587004, 81.8221647291, 81.1626053843, 81.0605562215, 81.4263206798, 83.2503682057, 83.7745917531, 83.4576028874, 83.2552141865],
@@ -2463,15 +2059,8 @@ console.log(msg);
 });
 ---
 name: Styling Axes Labels
-plot\_url: https://plotly.com/~PlotBot/17
-arrangement: horizontal
-language: nodejs
 suite: labels
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -2513,9 +2102,7 @@ console.log(msg);
 name: Setting the Title, Legend Entries, and Axis Titles
 permalink: nodejs/figure-labels/
 description: How to set the title, legend-entries, and axis-titles in nodejs.
-layout: base
 thumbnail: thumbnail/labels.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -2523,15 +2110,9 @@ display\_as: layout\_opt
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Picnic Colorscale
-plot\_url: https://plotly.com/~PlotBot/66
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2547,15 +2128,9 @@ console.log(msg);
 });
 ---
 name: Earth Colorscale
-plot\_url: https://plotly.com/~PlotBot/60
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2571,15 +2146,9 @@ console.log(msg);
 });
 ---
 name: Blackbody Colorscale
-plot\_url: https://plotly.com/~PlotBot/63
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2595,15 +2164,9 @@ console.log(msg);
 });
 ---
 name: Greens Colorscale
-plot\_url: https://plotly.com/~PlotBot/67
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2619,15 +2182,9 @@ console.log(msg);
 });
 ---
 name: Bluered Colorscale
-plot\_url: https://plotly.com/~PlotBot/64
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2643,15 +2200,9 @@ console.log(msg);
 });
 ---
 name: Portland Heatmap
-plot\_url: https://plotly.com/~PlotBot/75
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2667,15 +2218,8 @@ console.log(msg);
 });
 ---
 name: Heatmap with Categorical Axis Labels
-plot\_url: https://plotly.com/~PlotBot/74
-arrangement: horizontal
-language: nodejs
 suite: heatmap
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2691,15 +2235,9 @@ console.log(msg);
 });
 ---
 name: Electric Colorscale
-plot\_url: https://plotly.com/~PlotBot/73
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2715,15 +2253,9 @@ console.log(msg);
 });
 ---
 name: Hot Colorscale
-plot\_url: https://plotly.com/~PlotBot/62
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2739,15 +2271,9 @@ console.log(msg);
 });
 ---
 name: Jet Colorscale
-plot\_url: https://plotly.com/~PlotBot/70
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2763,15 +2289,9 @@ console.log(msg);
 });
 ---
 name: Greys Colorscale
-plot\_url: https://plotly.com/~PlotBot/68
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2787,15 +2307,9 @@ console.log(msg);
 });
 ---
 name: RdBu Colorscale
-plot\_url: https://plotly.com/~PlotBot/71
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2811,15 +2325,8 @@ console.log(msg);
 });
 ---
 name: Basic Heatmap
-plot\_url: https://plotly.com/~PlotBot/69
-arrangement: horizontal
-language: nodejs
 suite: heatmap
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2833,15 +2340,8 @@ console.log(msg);
 });
 ---
 name: Custom Colorscale
-plot\_url: https://plotly.com/~PlotBot/72
-arrangement: horizontal
-language: nodejs
 suite: heatmap
-order: 3
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2856,15 +2356,9 @@ console.log(msg);
 });
 ---
 name: YlGnBu Colorscale
-plot\_url: https://plotly.com/~PlotBot/61
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2880,15 +2374,9 @@ console.log(msg);
 });
 ---
 name: YlOrRd Heatmap
-plot\_url: https://plotly.com/~PlotBot/65
-arrangement: horizontal
-language: nodejs
 suite: heatmap
 order: 16
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2906,9 +2394,7 @@ console.log(msg);
 name: Heatmaps
 permalink: nodejs/heatmaps/
 description: How to make a heatmap in nodejs with a matrix. Seven examples of colored and labeled heatmaps with custom colorscales.
-layout: base
 thumbnail: thumbnail/heatmap.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -2916,15 +2402,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: LaTeX Typesetting
-plot\_url: https://plotly.com/~PlotBot/3
-arrangement: horizontal
-language: nodejs
 suite: latex
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -2951,9 +2430,7 @@ console.log(msg);
 name: LaTeX
 permalink: nodejs/LaTeX/
 description: How to add LaTeX to nodejs graphs.
-layout: base
 thumbnail: thumbnail/latex.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -2961,15 +2438,8 @@ display\_as: layout\_opt
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Reversed Axes
-plot\_url: https://plotly.com/~PlotBot/8
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -2985,15 +2455,8 @@ console.log(msg);
 });
 ---
 name: Styling and Coloring Axes and the Zero-Line
-plot\_url: https://plotly.com/~PlotBot/5
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3038,15 +2501,8 @@ console.log(msg);
 });
 ---
 name: Setting the Range of Axes Manually
-plot\_url: https://plotly.com/~PlotBot/9
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3071,9 +2527,7 @@ console.log(msg);
 name: Axes
 permalink: nodejs/axes/
 description: How to adjust axes properties in nodejs. Seven examples of linear and logarithmic axes, axes titles, and styling and coloring axes and grid lines.
-layout: base
 thumbnail: thumbnail/axes.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -3081,15 +2535,8 @@ display\_as: layout\_opt
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: `nonnegative`, `tozero`, and `normal` Rangemode
-plot\_url: https://plotly.com/~PlotBot/10
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -3115,15 +2562,8 @@ console.log(msg);
 });
 ---
 name: Toggling Axes Lines, Ticks, Labels, and Autorange
-plot\_url: https://plotly.com/~PlotBot/4
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3162,15 +2602,8 @@ console.log(msg);
 });
 ---
 name: Set and Style Axes Title Labels and Ticks
-plot\_url: https://plotly.com/~PlotBot/7
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3225,15 +2658,8 @@ console.log(msg);
 });
 ---
 name: Tick Placement, Color, and Style
-plot\_url: https://plotly.com/~PlotBot/6
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3272,15 +2698,8 @@ console.log(msg);
 });
 ---
 name: Logarithmic Axes
-plot\_url: https://plotly.com/~PlotBot/11
-arrangement: horizontal
-language: nodejs
 suite: axes
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3309,15 +2728,8 @@ console.log(msg);
 });
 ---
 name: Date Strings
-plot\_url: https://plotly.com/~PlotBot/76
-arrangement: horizontal
-language: nodejs
 suite: time-series
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -3334,9 +2746,7 @@ console.log(msg);
 name: Time Series
 permalink: nodejs/time-series/
 description: How to plot date and time in nodejs. An example of a time-series plot.
-layout: base
 thumbnail: thumbnail/time-series.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -3344,15 +2754,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Adding Hover Text to Data in Line and Scatter Plots
-plot\_url: https://plotly.com/~PlotBot/186
-arrangement: horizontal
-language: nodejs
 suite: annotations
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var data = [
 {
@@ -3370,15 +2773,8 @@ console.log(msg);
 });
 ---
 name: Multiple Annotations
-plot\_url: https://plotly.com/~PlotBot/20
-arrangement: horizontal
-language: nodejs
 suite: annotations
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3424,15 +2820,8 @@ console.log(msg);
 });
 ---
 name: Simple Annotation
-plot\_url: https://plotly.com/~PlotBot/19
-arrangement: horizontal
-language: nodejs
 suite: annotations
-order: 3
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3467,15 +2856,8 @@ console.log(msg);
 });
 ---
 name: Custom Text Color and Styling
-plot\_url: https://plotly.com/~PlotBot/43
-arrangement: horizontal
-language: nodejs
 suite: annotations
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2],
@@ -3513,15 +2895,8 @@ console.log(msg);
 });
 ---
 name: Styling and Coloring Annotations
-plot\_url: https://plotly.com/~PlotBot/21
-arrangement: horizontal
-language: nodejs
 suite: annotations
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -3570,15 +2945,8 @@ console.log(msg);
 });
 ---
 name: Adding Text to Data in Line and Scatter Plots
-plot\_url: https://plotly.com/~PlotBot/44
-arrangement: horizontal
-language: nodejs
 suite: annotations
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2],
@@ -3617,9 +2985,7 @@ console.log(msg);
 name: Text and Annotations
 permalink: nodejs/text-and-annotations/
 description: How to add text labels and annotations to plots in nodejs.
-layout: base
 thumbnail: thumbnail/annotations.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: layout\_opt
 ---
@@ -3627,15 +2993,8 @@ display\_as: layout\_opt
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: 2D Histogram of a Bivariate Normal Distribution
-plot\_url: https://plotly.com/~PlotBot/77
-arrangement: horizontal
-language: nodejs
 suite: histogram2d
-order: 0
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x = [];
 var y = [];
 for (var i = 0; i < 500; i ++) {
@@ -3656,15 +3015,8 @@ console.log(msg);
 });
 ---
 name: 2D Histogram Overlaid with a Scatter Chart
-plot\_url: https://plotly.com/~PlotBot/78
-arrangement: horizontal
-language: nodejs
 suite: histogram2d
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x0 = [];
 var y0 = [];
 var x1 = [];
@@ -3712,15 +3064,8 @@ console.log(msg);
 });
 ---
 name: 2D Histogram Binning and Styling Options
-plot\_url: https://plotly.com/~PlotBot/79
-arrangement: horizontal
-language: nodejs
 suite: histogram2d
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 var x = [];
 var y = [];
 for (var i = 0; i < 500; i ++) {
@@ -3757,9 +3102,7 @@ console.log(msg);
 name: 2D Histograms
 permalink: nodejs/2D-Histogram/
 description: How to make a 2D histogram in nodejs. A 2D histogram is a visualization of a bivariate distribution.
-layout: base
 thumbnail: thumbnail/histogram2d.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -3769,9 +3112,7 @@ display\_as: chart\_type
 name: Bubble Charts
 permalink: nodejs/bubble-charts/
 description: How to make a bubble chart in nodejs. Examples of scatter charts whose markers have variable color, size, and symbols.
-layout: base
 thumbnail: thumbnail/bubble.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: chart\_type
 ---
@@ -3779,15 +3120,8 @@ display\_as: chart\_type
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Marker Size, Color, and Symbol as an Array
-plot\_url: https://plotly.com/~PlotBot/80
-arrangement: horizontal
-language: nodejs
 suite: bubble
-order: 1
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -3832,15 +3166,8 @@ console.log(msg);
 });
 ---
 name: Subplots with Shared Axes
-plot\_url: https://plotly.com/~PlotBot/25
-arrangement: horizontal
-language: nodejs
 suite: subplots
-order: 5
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -3889,15 +3216,8 @@ console.log(msg);
 });
 ---
 name: Stacked Subplots with a Shared X-Axis
-plot\_url: https://plotly.com/~PlotBot/27
-arrangement: horizontal
-language: nodejs
 suite: subplots
-order: 7
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2],
@@ -3929,15 +3249,8 @@ console.log(msg);
 });
 ---
 name: Simple Subplot
-plot\_url: https://plotly.com/~PlotBot/29
-arrangement: horizontal
-language: nodejs
 suite: subplots
-order: 2
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -3963,15 +3276,8 @@ console.log(msg);
 });
 ---
 name: Multiple Subplots
-plot\_url: https://plotly.com/~PlotBot/24
-arrangement: horizontal
-language: nodejs
 suite: subplots
-order: 4
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -4028,15 +3334,8 @@ console.log(msg);
 });
 ---
 name: Custom Sized Subplot
-plot\_url: https://plotly.com/~PlotBot/28
-arrangement: horizontal
-language: nodejs
 suite: subplots
-order: 3
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [1, 2, 3],
@@ -4064,9 +3363,7 @@ console.log(msg);
 name: Subplots
 permalink: nodejs/subplots/
 description: How to make subplots in nodejs. Seven examples of stacked, custom-sized, and gridded subplots.
-layout: base
 thumbnail: thumbnail/subplots.jpg
-language: nodejs
 page\_type: example\_index
 display\_as: basic
 ---
@@ -4074,15 +3371,8 @@ display\_as: basic
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Stacked Subplots
-plot\_url: https://plotly.com/~PlotBot/30
-arrangement: horizontal
-language: nodejs
 suite: subplots
-order: 6
-sitemap: false
 ---
-// Learn about API authentication here: https://plotly.com/nodejs/getting-started
-// Find your api\_key here: https://plotly.com/settings/api
 require('plotly')(username, api\_key);
 var trace1 = {
 x: [0, 1, 2],
@@ -4118,12 +3408,7 @@ console.log(msg);
 });
 ---
 name: Object Constancy
-plot\_url: https://codepen.io/plotly/embed/LRNaWw/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 For scatter traces, you may wish to retain a marker's identity as it is updated. If you include an array of string ids with the trace, the marker identity will be retained. By shuffling the ids, the example below shuffles the markers each time the button is pressed.
 ---
@@ -4156,12 +3441,7 @@ data: [{ids: ids}]
 }
 ---
 name: Animating Many Frames Quickly
-plot\_url: https://codepen.io/plotly/embed/NRNJpv/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 By default and to ensure any properties that cannot be animated are applied to the plot, a full redraw occurs after each transition. This is generally desirable, but hurts performance when you wish to animate frames as quickly as possible. The example below performs a live simulation of the Lorenz attractor and greatly improves the performance by eliminating the redraw with `redraw: false`.
 ---
@@ -4218,12 +3498,7 @@ requestAnimationFrame(update);
 requestAnimationFrame(update);
 ---
 name: Animating Sequences of Frames
-plot\_url: https://codepen.io/plotly/embed/qakvRz/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The above examples have used one frame at a time. Whether passing objects as frames or referring to frames by name, you may pass multiple frames together in an array. If `null` or `undefined` is passed as the second argument (i.e. `Plotly.animate('myDiv')`), then all defined frames will be animated in sequence.
 The third argument of `Plotly.animate` contains animation options. The transition duration defines the amount of time spent interpolating a trace from one state to another (currently limited to scatter traces), while the frame duration defines the total time spent in that state, including time spent transitioning. The example below has two frames, each with their own transition and frame timing.
@@ -4260,22 +3535,13 @@ mode: 'afterall'
 }
 ---
 name: Animating with a Slider
-language: plotly\_js
 suite: animations
-order: 8
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 See [Adding Sliders to Animations](https://plotly.com/javascript/gapminder-example/).
 ---
 ---
 name: Frame Groups and Animation Modes
-plot\_url: https://codepen.io/plotly/embed/rrZRmA/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 7
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example combines many of these concepts to draw a glass filling with water.
 The first row of buttons animates a different set of predefined frames by changing the second argument of `Plotly.animate`. Passing `null` or `undefined` animates all defined frames in sequence, while passing an array of strings (here, the frames in reverse) animates a specific sequence of frames. By passing a plain string (here, `lower` or `upper`), it filters the animated frames to those with a `group` property equal to that name. The stop button is accomplished by interrupting the current animation with an empty list of frames, therefore simply stopping the animation at the end of the current frame.
@@ -4353,12 +3619,7 @@ mode: mode
 }
 ---
 name: Defining Named Frames with `Plotly.addFrames`
-plot\_url: https://codepen.io/plotly/embed/wzGOgd/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The above examples pass the data itself through the `Plotly.animate` command. You may instead predefine named frames through the `Plotly.addFrames` command. Then, instead of passing frames through `Plotly.animate`, you may simply refer to a frame by name.
 Similar to traces, frames are assigned a serial index as they are added. Frames may be updated by passing an array of frame indices. For example, the command to update the frame with index 2 would be `Plotly.addFrames('myDiv', [{...}], [2])`. Frames can be similarly deleted with, for example, `Plotly.deleteFrames('myDiv', [2])`.
@@ -4401,12 +3662,7 @@ Plotly.addFrames('myDiv', frames);
 });
 ---
 name: Animating the Layout
-plot\_url: https://codepen.io/plotly/embed/GjkZNk/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The example below transitions to a new axis range each time the button is pressed. A present limitation of the animate API is that only one of either data or layout may be smoothly transitioned at a time. If both are provided, the data will be updated instantaneously after the layout is transitioned.
 ---
@@ -4441,12 +3697,7 @@ easing: 'cubic-in-out'
 }
 ---
 name: Animating the Data
-plot\_url: https://codepen.io/plotly/embed/ZpWPpj/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: animations
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The animate command lets you add dynamic behavior to Plotly graphs in a number of different ways. At its core, `Plotly.animate` transitions traces to a new state or sequence of states. When you tell Plotly to animate, it merges the properties you've supplied into the current state of the plot. Therefore to animate a trace, \*you must first plot the trace you wish to animate\*.
 The example below transitions to new y-values each time the button is pressed. Since the transition animation occurs within a frame, `frame.duration` must be set at least as long as `transition.duration`. Note that to prevent artifacts while animating, the default line simplification algorithm is explicitly disabled. Currently, only scatter traces may be smoothly transitioned from one state to the next. Other traces are compatible with frames and animations but will be updated instantaneously.
@@ -4473,12 +3724,7 @@ duration: 500
 }
 ---
 name: Animating with a Slider
-plot\_url: https://codepen.io/plotly/embed/KNrJQo/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: adding-sliders
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', function (err, data) {
 // Create a lookup table to sort and regroup the columns of data,
@@ -4639,23 +3885,15 @@ frames: frames,
 name: Animations
 permalink: javascript/animations/
 description: How to animate charts in JavaScript with the animate API.
-layout: base
 thumbnail: thumbnail/animations.gif
-language: plotly\_js
 page\_type: example\_index
 display\_as: animations
-order: 1
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","animations" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Multiple Trace Filled-Area
-plot\_url: https://codepen.io/bcd/embed/BdJXpP/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: filled-area-animations
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 function unpack(rows, key) {
@@ -4757,12 +3995,7 @@ Plotly.addFrames('myDiv', frames);
 })
 ---
 name: Filled-Area-Animation
-plot\_url: https://codepen.io/bcd/embed/ayVXvY/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: filled-area-animations
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014\_apple\_stock.csv", function(err, rows){
 function unpack(rows, key) {
@@ -4849,22 +4082,15 @@ Plotly.addFrames('myDiv', frames);
 name: Map Animation
 permalink: javascript/map-animations/
 description: How to make an animated map with Plotly JS
-layout: base
 thumbnail: thumbnail/map-animation.gif
-language: plotly\_js
 page\_type: example\_index
 display\_as: animations
-order: 4
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","map-animations" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Map Animations
-language: plotly\_js
 suite: map-animations
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/gapminder\_with\_codes.csv", function(err, rows){
 function filter\_and\_unpack(rows, key, year) {
@@ -4984,11 +4210,7 @@ Plotly.addFrames('myDiv', frames);
 })
 ---
 name: Stacked Histograms
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 7
-sitemap: false
 ---
 var x1 = [];
 var x2 = [];
@@ -5009,11 +4231,7 @@ var layout = {barmode: "stack"};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Normalized Histogram
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 9
-sitemap: false
 ---
 var x = [];
 for (var i = 0; i < 500; i ++) {
@@ -5032,11 +4250,8 @@ color: 'rgb(255,255,100)',
 Plotly.newPlot('myDiv', data);
 ---
 name: Specify Binning Function
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
 order: 10
-sitemap: false
 ---
 var x = ["Apples","Apples","Apples","Oranges", "Bananas"]
 var y = ["5","10","3","10","5"]
@@ -5059,11 +4274,7 @@ name: "sum"
 Plotly.newPlot('myDiv', data)
 ---
 name: Cumulative Histogram
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 9
-sitemap: false
 ---
 var x = [];
 for (var i = 0; i < 500; i ++) {
@@ -5078,11 +4289,7 @@ var data = [trace];
 Plotly.newPlot('myDiv', data);
 ---
 name: Horizontal Histogram
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 5
-sitemap: false
 ---
 var y = [];
 for (var i = 0; i < 500; i ++) {
@@ -5100,11 +4307,7 @@ color: 'pink',
 Plotly.newPlot('myDiv', data);
 ---
 name: Basic Histogram
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 4
-sitemap: false
 ---
 var x = [];
 for (var i = 0; i < 500; i ++) {
@@ -5118,11 +4321,7 @@ var data = [trace];
 Plotly.newPlot('myDiv', data);
 ---
 name: Colored and Styled Histograms
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 8
-sitemap: false
 ---
 var x1 = [];
 var x2 = [];
@@ -5201,10 +4400,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based histogram in JavaScript. Seven examples of
 colored, horizontal, and normal histogram bar charts.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Histograms
-order: 3
 page\_type: example\_index
 permalink: javascript/histograms/
 plottype: histogram
@@ -5215,11 +4411,7 @@ thumbnail: thumbnail/histogram.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Overlaid Histogram
-arrangement: horizontal
-language: plotly\_js
 suite: histogram
-order: 6
-sitemap: false
 ---
 var x1 = [];
 var x2 = [];
@@ -5250,11 +4442,7 @@ var layout = {barmode: "overlay"};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Colored Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 8
-sitemap: false
 ---
 var trace1 = {
 y: [1, 2, 3, 4, 4, 4, 8, 9, 10],
@@ -5281,11 +4469,7 @@ text: 'Colored Box Plot'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Box Plot Styling Mean and Standard Deviation
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 6
-sitemap: false
 ---
 var trace1 = {
 y: [2.37, 2.16, 4.82, 1.73, 1.04, 0.23, 1.32, 2.91, 0.11, 4.51, 0.51, 3.75, 1.35, 2.98, 4.50, 0.18, 4.66, 1.30, 2.06, 1.19],
@@ -5314,11 +4498,7 @@ text: 'Box Plot Styling Mean and Standard Deviation'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Grouped Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 4
-sitemap: false
 ---
 var x = ['day 1', 'day 1', 'day 1', 'day 1', 'day 1', 'day 1',
 'day 2', 'day 2', 'day 2', 'day 2', 'day 2', 'day 2']
@@ -5356,11 +4536,7 @@ boxmode: 'group'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Basic Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 1
-sitemap: false
 ---
 var y0 = [];
 var y1 = [];
@@ -5380,11 +4556,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data);
 ---
 name: Box Plot Styling Outliers
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 5
-sitemap: false
 ---
 var trace1 = {
 y: [0.75, 5.25, 5.5, 6, 6.2, 6.6, 6.80, 7.0, 7.2, 7.5, 7.5, 7.75, 8.15, 8.15, 8.65, 8.93, 9.2, 9.5, 10, 10.25, 11.5, 12, 16, 20.90, 22.3, 23.25],
@@ -5438,11 +4610,8 @@ text: 'Box Plot Styling Outliers'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Rainbow Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
 order: 12
-sitemap: false
 ---
 function linspace(a,b,n) {
 return d3.range(n).map(function(i){return a+i\*(b-a)/(n-1);});
@@ -5500,11 +4669,8 @@ showlegend:false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Fully Styled Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
 order: 10
-sitemap: false
 ---
 var xData = ['Carmelo
 Anthony', 'Dwyane
@@ -5586,11 +4752,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Grouped Horizontal Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 7
-sitemap: false
 ---
 var y = ['day 1', 'day 1', 'day 1', 'day 1', 'day 1', 'day 1',
 'day 2', 'day 2', 'day 2', 'day 2', 'day 2', 'day 2']
@@ -5637,11 +4799,7 @@ boxmode: 'group'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Horizontal Box Plot
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 3
-sitemap: false
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 4, 4, 8, 9, 10],
@@ -5664,10 +4822,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based box plot in javascript. Seven examples of box
 plots in javascript that are grouped, colored, and display the underlying data distribution.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Box Plots
-order: 2
 page\_type: example\_index
 permalink: javascript/box-plots/
 redirect\_from: javascript-graphing-library/box-plots/
@@ -5677,11 +4832,7 @@ thumbnail: thumbnail/box.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Box Plot That Displays the Underlying Data
-arrangement: horizontal
-language: plotly\_js
 suite: box
-order: 2
-sitemap: false
 ---
 var data = [
 {
@@ -5696,10 +4847,7 @@ Plotly.newPlot('myDiv', data);
 ---
 description: How to make a D3.js-based SPC Control Charts in javascript.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: SPC Control Charts
-order: 7
 permalink: javascript/spc-control-charts/
 thumbnail: thumbnail/SPC.jpg
 ---
@@ -5707,11 +4855,7 @@ thumbnail: thumbnail/SPC.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: SPC Control Chart & Distribution
-language: plotly\_js
 suite: SPC
-order: 2
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var Data = {
@@ -5813,11 +4957,7 @@ showticklabels: false
 Plotly.newPlot('myDiv', data,layout);
 ---
 name: Basic SPC Control Chart
-language: plotly\_js
 suite: SPC
-order: 1
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var Data = {
@@ -5896,10 +5036,7 @@ Plotly.newPlot('myDiv', data,layout);
 description: How to add D3.js-based continuous error bars to a line, scatter, or bar
 chart.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Continuous Error Bars
-order: 5
 page\_type: example\_index
 permalink: javascript/continuous-error-bars/
 thumbnail: thumbnail/error-cont.jpg
@@ -5908,11 +5045,7 @@ thumbnail: thumbnail/error-cont.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Asymmetric Error Bars with a Constant Offset
-language: plotly\_js
 suite: continuous-error-bar
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 function random\_date(start, end, mul)
 {
@@ -5932,11 +5065,7 @@ text: "Wind speed (m/s)"
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Filled Lines
-arrangement: horizontal
-language: plotly\_js
 suite: continuous-error-bar
-order: 1
-sitemap: false
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
@@ -6019,11 +5148,7 @@ zeroline: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Horizontal Error Bars
-language: plotly\_js
 suite: error-bar
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -6039,11 +5164,7 @@ type: 'scatter'
 Plotly.newPlot('myDiv', data);
 ---
 name: Basic Symmetric Error Bars
-language: plotly\_js
 suite: error-bar
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -6060,11 +5181,7 @@ type: 'scatter'
 Plotly.newPlot('myDiv', data);
 ---
 name: Bar Chart with Error Bars
-language: plotly\_js
 suite: error-bar
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['Trial 1', 'Trial 2', 'Trial 3'],
@@ -6093,11 +5210,7 @@ var layout = {barmode: 'group'};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Asymmetric Error Bars
-language: plotly\_js
 suite: error-bar
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -6117,10 +5230,7 @@ Plotly.newPlot('myDiv', data);
 description: How to add error bars to a D3.js-based line, scatter, or bar chart. Seven
 examples of symmetric, asymmetric, horizontal, and colored error bars.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Error Bars
-order: 1
 page\_type: example\_index
 permalink: javascript/error-bars/
 redirect\_from: javascript-graphing-library/error-bars/
@@ -6130,11 +5240,7 @@ thumbnail: thumbnail/error-bar.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Colored and Styled Error Bars
-language: plotly\_js
 suite: error-bar
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 function linspace(a,b,n) {
 return d3.range(n).map(function(i){return a+i\*(b-a)/(n-1);});
@@ -6178,11 +5284,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data, {}, {showSendToCloud: true});
 ---
 name: Error Bars as a Percentage of the y-Value
-language: plotly\_js
 suite: error-bar
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -6199,11 +5301,7 @@ type: 'scatter'
 Plotly.newPlot('myDiv', data);
 ---
 name: Asymmetric Error Bars with a Constant Offset
-language: plotly\_js
 suite: error-bar
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -6221,11 +5319,7 @@ type: 'scatter'
 Plotly.newPlot('myDiv', data);
 ---
 name: Splom of Iris Dataset
-language: plotly\_js
 suite: splom
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The Iris dataset contains four data variables, sepal length, sepal width, petal length petal width, for 150 iris flowers. The flowers are labeled as Iris-setosa, Iris-versicolor, Iris-virginica.
 ---
@@ -6300,8 +5394,6 @@ Plotly.react('myDiv', data, layout)
 ---
 description: How to make D3.js-based splom in Plotly.js.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Splom
 order: 10
 permalink: javascript/splom/
@@ -6311,11 +5403,7 @@ thumbnail: thumbnail/splom\_image.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Splom of Diabetes Dataset
-language: plotly\_js
 suite: splom
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Diabetes dataset is downloaded from [kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database/data). It is used to predict the onset of diabetes based on 8 diagnostic measures. The diabetes file contains the diagnostic measures for 768 patients, that are labeled as non-diabetic (Outcome=0), respectively diabetic (Outcome=1). The splom associated to the 8 variables can illustrate the strength of the relationship between pairs of measures for diabetic/nondiabetic patients.
 ---
@@ -6402,10 +5490,7 @@ Plotly.react('myDiv', data, layout);
 description: How to make a D3.js-based 2d density plot in JavaScript. Examples of
 density plots with kernel density estimations, custom color-scales, and smoothing.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: 2d Density Plots
-order: 4
 page\_type: example\_index
 permalink: javascript/2d-density-plots/
 redirect\_from: javascript-graphing-library/2d-density-plots/
@@ -6416,11 +5501,7 @@ thumbnail: thumbnail/2d-density-plot.jpg
 ---
 name: 2D Histogram Contour Plot
 with Histogram Subplots
-arrangement: horizontal
-language: plotly\_js
 suite: 2d-density-plot
-order: 0
-sitemap: false
 ---
 // from http://bl.ocks.org/mbostock/4349187
 // Sample from a normal distribution with mean 0, stddev 1.
@@ -6515,13 +5596,9 @@ zeroline: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: 2D Histogram Contour Plot with Slider Control
-plot\_url: https://jsfiddle.net/plotlygraphs/y9sdy76h/4/embedded/result,js,html/
-language: plotly\_js
 suite: 2d-density-plot
 order: 17
-sitemap: false
 height: 800
-arrangement: horizontal
 ---
 Add slider controls to 2d-density-plot plots with the [postMessage API](https://github.com/plotly/postMessage-API).
 See the [code on JSFiddle](https://jsfiddle.net/plotlygraphs/y9sdy76h/4/).
@@ -6531,7 +5608,6 @@ permalink: javascript/statistical-charts/
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of how to make statistical charts such as boxplots and histograms.
 name: Statistical Charts
 layout: langindex
-language: plotly\_js
 display\_as: statistical
 thumbnail: thumbnail/mixed.jpg
 ---
@@ -6546,11 +5622,7 @@ thumbnail: thumbnail/mixed.jpg
 {% include posts/documentation\_eg.html %}
 ---
 name: Basic 2D Histogram Contour
-language: plotly\_js
 suite: hist2dcontour
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var x = [];
 var y = [];
@@ -6568,11 +5640,7 @@ type: 'histogram2dcontour'
 Plotly.newPlot('myDiv', data);
 ---
 name: 2D Histogram Contour Colorscale
-language: plotly\_js
 suite: hist2dcontour
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var x = [];
 var y = [];
@@ -6592,8 +5660,6 @@ Plotly.newPlot('myDiv', data);
 ---
 description: How to make D3.js-based 2D Histogram Contour plots in Plotly.js.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: 2D Histogram Contour
 order: 11
 permalink: javascript/2d-histogram-contour/
@@ -6603,11 +5669,7 @@ thumbnail: thumbnail/hist2dcontour.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Styled 2D Histogram Contour
-language: plotly\_js
 suite: hist2dcontour
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var x = [];
 var y = [];
@@ -6641,11 +5703,7 @@ color: 'black'
 Plotly.newPlot('myDiv', data);
 ---
 name: 2D Histogram of a Bivariate Normal Distribution
-language: plotly\_js
 suite: histogram2d
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var x = [];
 var y = [];
@@ -6663,11 +5721,7 @@ type: 'histogram2d'
 Plotly.newPlot('myDiv', data);
 ---
 name: 2D Histogram Overlaid with a Scatter Chart
-language: plotly\_js
 suite: histogram2d
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var x0 = [];
 var y0 = [];
@@ -6722,11 +5776,7 @@ var data = [trace1, trace2, trace3];
 Plotly.newPlot('myDiv', data);
 ---
 name: 2D Histogram Binning and Styling Options
-language: plotly\_js
 suite: histogram2d
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var x = [];
 var y = [];
@@ -6760,10 +5810,7 @@ Plotly.newPlot('myDiv', data);
 description: How to make a D3.js-based 2D histogram in javascript. A 2D histogram
 is a visualization of a bivariate distribution.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: 2D Histograms
-order: 6
 permalink: javascript/2D-Histogram/
 redirect\_from: javascript-graphing-library/2D-Histogram/
 thumbnail: thumbnail/histogram2d.jpg
@@ -6772,11 +5819,7 @@ thumbnail: thumbnail/histogram2d.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Grouped Violin Plot
-language: plotly\_js
 suite: violin
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 // need to fix data
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/violin\_data.csv", function(err, rows){
@@ -6829,11 +5872,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Advanced Violin Plot
-language: plotly\_js
 suite: violin
-order: 6
-sitemap: false
-arrangement: horizontal
 width: 700
 ---
 var trace1 = {
@@ -7398,11 +6437,7 @@ height: 700
 Plotly.newPlot("myDiv", data, layout)*
 ---
 name: Basic Violin Plot
-language: plotly\_js
 suite: violin
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/violin\_data.csv", function(err, rows){
 function unpack(rows, key) {
@@ -7438,11 +6473,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Split Violin Plot
-language: plotly\_js
 suite: violin
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/violin\_data.csv", function(err, rows){
 function unpack(rows, key) {
@@ -7500,11 +6531,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Horizontal Violin Plot
-language: plotly\_js
 suite: violin
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/violin\_data.csv", function(err, rows){
 function unpack(rows, key) {
@@ -7541,10 +6568,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make D3.js-based violin plots in Plotly.js.
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Violin Plot
-order: 8
 permalink: javascript/violin/
 thumbnail: thumbnail/violin.jpg
 ---
@@ -7552,11 +6576,7 @@ thumbnail: thumbnail/violin.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Mutli-Color Parallel Categories Diagram
-arrangement: horizontal
-language: plotly\_js
 suite: parcats
-order: 3
-sitemap: false
 markdown\_content: |
 The color of the ribbons can be specified with the `line.color` property. Similar to other trace types, this
 property may be set to an array of numbers, which are then mapped to colors according to the the colorscale
@@ -7607,11 +6627,7 @@ Plotly.newPlot('myDiv', traces, layout);
 });
 ---
 name: Basic Parallel Categories Diagram
-arrangement: horizontal
-language: plotly\_js
 suite: parcats
-order: 1
-sitemap: false
 markdown\_content: |
 The parallel categories diagram is a visualization of multi-dimensional categorical data sets. Each variable in
 the data set is represented by a column of rectangles, where each rectangle corresponds to a discrete value
@@ -7644,11 +6660,7 @@ var layout = {width: 600};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Parallel Categories Linked Brushing
-arrangement: horizontal
-language: plotly\_js
 suite: parcats
-order: 4
-sitemap: false
 markdown\_content: |
 This example demonstrates how the `plotly\_selected` and `plotly\_click` events can be used to implement linked
 brushing between 3 categorical dimensions displayed with a `parcats` trace and 2 continuous dimensions displayed
@@ -7733,10 +6745,7 @@ gd.on('plotly\_click', update\_color);
 ---
 description: How to make parallel categories diagrams in JavaScript
 display\_as: statistical
-language: plotly\_js
-layout: base
 name: Parallel Categories Diagram
-order: 9
 permalink: javascript/parallel-categories-diagram/
 thumbnail: thumbnail/parcats.jpg
 ---
@@ -7744,12 +6753,7 @@ thumbnail: thumbnail/parcats.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Parallel Categories with Multi-Color Linked Brushing
-plot\_url: https://codepen.io/plotly/embed/EOjmrW/?height=801&theme-id=15263&default-tab=result
-arrangement: horizontal
-language: plotly\_js
 suite: parcats
-order: 5
-sitemap: false
 markdown\_content: |
 This example extends the previous example to support brushing with multiple colors. The radio buttons above may
 be used to select the active color, and this color will be applied when points are selected in the `scatter`
@@ -7842,11 +6846,7 @@ gd.on('plotly\_click', update\_color);
 });
 ---
 name: Basic Parallel Categories Diagram with Counts
-arrangement: horizontal
-language: plotly\_js
 suite: parcats
-order: 2
-sitemap: false
 markdown\_content: |
 If the frequency of occurrence for each combination of attributes is known in advance, this can be specified using
 the `counts` property
@@ -7869,7 +6869,6 @@ Plotly.newPlot('myDiv', data, layout);
 name: Plotly JavaScript Graphing Library
 permalink: /javascript/
 description: A free open source interactive javascript graphing library. Plotly.js is built on d3.js and webgl and supports over 20 types of interactive charts.
-language: plotly\_js
 layout: langindex
 display\_as: false
 redirect\_from: /javascript-graphing-library/
@@ -8001,12 +7000,7 @@ By abstracting charts to a declarative JSON structure, `plotly.js` is used as a 
 {% include posts/mainlang\_documentation\_eg.html %}
 ---
 name: Extend Traces & Relayout
-plot\_url: https://codepen.io/plotly/embed/yXZwBL/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: streaming
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 function rand() {
 return Math.random();
@@ -8040,12 +7034,7 @@ if(++cnt === 100) clearInterval(interval);
 }, 1000);
 ---
 name: Basic Streaming
-plot\_url: https://codepen.io/plotly/embed/dRaawR/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: streaming
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 function rand() {
 return Math.random();
@@ -8064,12 +7053,7 @@ if(++cnt === 100) clearInterval(interval);
 }, 300);
 ---
 name: Multiple Traces
-plot\_url: https://codepen.io/plotly/embed/jwoEYr/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: streaming
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 function rand() {
 return Math.random();
@@ -8092,12 +7076,7 @@ if(++cnt === 100) clearInterval(interval);
 }, 300);
 ---
 name: Streaming with Timestamp
-plot\_url: https://codepen.io/plotly/embed/YQBBbE/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: streaming
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 function rand() {
 return Math.random();
@@ -8124,23 +7103,15 @@ if(++cnt === 100) clearInterval(interval);
 name: Streaming
 permalink: javascript/streaming/
 description: How to create D3.js-based streaming plots in Plotly.js.
-layout: base
 thumbnail: thumbnail/streaming-thumb-square.gif
-language: plotly\_js
 page\_type: example\_index
 display\_as: streaming
-order: 1
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","streaming" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: 30 Points Using Update
-plot\_url: https://codepen.io/plotly/embed/xLwQPr/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: streaming
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var arrayLength = 30
 var newArray = []
@@ -8166,12 +7137,7 @@ if(++cnt === 100) clearInterval(interval);
 }, 1000);
 ---
 name: Streaming Subplots
-plot\_url: https://codepen.io/plotly/embed/rwPRVe/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: streaming
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 function rand() {
 return Math.random();
@@ -8226,24 +7192,16 @@ if(++cnt === 100) clearInterval(interval);
 name: Button Events
 permalink: javascript/custom-buttons/
 description: How to bind callback functions to custom buttons in D3.js-based JavaScript charts.
-layout: base
 thumbnail: thumbnail/custom-buttons.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: controls
-order: 2
 redirect\_from: javascript-graphing-library/custom-buttons/
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","button-events" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Update Button
-plot\_url: https://codepen.io/plotly/embed/BqYMqq/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: button-events
-sitemap: false
-order: 4
-arrangement: horizontal
 markdown\_content: |
 The `update` method should be used when modifying the data and layout sections of the graph.
 This example demonstrates how to update which traces are displayed while simulaneously updating
@@ -8381,22 +7339,13 @@ Plotly.newPlot("myDiv", data, layout);
 });
 ---
 name: Animate Button
-language: plotly\_js
 suite: button-events
-sitemap: false
-order: 5
-arrangement: horizontal
 markdown\_content: |
 Refer to our animation docs: [https://plotly.com/javascript/#animations](https://plotly.com/javascript/#animations) for examples on how to use the animate method with Plotly buttons.
 ---
 ---
 name: Style the Buttons
-plot\_url: https://codepen.io/plotly/embed/ePrXVJ/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: button-events
-sitemap: false
-order: 6
-arrangement: horizontal
 markdown\_content: |
 When adding buttons to Plotly charts, users have the option of styling the color, font, padding,
 and position of the buttons. The example below demonstrates how to apply different styling options.
@@ -8589,12 +7538,7 @@ Plotly.newPlot("myDiv", data, layout);
 });
 ---
 name: Restyle Button Single Attribute
-plot\_url: https://codepen.io/plotly/embed/MPQGaQ/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: button-events
-sitemap: false
-order: 1
-arrangement: horizontal
 markdown\_content: |
 The `restyle` method should be used when modifying the data and data attributes of the graph
 This example demonstrates how to update a single data attribute: chart type with the `restyle` method.
@@ -8681,12 +7625,7 @@ Plotly.newPlot("myDiv", data, layout);
 });
 ---
 name: Relayout Button
-plot\_url: https://codepen.io/plotly/embed/mzXQPQ/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: button-events
-sitemap: false
-order: 3
-arrangement: horizontal
 markdown\_content: |
 The `relayout` method should be used when modifying the layout attributes of the graph.
 \*\*Update One Layout Attribute\*\*
@@ -8790,12 +7729,7 @@ Plotly.newPlot("myDiv", data, layout);
 });
 ---
 name: Restyle Button Multiple Attributes
-plot\_url: https://codepen.io/plotly/embed/oaEymG/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: button-events
-sitemap: false
-order: 2
-arrangement: horizontal
 markdown\_content: |
 This example demonstrates how to use a restyle button to update single attributes by passing a two element array
 to a button's `args` attribute or update multiple attributes at the same time by passing an array containing an object.
@@ -8996,12 +7930,7 @@ Plotly.newPlot("myDiv", data, layout);
 });
 ---
 name: Bind dropdown events to Plotly.js charts
-plot\_url: https://codepen.io/plotly/embed/xwBNXa/?height=558&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: dropdowns-events
-sitemap: false
-order: 2
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv', function(err, rows){
 function unpack(rows, key) {
@@ -9070,12 +7999,9 @@ countrySelector.addEventListener('change', updateCountry, false);
 name: Dropdown Events
 permalink: javascript/dropdowns/
 description: Use Plotly to create custom dropdowns in D3.js-based JavaScript charts.
-layout: base
 thumbnail: thumbnail/dropdown.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: controls
-order: 1
 redirect\_from: javascript-graphing-library/high-dimension-data/
 redirect\_from: javascript/high-dimension-data/
 ---
@@ -9083,12 +8009,7 @@ redirect\_from: javascript/high-dimension-data/
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add Two Dropdown Menus to a Chart with Plotly.js
-plot\_url: https://codepen.io/etpinard/embed/pbxkNb/?height=558&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: dropdowns-events
-sitemap: false
-order: 1
-arrangement: horizontal
 ---
 function makeTrace(i) {
 return {
@@ -9144,25 +8065,16 @@ label: 'Data set 3'
 name: Lasso Selection
 permalink: javascript/lasso-selection/
 description: How to bind callback functions to lasso selection in JavaScript D3.js-based charts.
-layout: base
 thumbnail: thumbnail/lasso.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: controls
-order: 4
-arrangement: horizontal
 redirect\_from: javascript-graphing-library/lasso-selection/
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","lasso-selection" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Lasso Selection
-plot\_url: https://codepen.io/plotly/embed/EPEGyE/?height=470&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: lasso-selection
-sitemap: false
-arrangement: horizontal
-order: 0
 ---
 var graphDiv = document.getElementById('myDiv');
 var N = 1000;
@@ -9278,12 +8190,7 @@ page_type: example_index
 
 ---
 name: Bind Components to the Appearance of a Plot
-plot\_url: https://codepen.io/plotly/embed/ZBzZZO/?height=558&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: slider-components-events
-sitemap: false
-order: 2
-arrangement: horizontal
 ---
 Plotly.newPlot('myDiv', [{
 x: [1, 2, 3],
@@ -9344,23 +8251,15 @@ args: ['line.color', 'blue']
 name: Adding Sliders to Animations
 permalink: javascript/gapminder-example/
 description: How to make the classic Gapminder Animation using sliders and buttons in Plotly JS
-layout: base
 thumbnail: thumbnail/gapminder\_animation.gif
-language: plotly\_js
 page\_type: example\_index
 display\_as: animations
-order: 2
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","adding-sliders" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Slider
-plot\_url: https://codepen.io/plotly/embed/pNzBYJ/?height=558&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: slider-components-events
-sitemap: false
-order: 2
-arrangement: horizontal
 ---
 Plotly.newPlot('myDiv', [{
 x: [1, 2, 3],
@@ -9395,23 +8294,15 @@ args: ['line.color', 'blue']
 name: Slider Events
 permalink: javascript/sliders/
 description: Use Plotly to create custom sliders in D3.js-based JavaScript charts.
-layout: base
 thumbnail: thumbnail/slider-component.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: controls
-order: 3
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","slider-components-events" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add a Play Button to Control a Slider
-plot\_url: https://codepen.io/plotly/embed/NbKmmQ/?height=558&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: slider-components-events
-sitemap: false
-order: 3
-arrangement: horizontal
 ---
 Plotly.newPlot('myDiv', {
 data: [{
@@ -9505,12 +8396,7 @@ y: [1, 3, 2],
 });
 ---
 name: Basic Range Slider on Time Series
-plot\_url: https://codepen.io/plotly/embed/WwXEoV/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: range-slider
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var rawDataURL = 'https://raw.githubusercontent.com/plotly/datasets/master/2016-weather-data-seattle.csv';
 var xField = 'Date';
@@ -9574,12 +8460,9 @@ y: y
 name: Range Slider and Selector
 permalink: javascript/range-slider/
 description: How to add range sliders to a D3.js-based line or scatter chart. Examples of Range Sliders
-layout: base
 thumbnail: thumbnail/sliders.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: controls
-order: 5
 redirect\_from: javascript-graphing-library/range-slider/
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","range-slider" | sort: "order" %}
@@ -9590,12 +8473,10 @@ description: How to export graphs as static images in JavaScript. The Plotly Jav
   export.
 display_as: file_settings
 language: plotly_js
-layout: base
 name: Static Image Export
 order: 25
 page_type: u-guide
 permalink: javascript/static-image-export/
-sitemap: false
 thumbnail: thumbnail/png-export.png
 ---
 
@@ -9658,11 +8539,7 @@ The common image formats: 'PNG', 'JPG/JPEG' are supported. In addition, formats 
 
 ---
 name: Customize Hover for Spikelines
-language: plotly\_js
 suite: 3d-hover
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 By default, Plotly's 3D plots display lines called "spikelines" while hovering over a point.
 These lines project from the hover point to each of the three axes' normal planes and
@@ -9709,8 +8586,6 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to customize hover options for 3d charts.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: 3D Hover Options
 order: 13
 page\_type: u-guide
@@ -9721,11 +8596,7 @@ thumbnail: thumbnail/subplots.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Customize Hover for Surface Contours
-language: plotly\_js
 suite: 3d-hover
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In addition to spikelines, Plotly 3D Surface plots also display surface contours on hover by default.
 These are customized by styling the [`contours`](https://plotly.com/javascript/reference/surface/#surface-contours)
@@ -9764,12 +8635,7 @@ zaxis: { showspikes: false }
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Plotting CSV Data from Ajax Call
-plot\_url: https://codepen.io/plotly/embed/9a091a6dd0486ff8de95982bc23a3467/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: ajax
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 function makeplot() {
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014\_apple\_stock.csv", function(data){ processData(data) } );
@@ -9802,9 +8668,7 @@ makeplot();
 name: Read CSV Data from an Ajax Call
 permalink: javascript/ajax-call/
 description: How to make Ajax calls in javascript for Plotlyjs.
-layout: base
 thumbnail: thumbnail/line-plots.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: tutorials
 redirect\_from: javascript-graphing-library/ajax-call/
@@ -9814,10 +8678,7 @@ redirect\_from: javascript-graphing-library/ajax-call/
 ---
 description: How to use colorway to set default trace colors in JavaScript with Plotly.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Colorway
-order: 7
 page\_type: u-guide
 permalink: javascript/colorway/
 thumbnail: thumbnail/colorway.jpg
@@ -9826,11 +8687,7 @@ thumbnail: thumbnail/colorway.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Set Default Trace Colors with colorway
-language: plotly\_js
 suite: colorway
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 function linspace(a,b,n) {
 return d3.range(n).map(function(i){return a+i\*(b-a)/(n-1);});
@@ -9855,11 +8712,7 @@ colorway : ['#f3cec9', '#e7a4b6', '#cd7eaf', '#a262a9', '#6f4d96', '#3d3b72', '#
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Add a Logo
-language: plotly\_js
 suite: images
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -9943,10 +8796,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to add images to charts as background images or logos.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Images
-order: 9
 page\_type: u-guide
 permalink: javascript/images/
 redirect\_from: javascript-graphing-library/images/
@@ -9956,11 +8806,7 @@ thumbnail: thumbnail/images.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add Multiple Images
-language: plotly\_js
 suite: images
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 Plotly.newPlot('myDiv', [{
 x: [1, 2, 3],
@@ -10017,11 +8863,7 @@ images: [
 })
 ---
 name: Add Named Container Array Items
-language: plotly\_js
 suite: layout\_template
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Container array items in a template with a `name` attribute will be added to any plot using that template.
 We can use this feature to create a template that adds watermarks to our chart by including named image items in `images`.
@@ -10079,11 +8921,7 @@ visible: false
 Plotly.newPlot("myDiv", data, layoutUsingTemplate);
 ---
 name: The Layout Template Attribute
-language: plotly\_js
 suite: layout\_template
-order: 0
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The `template` attribute of `layout` allows a Plotly chart to take it's style and formatting from a `template`
 object. `template`s can be generated using [Plotly.makeTemplate](https://plotly.com/javascript/plotlyjs-function-reference/#plotlymaketemplate)
@@ -10094,11 +8932,7 @@ For more information see [https://plotly.com/javascript/reference/layout/#layout
 ---
 ---
 name: Matching Named Template Container Items
-language: plotly\_js
 suite: layout\_template
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 A container item in your new plot with the attribute `templateitemname` matching one of the named
 container items in the template will inherit attributes from item with the corresponding name.
@@ -10153,11 +8987,7 @@ var layoutWithTemplate = {template: template, annotations: annotations};
 Plotly.newPlot("myDiv", data, layoutWithTemplate);
 ---
 name: Creating Default Item Values
-language: plotly\_js
 suite: layout\_template
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Add an attribute called `annotationdefaults` to your template to set a default annotation object. Each
 item in the plot using the template without a `templateitemname` attribute will have the default applied
@@ -10211,8 +9041,6 @@ Plotly.newPlot("myDiv", data, layoutWithTemplate);
 ---
 description: Plotly's template attribute and how to use it with Container arrays.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Layout Template Examples
 order: 19
 page\_type: u-guide
@@ -10223,11 +9051,7 @@ thumbnail: thumbnail/plotly-express.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Adjusting Height, Width, and Margins
-language: plotly\_js
 suite: sizing
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -10254,8 +9078,6 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to change the size of D3.js-based graphs in javascript.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Setting Graph Size
 order: 21
 page\_type: u-guide
@@ -10267,11 +9089,7 @@ thumbnail: thumbnail/multiple-axes.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Automatically Adjust Margins
-language: plotly\_js
 suite: sizing
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Set `automargin=true` ([reference](https://plotly.com/python/reference/layout/xaxis/#layout-xaxis-automargin)) and Plotly will automatically increase the margin size to prevent ticklabels from being cut off or overlapping with axis titles.
 ---
@@ -10303,9 +9121,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to edit and style the font of D3.js-based graphs in javascript.
 display\_as: file\_settings
-layout: base
 name: Text and Font Styling
-order: 8
 page\_type: u-guide
 permalink: javascript/font/
 redirect\_from: javascript-graphing-library/font/
@@ -10315,11 +9131,7 @@ thumbnail: thumbnail/hover-text.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Global Font Properties
-language: plotly\_js
 suite: font
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -10341,11 +9153,7 @@ color: '#7f7f7f'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Customize Text Template
-language: plotly\_js
 suite: texttemplate
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example uses [textfont](https://plotly.com/javascript/reference/scatterternary/#scatterternary-textfont) to customize the added text.
 ---
@@ -10366,8 +9174,6 @@ Plotly.newPlot("myDiv", data)
 description: How to use D3.js-based text template in Plotly.js.
 display\_as: file\_settings
 has\_thumbnail: true
-language: plotly\_js
-layout: base
 name: Text Template
 order: 24
 page\_type: u-guide
@@ -10378,11 +9184,7 @@ thumbnail: thumbnail/texttemplate.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add Text Template in Pie Chart
-language: plotly\_js
 suite: texttemplate
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 To show an arbitrary text in your chart you can use [texttemplate](https://plotly.com/javascript/reference/pie/#pie-texttemplate), which is a template string used for rendering the information, and will override [textinfo](https://plotly.com/javascript/reference/treemap/#treemap-textinfo).
 ---
@@ -10396,11 +9198,7 @@ textposition: "inside"
 Plotly.newPlot("myDiv", data)
 ---
 name: Set Date in Text Template
-language: plotly\_js
 suite: texttemplate
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example displays how to show date by setting [axis.type](https://plotly.com/javascript/reference/layout/yaxis/#layout-yaxis-type) in [funnel charts](https://plotly.com/javascript/funnel-charts/).
 ---
@@ -10425,10 +9223,7 @@ Plotly.newPlot("myDiv", data, layout)
 ---
 description: How to create figures with responsive/fluid layouts in JavaScript.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Responsive / Fluid Layouts
-order: 2
 page\_type: example\_index
 permalink: javascript/responsive-fluid-layout/
 redirect\_from: javascript-graphing-library/responsive-fluid-layout/
@@ -10438,11 +9233,7 @@ thumbnail: thumbnail/fluid-layout.gif
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Responsive Plots
-language: plotly\_js
 suite: responsive-fluid-layout
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 If you set the `responsive` attribute equal to `true` (using the `config` object), then your figures will be automatically resized when the browser window size changes. This is an especially useful feature for charts which are going to viewed on mobile devices!
 ---
@@ -10468,11 +9259,8 @@ var config = {responsive: true}
 Plotly.newPlot('myDiv', data, layout, config );
 ---
 name: Display Edit in Chart Studio Modebar Button
-language: plotly\_js
 suite: configuration
 order: 7.1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 values: [19, 26, 55],
@@ -10491,11 +9279,7 @@ plotlyServerURL: "https://chart-studio.plotly.com"
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: Making a Static Chart
-language: plotly\_js
 suite: configuration
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6],
@@ -10516,10 +9300,7 @@ Plotly.newPlot('myDiv', data, layout, {staticPlot: true});
 ---
 description: How to set the configuration options for figures in JavaScript.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Configuration Options
-order: 1
 page\_type: example\_index
 permalink: javascript/configuration-options/
 thumbnail: thumbnail/modebar-icons.png
@@ -10534,11 +9315,8 @@ View the full list of configuration options in the
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add Buttons to ModeBar
-language: plotly\_js
 suite: configuration
 order: 5.7
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example shows how to add a button to your modebar, either by using one of the [Plotly icons](https://github.com/plotly/plotly.js/blob/master/src/fonts/ploticon.js) or an [arbitrary icon](https://fontawesome.com/icons?d=gallery&m=free) with a custom behaviour.
 ---
@@ -10578,11 +9356,7 @@ modeBarButtonsToRemove: ['pan2d','select2d','lasso2d','resetScale2d','zoomOut2d'
 Plotly.newPlot('myDiv', data, layout, config)
 ---
 name: Customize The `Edit Chart` Link Text
-language: plotly\_js
 suite: configuration
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 z: [[0, 1, 2, 3, 4, 5, 6],
@@ -10602,11 +9376,7 @@ linkText: 'This text is custom!'
 Plotly.newPlot('myDiv', data, layout, config)
 ---
 name: Hide the Plotly Logo on the Modebar
-language: plotly\_js
 suite: configuration
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x:['trees', 'flowers', 'hedges'],
@@ -10623,11 +9393,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout, {displaylogo: false});
 ---
 name: Force The Modebar to Always Be Visible
-language: plotly\_js
 suite: configuration
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 When users hover over a figure generated with `plotly.js`, a `modebar` appears in the top-right of the figure. This presents users with several options for interacting with the figure.
 By default, the `modebar` is only visible while the user is hovering over the chart. If you would like the `modebar` to always be visible regardless of whether or not the user is currently hovering over the figure, set the `displayModeBar` attribute in the `config` of your figure to `true`.
@@ -10646,11 +9412,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout, {displayModeBar: true})
 ---
 name: Editable Mode
-language: plotly\_js
 suite: configuration
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In editable mode, users can edit the chart title, axis labels and trace names in the legend.
 ---
@@ -10676,11 +9438,7 @@ to Edit Chart Title'
 Plotly.newPlot('myDiv', data, layout, {editable: true});
 ---
 name: Never Display The Modebar
-language: plotly\_js
 suite: configuration
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 When users hover over a figure generated with `plotly.js`, a `modebar` appears in the top-right of the figure. This presents users with several options for interacting with the figure.
 By default, the `modebar` is only visible while the user is hovering over the chart. If you would like the `modebar` to never be visible, then set the `displayModeBar` attribute in the `config` of your figure to `false`.
@@ -10707,11 +9465,8 @@ showlegend: true
 Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
 ---
 name: Customize Download Plot Options
-language: plotly\_js
 suite: configuration
 order: 3.1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6],
@@ -10740,11 +9495,8 @@ scale: 1 // Multiply title/legend/axis/canvas sizes by this factor
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: Remove ModeBar Buttons
-language: plotly\_js
 suite: configuration
 order: 5.5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 To delete buttons from the modebar, pass an array of strings containing the names of the buttons you want to remove to the `modeBarButtonsToRemove` attribute in the figure's configuration object. Note that different chart types have different default modebars. The following is a list of all the modebar buttons and the chart types they are associated with:
 
@@ -10768,11 +9520,8 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout, {modeBarButtonsToRemove: ['toImage']})
 ---
 name: Making a Responsive Chart
-language: plotly\_js
 suite: configuration
 order: 10
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 type: 'bar',
@@ -10795,11 +9544,8 @@ font: {size: 18}
 Plotly.newPlot('myDiv', data, layout, {responsive: true});
 ---
 name: Change the Default Locale
-language: plotly\_js
 suite: configuration
 order: 7.5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Load and register a non-default locale by adding ``
 to your HTML after the plotly.js tag and then reference the locale in the `config`. For Example, the codepen example below has
@@ -10830,11 +9576,8 @@ var config = {locale: 'fr'};
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: Double Click Delay
-language: plotly\_js
 suite: configuration
 order: 11
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Sets the maximum delay between two consecutive clicks to be interpreted as a double-click in ms. This is the time interval between first mousedown, and' second mouseup. The default timing is 300 ms (less than half a second).
 This setting propagates to all on-subplot double clicks, (except for geo, map, and mapbox).
@@ -10849,11 +9592,7 @@ var config = {doubleClickDelay: 1000}
 Plotly.newPlot("myDiv", data, layout, config)
 ---
 name: Display the `Edit Chart` Link
-language: plotly\_js
 suite: configuration
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Note: `showLink` now defaults to false.
 ---
@@ -10876,11 +9615,7 @@ plotlyServerURL: "https://chart-studio.plotly.com"
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: Scroll and Zoom
-language: plotly\_js
 suite: configuration
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 // mousewheel or two-finger scroll zooms the plot
 var trace1 = {
@@ -10898,11 +9633,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout, {scrollZoom: true});
 ---
 name: Basic Example
-arrangement: horizontal
-language: plotly\_js
 suite: horizontal\_legend
-order: 1
-sitemap: false
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -10931,8 +9662,6 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based horizontal legend plot in JavaScript.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Horizontal Legends
 order: 16
 page\_type: u-guide
@@ -10944,11 +9673,7 @@ thumbnail: thumbnail/images.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Tickmode - Linear (Date)
-language: plotly\_js
 suite: tick-formatting
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var x = ['2000-01', '2000-02', '2000-03', '2000-04', '2000-05', '2000-06', '2000-07', '2000-08', '2000-09', '2000-10', '2000-11', '2000-12', '2001-01'];
 var y = [-36.5, -26.6, -43.6, -52.3, -71.5, -81.4, -80.5, -82.2, -76, -67.3, -46.1, -35, -40];
@@ -10967,11 +9692,8 @@ dtick: 30 \* 24 \* 60 \* 60 \* 1000 // milliseconds
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Using Exponentformat
-language: plotly\_js
 suite: tick-formatting
 order: 3.0
-sitemap: false
-arrangement: horizontal
 ---
 var x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var y = [68000, 52000, 60000, 20000, 95000, 40000, 60000, 79000, 74000, 42000, 20000, 90000];
@@ -10989,11 +9711,8 @@ exponentformat: 'e'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Using Tickformat (Date)
-language: plotly\_js
 suite: tick-formatting
 order: 2.5
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function (err, rows) {
 function unpack(rows, key) {
@@ -11031,11 +9750,8 @@ tickformat: '%d %B (%a)\n %Y' // For more time formatting types, see: https://gi
 Plotly.newPlot('myDiv', data, layout);
 })
 ---
-arrangement: horizontal
 description: How to format axes ticks in D3.js-based JavaScript charts.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Formatting Ticks
 order: 22
 page\_type: u-guide
@@ -11046,11 +9762,8 @@ thumbnail: thumbnail/hover.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Tickmode - Linear
-language: plotly\_js
 suite: tick-formatting
 order: 0.5
-sitemap: false
-arrangement: horizontal
 ---
 var x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var y = [28.8, 28.5, 37, 56.8, 69.7, 79.7, 78.5, 77.8, 74.1, 62.6, 45.3, 39.9];
@@ -11069,11 +9782,7 @@ dtick: 0.75
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Layout Attributes with respect to Formatting Ticks
-language: plotly\_js
 suite: tick-formatting
-sitemap: false
-arrangement: horizontal
-order: 0
 ---
 {
 xaxis: {
@@ -11118,11 +9827,8 @@ exponentformat: 'B',
 }
 ---
 name: Using Tickformat
-language: plotly\_js
 suite: tick-formatting
 order: 2.0
-sitemap: false
-arrangement: horizontal
 ---
 var x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var y = [0.18, 0.38, 0.56, 0.46, 0.59, 0.4, 0.78, 0.77, 0.74, 0.42, 0.45, 0.39];
@@ -11139,11 +9845,8 @@ tickformat: '%' // For more formatting types, see: https://github.com/d3/d3-form
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Tickmode - Array
-language: plotly\_js
 suite: tick-formatting
 order: 1.5
-sitemap: false
-arrangement: horizontal
 ---
 var x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 var y = [28.8, 28.5, 37, 56.8, 69.7, 79.7, 78.5, 77.8, 74.1, 62.6, 45.3, 39.9];
@@ -11162,11 +9865,8 @@ ticktext: ['One', 'Three', 'Five', 'Seven', 'Nine', 'Eleven']
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Include Locale Config
-language: plotly\_js
 suite: tick-formatting
 order: 4.0
-sitemap: false
-arrangement: horizontal
 ---
 var x = ['2013-02-04', '2013-04-05', '2013-06-06', '2013-08-07', '2013-10-02'];
 var y = [1, 4, 3, 6, 2];
@@ -11185,11 +9885,8 @@ locale: 'fr' // For more info, see: https://github.com/plotly/plotly.js/blob/mas
 });
 ---
 name: Tickformatstops to customize for different zoom levels
-language: plotly\_js
 suite: tick-formatting
 order: 2.75
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var x = ["2005-01", "2005-02", "2005-03", "2005-04", "2005-05", "2005-06", "2005-07"];
@@ -11244,7 +9941,6 @@ description: Plotly.js makes interactive, publication-quality graphs online. Tut
 name: Fundamentals
 layout: langindex
 display\_as: file\_settings
-language: plotly\_js
 thumbnail: thumbnail/mixed.jpg
 ---
 
@@ -11257,16 +9953,11 @@ thumbnail: thumbnail/mixed.jpg
 {% assign languagelist = site.posts | where:"language","plotly\_js" | where:"display\_as","file\_settings" | where: "layout","base" | sort: "order" %}
 {% include posts/documentation\_eg.html %}
 ---
-arrangement: horizontal
-language: plotly\_js
 markdown\_content: 'Adding a `uirevision` attribute and then keeping it the same during
 the next call to Plotly.react ensures that user
 interactions persist.
 '
 name: Persist User Changes
-order: 1
-plot\_url: https://codepen.io/plotly/embed/ebMJEW/?height=550&theme-id=15263&default-tab=result
-sitemap: false
 suite: uirevision
 ---
 const rand = () => Math.random();
@@ -11302,10 +9993,7 @@ if(cnt === 100) clearInterval(interval);
 ---
 description: Persist user interactions using uirevision with Plotly.react or Dash.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: uirevision in Plotly.react
-order: 3
 page\_type: example\_index
 permalink: javascript/uirevision/
 thumbnail: thumbnail/uirevision.gif
@@ -11313,15 +10001,10 @@ thumbnail: thumbnail/uirevision.gif
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","uirevision" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
-arrangement: horizontal
-language: plotly\_js
 markdown\_content: 'Changing the `uirevision` attribute during a Plotly.react call
 will reset previous user interactions in the updated plot.
 '
 name: Reset User Changes
-order: 2
-plot\_url: https://codepen.io/plotly/embed/REMrgv/?height=550&theme-id=15263&default-tab=result
-sitemap: false
 suite: uirevision
 ---
 const rand = () => Math.random();
@@ -11359,8 +10042,6 @@ if(cnt === 100) clearInterval(interval);
 description: How to modify the legend in D3.js-based javascript graphs. Seven examples
 of how to move, color, and hide the legend.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Legends
 order: 20
 page\_type: u-guide
@@ -11372,11 +10053,7 @@ thumbnail: thumbnail/legends.gif
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Legend Names
-language: plotly\_js
 suite: legends
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -11394,11 +10071,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data);
 ---
 name: Positioning the Legend Inside the Plot
-language: plotly\_js
 suite: legends
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -11422,11 +10095,7 @@ y: 1
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Changing the orientation of Legend
-language: plotly\_js
 suite: legends
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -11444,11 +10113,8 @@ legend: {"orientation": "h"}};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Grouped Legend
-language: plotly\_js
 suite: legends
 order: 10
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -11490,11 +10156,8 @@ data = [trace1, trace2, trace3, trace4];
 Plotly.newPlot('myDiv', data);
 ---
 name: Subplot Grouped Legend
-language: plotly\_js
 suite: legends
 order: 11
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['a'],
@@ -11616,11 +10279,7 @@ showgrid: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Hiding the Legend
-language: plotly\_js
 suite: legends
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -11637,11 +10296,7 @@ var layout = {showlegend: false};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Hiding Legend Entries
-language: plotly\_js
 suite: legends
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2],
@@ -11661,11 +10316,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data);
 ---
 name: Styling and Coloring the Legend
-language: plotly\_js
 suite: legends
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -11694,11 +10345,7 @@ borderwidth: 2
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Positioning the Legend Outside the Plot
-language: plotly\_js
 suite: legends
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -11721,11 +10368,8 @@ y: 0.5
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Picnic Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11743,11 +10387,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Earth Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11759,11 +10400,8 @@ Plotly.newPlot('myDiv', data);
 });
 ---
 name: Blackbody Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11781,11 +10419,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Colorscale for Contour Plot
-language: plotly\_js
 suite: colorscales
 order: 20
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -11805,11 +10440,8 @@ text: 'Colorscale for Contour Plot'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Greens Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11827,11 +10459,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Bluered Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11845,10 +10474,7 @@ Plotly.newPlot('myDiv', data);
 description: How to set colorscales and heatmap colorscales in D3.js-based JavaScript
 charts in Plotly.js. Divergent, sequential, and qualitative colorscales.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Colorscales
-order: 6
 page\_type: u-guide
 permalink: javascript/colorscales/
 redirect\_from: javascript-graphing-library/heatmap-and-contour-colorscales/
@@ -11858,11 +10484,8 @@ thumbnail: thumbnail/heatmap\_colorscale.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Portland Heatmap
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11880,11 +10503,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Electric Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11896,11 +10516,8 @@ Plotly.newPlot('myDiv', data);
 });
 ---
 name: Hot Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11912,11 +10529,8 @@ Plotly.newPlot('myDiv', data);
 });
 ---
 name: Jet Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11934,11 +10548,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Custom Colorscale for Contour Plot
-language: plotly\_js
 suite: colorscales
 order: 21
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -11958,11 +10569,8 @@ text: 'Custom Contour Plot Colorscale'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Greys Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -11980,11 +10588,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Custom Discretized Heatmap Colorscale
-language: plotly\_js
 suite: colorscales
 order: 22
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -12032,11 +10637,8 @@ text: 'CUSTOM DISCRETIZED HEATMAP COLORSCALE'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: RdBu Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -12054,11 +10656,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Custom Colorscale
-language: plotly\_js
 suite: colorscales
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -12081,11 +10679,8 @@ Plotly.newPlot('myDiv', data);
 });
 ---
 name: YlGnBu Colorscale
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -12103,11 +10698,8 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: YlOrRd Heatmap
-language: plotly\_js
 suite: colorscales
 order: 16
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/custom\_heatmap\_colorscale.json', function(figure) {
 var data = [{
@@ -12125,21 +10717,12 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Installation
-language: plotly\_js
 suite: react
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 $ npm install react-plotly.js plotly.js
 ---
 name: Quick Start
-language: plotly\_js
 suite: react
-plot\_url: https://codepen.io/rsreusser/embed/qPgwwJ?height=550&default-tab=result
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The easiest way to use this component is to import and pass data to a plot component:
 ---
@@ -12153,31 +10736,20 @@ return (
 }
 ---
 name: Advanced Usage
-language: plotly\_js
 suite: react
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 For information on more advanced usage patterns such as [State Management](https://github.com/plotly/react-plotly.js#state-management) or [Customizing the plotly.js bundle](https://github.com/plotly/react-plotly.js#customizing-the-plotlyjs-bundle) please see the [ReadMe for react-plotly.js](https://github.com/plotly/react-plotly.js/blob/master/README.md).
 ---
 ---
 name: Plotly.js Chart Types and Attributes
-language: plotly\_js
 suite: react
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Click here for more information about [Plotly Chart Types](https://plotly.com/javascript/) and [Attributes](https://plotly.com/javascript/reference/).
 ---
 ---
 description: How to use the Plotly.js React component.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: React Plotly.js
-order: 4
 page\_type: example\_index
 permalink: javascript/react/
 thumbnail: thumbnail/react.png
@@ -12186,31 +10758,19 @@ thumbnail: thumbnail/react.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Introduction
-language: plotly\_js
 suite: react
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Use [react-plotly.js](https://github.com/plotly/react-plotly.js) to embed D3 charts in your [React](https://reactjs.org/)-powered web application. This React component takes the chart type, data, and styling as [Plotly JSON](https://help.plot.ly/json-chart-schema/) in its data and layout props, then draws the chart using Plotly.js. See below about how to get started with react-plotly.js.
 ---
 ---
 name: Props and Events
-language: plotly\_js
 suite: react
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 More information about [Props](https://github.com/plotly/react-plotly.js/#basic-props) and [Event Handlers](https://github.com/plotly/react-plotly.js/#event-handler-props) can be found in the [ReadMe for react-plotly.js](https://github.com/plotly/react-plotly.js/blob/master/README.md).
 ---
 ---
 name: Styling Names
-language: plotly\_js
 suite: labels
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -12259,11 +10819,7 @@ color: '#7f7f7f'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Setting Title Automargin
-language: plotly\_js
 suite: labels
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Set `automargin` to `true` to allow the title to push the figure margins.
 With `yref` set to `paper`, `automargin` expands the margins to make the title visible,
@@ -12322,8 +10878,6 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to set the title, legend-entries, and axis-titles in javascript D3.js-based
 charts.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Setting the Title, Legend Entries, and Axis Titles
 order: 18
 page\_type: u-guide
@@ -12336,8 +10890,6 @@ thumbnail: thumbnail/figure-labels.png
 ---
 description: How to add LaTeX to javascript D3.js-based graphs.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: LaTeX
 order: 10
 page\_type: u-guide
@@ -12349,11 +10901,7 @@ thumbnail: thumbnail/venn.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: LaTeX Typesetting
-arrangement: horizontal
-language: plotly\_js
 suite: latex
-order: 0
-sitemap: false
 ---
 // remember to load MathJax.js?config=TeX-MML-AM\_CHTML
 var trace1 = {
@@ -12384,11 +10932,7 @@ text: '$d, r \\text{ (solar radius)}$'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Adding Hover Text to Data in Line and Scatter Plots
-language: plotly\_js
 suite: hover
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -12410,8 +10954,6 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to add hover text and format hover values in D3.js-based javascript
 charts.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Hover Text and Formatting
 order: 17
 page\_type: u-guide
@@ -12423,11 +10965,7 @@ thumbnail: thumbnail/hover-text.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Rounding X and Y Hover Values
-language: plotly\_js
 suite: hover
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 // Round x and y hover values by setting hoverformat in layout.xaxis and/or layout.yaxis
 // using D3 number formatting ( https://github.com/mbostock/d3/wiki/Formatting )
@@ -12465,11 +11003,7 @@ text: 'Rounded: 2 significant values on hover'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Roughness
-language: plotly\_js
 suite: 3d-surface-lighting
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/michaelbabyn/plot\_data/master/sin\_saddle.csv', function(err, rows){
 function unpack(rows, key) {
@@ -12517,8 +11051,6 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to customize lighting for 3D surface charts.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: 3D Surface Lighting
 order: 14
 page\_type: u-guide
@@ -12529,11 +11061,7 @@ thumbnail: thumbnail/3d-surface.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Fresnel
-language: plotly\_js
 suite: 3d-surface-lighting
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/michaelbabyn/plot\_data/master/sin\_saddle.csv', function(err, rows){
 function unpack(rows, key) {
@@ -12580,11 +11108,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Ambient Lighting
-language: plotly\_js
 suite: 3d-surface-lighting
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/michaelbabyn/plot\_data/master/sin\_saddle.csv', function(err, rows){
 function unpack(rows, key) {
@@ -12631,11 +11155,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Specular
-language: plotly\_js
 suite: 3d-surface-lighting
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/michaelbabyn/plot\_data/master/sin\_saddle.csv', function(err, rows){
 function unpack(rows, key) {
@@ -12682,21 +11202,14 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Reference
-language: plotly\_js
 suite: 3d-surface-lighting
 order: 10
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 See [https://plotly.com/javascript/reference/surface/#surface-lighting](https://plotly.com/javascript/reference/surface/#surface-lighting) for more information!
 ---
 ---
 name: Diffuse
-language: plotly\_js
 suite: 3d-surface-lighting
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/michaelbabyn/plot\_data/master/sin\_saddle.csv', function(err, rows){
 function unpack(rows, key) {
@@ -12746,8 +11259,6 @@ name: Plotly.js
 permalink: javascript/eula/
 description: End User License Agreement for Plotly.js and other Plotly products
 layout: langindex
-language: plotly\_js
-sitemap: false
 redirect\_from: javascript-graphing-library/eula/
 ---
 
@@ -12776,11 +11287,7 @@ Please read the full Plotly.js [End User License Agreement](http://bit.ly/1HWyoo
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Reversed Axes
-language: plotly\_js
 suite: axes
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -12793,11 +11300,7 @@ var layout = {xaxis: {autorange: 'reversed'}};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Fixed-Ratio Axes
-language: plotly\_js
 suite: axes
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var trace0 = {
 x: [0,1,1,0,0,1,1,2,2,3,3,2,2,3],
@@ -12877,11 +11380,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Reversed Axes with Range ( Min/Max ) Specified
-language: plotly\_js
 suite: axes
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -12901,11 +11400,7 @@ range: [10, 0]
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Styling and Coloring Axes and the Zero-Line
-language: plotly\_js
 suite: axes
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -12947,11 +11442,7 @@ linewidth: 6
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Setting the Range of Axes Manually
-language: plotly\_js
 suite: axes
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -12971,11 +11462,7 @@ yaxis: {range: [2, 5]}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: `nonnegative`, `tozero`, and `normal` Rangemode
-language: plotly\_js
 suite: axes
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -12998,11 +11485,7 @@ autorange: true
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Categorical Axes
-language: plotly\_js
 suite: axes
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['A12', 'BC2', 109, '12F', 215, 304],
@@ -13031,11 +11514,8 @@ title: {text: 'Inventory'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Specifying Label Aliases
-language: plotly\_js
 suite: axes
 order: 10
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example uses `labelalias` to update the text displayed for the x-axis values.
 ---
@@ -13057,11 +11537,8 @@ France: '🇫🇷 France'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Set Axis Title Position
-language: plotly\_js
 suite: axes
 order: 3.5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example sets `standoff` attribute to cartesian axes to determine the distance between the tick labels and the axis title.
 Note that the axis title position is always constrained within the margins, so the actual standoff distance is always less than the set or default value.
@@ -13091,11 +11568,8 @@ standoff: 40
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Multi-Category Axes
-language: plotly\_js
 suite: axes
 order: 7.4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [
@@ -13129,11 +11603,7 @@ dividerwidth: 2
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Toggling Axes Lines, Ticks, Labels, and Autorange
-language: plotly\_js
 suite: axes
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -13169,11 +11639,7 @@ showticklabels: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Set and Style Axes Title Labels and Ticks
-language: plotly\_js
 suite: axes
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 function unpack(rows, key) {
@@ -13238,8 +11704,6 @@ description: How to adjust axes properties in D3.js-based javascript charts. Sev
 examples of linear and logarithmic axes, axes titles, and styling and coloring axes
 and grid lines.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Axes
 order: 15
 page\_type: u-guide
@@ -13251,11 +11715,7 @@ thumbnail: thumbnail/axes.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Tick Placement, Color, and Style
-language: plotly\_js
 suite: axes
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -13291,11 +11751,7 @@ tickcolor: '#000'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Logarithmic Axes
-language: plotly\_js
 suite: axes
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -13321,11 +11777,7 @@ autorange: true
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Enumerated Ticks with Tickvals and Ticktext
-language: plotly\_js
 suite: axes
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/stockdata.csv', function(err, rows){
 function unpack(rows, key) {
@@ -13356,11 +11808,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Using Dates on the X-Axis
-language: plotly\_js
 suite: axes
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['2000-01-01', '2000-01-02', '2000-01-03', '2000-01-04', '2000-01-05', '2000-01-06', '2000-01-07', '2000-01-08', '2000-01-09', '2000-01-10', '2000-01-11', '2000-01-12', '2000-01-13', '2000-01-14', '2000-01-15', '2000-01-16', '2000-01-17', '2000-01-18', '2000-01-19', '2000-01-20', '2000-01-21', '2000-01-22', '2000-01-23', '2000-01-24', '2000-01-25', '2000-01-26', '2000-01-27', '2000-01-28', '2000-01-29', '2000-01-30', '2000-01-31'],
@@ -13389,11 +11837,8 @@ text: '2000 Toronto January Weather'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Use Base64-Encoded Typed Arrays
-language: plotly\_js
 suite: axes
 order: 11
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Plotly.js 2.28.0 and later supports using base64-encoded typed arrays. To use a base64-encoded typed array, pass an object with the keys `bdata` (a base64-encoded string or the ArrayBuffer of an integer or float typed array) and `dtype` (the data type of the array, where the supported types are `float64`, `float32`, `int32`, `uint32`, `int16`, `uint16`, `int8`, `uint8`, and `uint8c`). You can also specify `shape` for multidimensional arrays. For example, `'4,10'` would be a 2D array with 4 rows and 10 columns.
 ---
@@ -13420,11 +11865,7 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data);
 ---
 name: Fully Opaque
-language: plotly\_js
 suite: marker-style
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Fully opaque, the default setting, is useful for non-overlapping markers. When many points overlap it can be hard to observe density.
 ---
@@ -13463,8 +11904,6 @@ Plotly.newPlot('myDiv', data)
 ---
 description: How to style markers in JavaScript.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Styling Markers
 order: 11
 page\_type: u-guide
@@ -13475,11 +11914,7 @@ thumbnail: thumbnail/marker-style.gif
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Trace Opacity
-language: plotly\_js
 suite: marker-style
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Setting opacity outside the marker will set the opacity of the trace. Thus, it will allow greater visbility of additional traces but like fully opaque it is hard to distinguish density.
 ---
@@ -13535,11 +11970,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data)
 ---
 name: Add Marker Border
-language: plotly\_js
 suite: marker-style
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In order to make markers distinct, you can add a border to the markers. This can be achieved by adding the line dict to the marker dict. For example, `marker:{..., line: {...}}`.
 ---
@@ -13577,11 +12008,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data)
 ---
 name: Color Opacity
-language: plotly\_js
 suite: marker-style
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 To maximise visibility of each point, set the color opacity by using alpha: `marker:{color: 'rgba(0,0,0,0.5)'}`. Here, the marker line will remain opaque.
 ---
@@ -13619,11 +12046,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data)
 ---
 name: Marker Opacity
-language: plotly\_js
 suite: marker-style
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 To maximise visibility of density, it is recommended to set the opacity inside the marker `marker:{opacity:0.5}`. If multiple traces exist with high density, consider using marker opacity in conjunction with trace opacity.
 ---
@@ -13663,11 +12086,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data)
 ---
 name: Paper Referenced Annotations
-language: plotly\_js
 suite: annotations
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 Plotly.newPlot('myDiv', [{
 x: [1,2,3],
@@ -13695,11 +12114,7 @@ showarrow: false
 })
 ---
 name: Multiple Annotations
-language: plotly\_js
 suite: annotations
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -13742,11 +12157,7 @@ ay: -40
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Simple Annotation
-language: plotly\_js
 suite: annotations
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -13778,11 +12189,8 @@ ay: -40
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: 3D Annotations
-language: plotly\_js
 suite: annotations
 order: 4.75
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "scatter3d",
@@ -13856,11 +12264,7 @@ yanchor: "bottom"
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Custom Text Color and Styling
-language: plotly\_js
 suite: annotations
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2],
@@ -13895,11 +12299,7 @@ var layout = {showlegend: false};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: WebGL Text and Annotations
-language: plotly\_js
 suite: annotations
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var n = 250;
 var t = 12;
@@ -13964,11 +12364,7 @@ Plotly.newPlot('myDiv', {data:data,
 layout:layout});
 ---
 name: Styling and Coloring Annotations
-language: plotly\_js
 suite: annotations
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -14014,11 +12410,8 @@ opacity: 0.8
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Subplot Annotations
-language: plotly\_js
 suite: annotations
 order: 4.5
-sitemap: false
-arrangement: horizontal
 ---
 var trace0 = {
 x: [1, 2, 3],
@@ -14068,11 +12461,7 @@ ay: -40
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Adding Text to Data in Line and Scatter Plots
-language: plotly\_js
 suite: annotations
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2],
@@ -14106,12 +12495,7 @@ var layout = {showlegend: false};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Styling and Formatting Annotations
-plot\_url: https://codepen.io/plotly/embed/mVLQLK
-language: plotly\_js
 suite: annotations
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var myPlot = document.getElementById('myDiv'),
 N = 12,
@@ -14207,11 +12591,8 @@ Plotly.relayout('myDiv', 'annotations[' + data.index + ']', 'remove');
 });
 ---
 name: Annotations with Log Axes
-language: plotly\_js
 suite: annotations
 order: 3.5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 If the `x` or `y` positions of an annotation reference a log axis, you need to provide that position as a `log10` value when adding the annotation. In this example, the `yaxis` is a log axis so we pass the `log10` value of `1000` to the annotation's `y` position.
 ---
@@ -14249,8 +12630,6 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to add text labels and annotations to D3.js-based plots in javascript.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Text and Annotations
 order: 26
 page\_type: example\_index
@@ -14262,11 +12641,7 @@ thumbnail: thumbnail/text-and-annotations.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Highlighting Clusters of Scatter Points with Circle Shapes
-language: plotly\_js
 suite: shape
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 function normal\_array( mean, stddev, size ){
 var arr = new Array(size), i;
@@ -14371,11 +12746,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Lines Positioned Relative to the Plot and to the Axis
-language: plotly\_js
 suite: shape
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [2, 6],
@@ -14430,11 +12801,7 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Rectangle Positioned Relative to the Plot and to the Axes
-language: plotly\_js
 suite: shape
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1.5, 3],
@@ -14492,11 +12859,7 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Highlighting Time Series Regions with Rectangle Shapes
-language: plotly\_js
 suite: shape
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -14554,11 +12917,7 @@ width: 500
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Rectangle Positioned Relative to the Axes
-language: plotly\_js
 suite: shape
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1.5, 4.5],
@@ -14610,11 +12969,7 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Venn Diagram with Circle Shapes
-language: plotly\_js
 suite: shape
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 1.75, 2.5],
@@ -14683,11 +13038,7 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Basic Arbitrary SVG Paths
-language: plotly\_js
 suite: shape
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [2, 1, 8, 8],
@@ -14750,11 +13101,8 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Adding Labels to Shapes
-language: plotly\_js
 suite: shape
 order: 11
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example adds a `label` to a rectangle and a line on the graph,
 sets a `font` `size` and `color` on the rectangle, and positions its label
@@ -14839,8 +13187,6 @@ Plotly.newPlot('myDiv', data, layout, config);
 description: How to make arbitrary D3.js-based SVG shapes in JavaScript. Examples
 of lines, circle, rectangle, and path.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: Shapes
 order: 23
 page\_type: u-guide
@@ -14852,11 +13198,7 @@ thumbnail: thumbnail/shape.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Vertical and Horizontal Lines Positioned Relative to the Axes
-language: plotly\_js
 suite: shape
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [2, 3.5, 6],
@@ -14921,11 +13263,7 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Circle
-language: plotly\_js
 suite: shape
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1.5, 3.5],
@@ -14980,11 +13318,8 @@ var data = [trace1];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Creating Tangent Lines with Shapes
-language: plotly\_js
 suite: shape
 order: 10
-sitemap: false
-arrangement: horizontal
 ---
 function linspace(a,b,n) {
 return d3.range(n).map(function(i){return a+i\*(b-a)/(n-1);});
@@ -15047,13 +13382,11 @@ Plotly.newPlot('myDiv', data, layout);
 description: Learn about the changes in Plotly.js version 3.
 display_as: file_settings
 language: plotly_js
-layout: base
 name: Version 3 Changes
 order: 27
 page_type: u-guide
 permalink: javascript/version-3-changes/
 redirect_from: javascript/pointcloud/
-sitemap: false
 thumbnail: thumbnail/pointcloud.jpg
 ---
 This page outlines the changes in Plotly.js version 3 and cases where you may need to update your charts.
@@ -15409,8 +13742,6 @@ var data = [{
 ---
 description: How to format axes for 3d charts.
 display\_as: file\_settings
-language: plotly\_js
-layout: base
 name: 3D Axes
 order: 12
 page\_type: u-guide
@@ -15422,11 +13753,7 @@ thumbnail: thumbnail/theming-and-templates.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Range of Axes
-language: plotly\_js
 suite: 3d-axes
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul)
 {
@@ -15483,11 +13810,7 @@ range: [-150, 100],
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Ticks Formatting
-language: plotly\_js
 suite: 3d-axes
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul)
 {
@@ -15532,11 +13855,7 @@ tickwidth: 4}},
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Camera Controls
-language: plotly\_js
 suite: 3d-axes
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul)
 {
@@ -15670,11 +13989,7 @@ x: 0, y: 0, z: 1}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Axes Background Color
-language: plotly\_js
 suite: 3d-axes
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul)
 {
@@ -15735,11 +14050,8 @@ zerolinecolor: "rgb(255, 255, 255)"
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Fixed Ratio Axes
-language: plotly\_js
 suite: 3d-axes
 order: 1.1
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul)
 {
@@ -15795,11 +14107,7 @@ columns:2
 Plotly.newPlot('myDiv', traces, layout);
 ---
 name: Set Axes Title
-language: plotly\_js
 suite: 3d-axes
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul) {
 var value = [ ];
@@ -15849,11 +14157,7 @@ pad: 4
 Plotly.newPlot('myDiv', [trace1,trace2], layout);
 ---
 name: Basic Contour Plot
-language: plotly\_js
 suite: contour
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -15872,11 +14176,7 @@ text: 'Basic Contour Plot'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Smoothing Contour Lines
-language: plotly\_js
 suite: contour
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[2, 4, 7, 12, 13, 14, 15, 16],
@@ -15924,11 +14224,8 @@ anchor: 'x2'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Color Bar Title
-language: plotly\_js
 suite: contour
 order: 11
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -15956,11 +14253,7 @@ text: 'Colorbar with a Title'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Smooth Contour Coloring
-language: plotly\_js
 suite: contour
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -15981,11 +14274,7 @@ text: 'Smooth Contour Coloring'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Setting X and Y Coordinates in a Contour Plot
-language: plotly\_js
 suite: contour
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16005,11 +14294,7 @@ text: 'Setting the X and Y Coordinates in a Contour Plot'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Simple Contour Plot
-language: plotly\_js
 suite: contour
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var size = 100, x = new Array(size), y = new Array(size), z = new Array(size), i, j;
 for(var i = 0; i < size; i++) {
@@ -16032,11 +14317,7 @@ type: 'contour'
 Plotly.newPlot('myDiv', data);
 ---
 name: Colorscale for Contour Plot
-language: plotly\_js
 suite: contour
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16055,11 +14336,7 @@ text: 'Colorscale for Contour Plot'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Connect the Gaps between Null Values in the Z Matrix
-language: plotly\_js
 suite: contour
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 z: [[null, null, null, 12, 13, 14, 15, 16],
@@ -16144,10 +14421,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based contour plot in javascript. Examples of contour
 plots of matrices with subplots, custom color-scales, and smoothing.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Contour Plots
-order: 1
 page\_type: example\_index
 permalink: javascript/contour-plots/
 redirect\_from: javascript-graphing-library/contour-plots/
@@ -16157,11 +14431,8 @@ thumbnail: thumbnail/contour.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Color Bar Size
-language: plotly\_js
 suite: contour
 order: 12
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16186,11 +14457,8 @@ text: 'Colorbar Size for Contour Plots'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Contour Line Labels
-language: plotly\_js
 suite: contour
 order: 9.5
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16217,11 +14485,7 @@ text: 'Contour with Labels'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Contour Lines
-language: plotly\_js
 suite: contour
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16243,11 +14507,7 @@ text: 'Contour Lines'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Customizing Size and Range of a Contour Plot's Contours
-language: plotly\_js
 suite: contour
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16272,11 +14532,8 @@ text: 'Customizing Size and Range of Contours'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Custom Colorscale for Contour Plot
-language: plotly\_js
 suite: contour
 order: 10
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16296,11 +14553,8 @@ text: 'Custom Contour Plot Colorscale'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Styling Color Bar Ticks for Contour Plots
-language: plotly\_js
 suite: contour
 order: 13
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16330,11 +14584,7 @@ text: 'Styling Color Bar Ticks for Contour Plots'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Customizing Spacing Between X and Y Ticks
-language: plotly\_js
 suite: contour
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var data = [ {
 z: [[10, 10.625, 12.5, 15.625, 20],
@@ -16357,11 +14607,7 @@ text: 'Customizing Spacing Between X and Y Axis Ticks'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Add Multiple Carpet Scatter Traces
-language: plotly\_js
 suite: scattercarpet
-order: 3
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var trace1 = {
@@ -16454,8 +14700,6 @@ Plotly.newPlot('myDiv', data, layout)
 ---
 description: How to make D3.js-based carpet scatter plots in Plotly.js.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Carpet Scatter Plot
 order: 10
 permalink: javascript/carpet-scatter/
@@ -16465,11 +14709,7 @@ thumbnail: thumbnail/scattercarpet.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add Carpet Scatter Trace
-language: plotly\_js
 suite: scattercarpet
-order: 2
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var trace1 = {
@@ -16500,11 +14740,7 @@ var data = [trace1,trace2]
 Plotly.newPlot('myDiv', data)
 ---
 name: Basic Carpet Plot
-language: plotly\_js
 suite: scattercarpet
-order: 1
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var trace1 = {
@@ -16530,10 +14766,7 @@ Plotly.newPlot('myDiv', data)
 ---
 description: How to make a plot with D3.js-based logarithmic axes in javascript.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Log Plots
-order: 5
 page\_type: example\_index
 permalink: javascript/log-plot/
 redirect\_from: javascript-graphing-library/log-plot/
@@ -16543,11 +14776,7 @@ thumbnail: thumbnail/log.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Logarithmic Axes
-language: plotly\_js
 suite: log
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5, 6, 7, 8],
@@ -16576,7 +14805,6 @@ permalink: javascript/scientific-charts/
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of how to make scientific graphs such as heatmaps and contour plots.
 name: Scientific Charts
 layout: langindex
-language: plotly\_js
 display\_as: scientific
 thumbnail: thumbnail/mixed.jpg
 ---
@@ -16592,8 +14820,6 @@ thumbnail: thumbnail/mixed.jpg
 ---
 description: How to make D3.js-based carpet contour plots in Plotly.js.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Carpet Contour Plot
 order: 11
 permalink: javascript/carpet-contour/
@@ -16603,11 +14829,7 @@ thumbnail: thumbnail/contourcarpet.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Add Multiple Traces
-language: plotly\_js
 suite: contourcarpet
-order: 3
-sitemap: false
-arrangement: horizontal
 description:
 ---
 function Get(url){
@@ -16783,11 +15005,7 @@ width: 900
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Basic Carpet Plot
-language: plotly\_js
 suite: contourcarpet
-order: 1
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var trace1 = {
@@ -16827,11 +15045,7 @@ var data = [trace1]
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Add Contours
-language: plotly\_js
 suite: contourcarpet
-order: 2
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var trace1 = {
@@ -16892,10 +15106,7 @@ Plotly.newPlot('myDiv', data, layout)
 ---
 description: How to make D3.js-based parallel coordinates plots in Plotly.js.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Parallel Coordinates Plot
-order: 4
 page\_type: example\_index
 permalink: javascript/parallel-coordinates-plot/
 thumbnail: thumbnail/parcoords.jpg
@@ -16904,11 +15115,7 @@ thumbnail: thumbnail/parcoords.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Adding Dimensions
-language: plotly\_js
 suite: parcoords
-order: 1
-sitemap: false
-arrangement: horizontal
 description:
 markdown\_content: |
 Parallel coordinates are richly interactive by default. Drag the lines along the axes to filter regions and drag the axis names across the plot to rearrange variables: ![IPython terminal](https://s3-us-west-1.amazonaws.com/plotly-tutorials/plotly-documentation/images/js\_parcoords\_ex1.gif)
@@ -16944,11 +15151,7 @@ var data = [trace]
 Plotly.newPlot('myDiv', data);
 ---
 name: Basic Parallel Coordinates Plot
-language: plotly\_js
 suite: parcoords
-order: 2
-sitemap: false
-arrangement: horizontal
 description:
 ---
 d3.csv('https://raw.githubusercontent.com/bcdunbar/datasets/master/iris.csv', function(err, rows){
@@ -16990,11 +15193,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Advanced Parallel Coordinates Plot
-language: plotly\_js
 suite: parcoords
-order: 3
-sitemap: false
-arrangement: horizontal
 description:
 ---
 d3.csv('https://raw.githubusercontent.com/bcdunbar/datasets/master/parcoords\_data.csv', function(err, rows){
@@ -17063,11 +15262,8 @@ Plotly.newPlot('myDiv', data);
 });
 ---
 name: Annotated Parallel Coordinates Plot
-language: plotly\_js
 suite: parcoords
 order: 2.5
-sitemap: false
-arrangement: horizontal
 description:
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/iris-id.csv', function(err, rows){
@@ -17118,10 +15314,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to graph D3.js-based wind rose charts in plotly.js .
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Wind Rose Charts
-order: 6
 permalink: javascript/wind-rose-charts/
 redirect\_from: javascript-graphing-library/wind-rose-charts/
 thumbnail: thumbnail/wind-rose.jpg
@@ -17130,10 +15323,7 @@ thumbnail: thumbnail/wind-rose.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Wind Rose Chart
-language: plotly\_js
 suite: wind-rose
-sitemap: false
-arrangement: horizontal
 order: 17
 ---
 var data = [{
@@ -17177,10 +15367,7 @@ angularaxis: {direction: "clockwise"}
 Plotly.newPlot("myDiv", data, layout)
 ---
 name: Annotated Heatmap
-language: plotly\_js
 suite: heatmap
-order: 3
-sitemap: false
 arrangement: horizontals
 ---
 var xValues = ['A', 'B', 'C', 'D', 'E'];
@@ -17250,11 +15437,7 @@ layout.annotations.push(result);
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Heatmap with Categorical Axis Labels
-language: plotly\_js
 suite: heatmap
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In this example we also show how to ignore [hovertext](https://plotly.com/javascript/hover-text-and-formatting/) when we have missing values in the data by setting the [hoverongaps](https://plotly.com/javascript/reference/heatmap/#heatmap-hoverongaps) to False.
 ---
@@ -17272,10 +15455,7 @@ Plotly.newPlot('myDiv', data);
 description: How to make a D3.js-based heatmap in javascript with a matrix. Seven
 examples of colored and labeled heatmaps with custom colorscales.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Heatmaps
-order: 2
 page\_type: example\_index
 permalink: javascript/heatmaps/
 redirect\_from:
@@ -17288,11 +15468,7 @@ thumbnail: thumbnail/heatmap.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Heatmap
-language: plotly\_js
 suite: heatmap
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -17303,11 +15479,7 @@ type: 'heatmap'
 Plotly.newPlot('myDiv', data);
 ---
 name: Heatmap with Unequal Block Sizes
-language: plotly\_js
 suite: heatmap
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 function linspace(a,b,n) {
 return d3.range(n).map(function(i){return a+i\*(b-a)/(n-1);});
@@ -17397,10 +15569,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make D3.js-based radar charts in Plotly.js.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Radar Charts
-order: 8
 permalink: javascript/radar-chart/
 thumbnail: thumbnail/radar.gif
 ---
@@ -17408,11 +15577,7 @@ thumbnail: thumbnail/radar.gif
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Radar Chart
-language: plotly\_js
 suite: radar
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 data = [{
 type: 'scatterpolar',
@@ -17432,11 +15597,7 @@ showlegend: false
 Plotly.newPlot("myDiv", data, layout)
 ---
 name: Multiple Trace Radar Chart
-language: plotly\_js
 suite: radar
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 data = [
 {
@@ -17466,10 +15627,7 @@ Plotly.newPlot("myDiv", data, layout)
 ---
 description: How to make D3.js-based carpet plots in Plotly.js.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Carpet Plot
-order: 9
 permalink: javascript/carpet-plot/
 redirect\_from: javascript/carpet-plots/
 thumbnail: thumbnail/carpet.jpg
@@ -17478,11 +15636,7 @@ thumbnail: thumbnail/carpet.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Set X and Y Coordinates
-language: plotly\_js
 suite: carpet
-order: 1
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var data = {
@@ -17493,11 +15647,7 @@ var data = [data]
 Plotly.newPlot('myDiv', data);
 ---
 name: Style A and B axis
-language: plotly\_js
 suite: carpet
-order: 4
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var trace1 = {
@@ -17531,11 +15681,7 @@ paper\_bgcolor: 'black'
 Plotly.newPlot('myDiv', [trace1], layout)
 ---
 name: Add A and B axis
-language: plotly\_js
 suite: carpet
-order: 3
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var data = {
@@ -17560,11 +15706,7 @@ var data = [data]
 Plotly.newPlot('myDiv', data);
 ---
 name: Add Parameter Values
-language: plotly\_js
 suite: carpet
-order: 2
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var data = {
@@ -17577,20 +15719,12 @@ var data = [data]
 Plotly.newPlot('myDiv', data);
 ---
 name: Add Points and Contours
-language: plotly\_js
 suite: carpet
-order: 5
-sitemap: false
-arrangement: horizontal
 description: To add points and lines see [Carpet Scatter Plots](https://plotly.com/javascript/carpet-scatter) or to add contours see [Carpet Contour Plots](https://plotly.com/javascript/carpet-contour)
 ---
 ---
 name: Categorical Polar Chart
-language: plotly\_js
 suite: scatterpolar
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -17687,11 +15821,7 @@ dtick: 0.3141592653589793
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Webgl Polar Chart
-language: plotly\_js
 suite: scatterpolar
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/hobbs-pearson-trials.csv', function(err, rows){
 function unpack(rows, key) {
@@ -17825,11 +15955,7 @@ Plotly.newPlot('myDiv', data, layout);
 })
 ---
 name: Polar Chart Directions
-language: plotly\_js
 suite: scatterpolar
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -17904,11 +16030,7 @@ direction: "clockwise"
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Polar Chart Subplots
-language: plotly\_js
 suite: scatterpolar
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "scatterpolargl",
@@ -17983,11 +16105,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Line Polar Plot
-language: plotly\_js
 suite: scatterpolar
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/polar\_dataset.csv', function(err, rows){
 function unpack(rows, key) {
@@ -18054,8 +16172,6 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make D3.js-based polar charts in Plotly.js.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Polar Charts
 order: 12
 permalink: javascript/polar-chart/
@@ -18068,11 +16184,7 @@ thumbnail: thumbnail/polar.gif
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Area Polar Chart
-language: plotly\_js
 suite: scatterpolar
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 data = [
 {
@@ -18143,11 +16255,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Polar Chart Sector
-language: plotly\_js
 suite: scatterpolar
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -18220,11 +16328,7 @@ size: 8
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Basic Ternary Plot with Markers
-language: plotly\_js
 suite: ternary-plot
-order: 1
-sitemap: false
-arrangement: horizontal
 description: Inspired from Tom Pearson's [block](http://bl.ocks.org/tomgp/7674234)
 ---
 var rawData = [
@@ -18292,11 +16396,7 @@ showgrid: true
 }
 ---
 name: Soil Types Ternary Plot
-language: plotly\_js
 suite: ternary-plot
-order: 2
-sitemap: false
-arrangement: horizontal
 description: Inspired from Daven Quinn's [block](http://bl.ocks.org/davenquinn/988167471993bc2ece29)
 ---
 var url = 'https://gist.githubusercontent.com/davenquinn/988167471993bc2ece29/raw/f38d9cb3dd86e315e237fde5d65e185c39c931c2/data.json';
@@ -18352,10 +16452,7 @@ showgrid: true,
 description: How to create D3.js-based ternary plots. Examples of Ternary Plots with
 plotly.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Ternary Plots
-order: 3
 page\_type: example\_index
 permalink: javascript/ternary-plots/
 redirect\_from: javascript/ternary-plot/
@@ -18365,11 +16462,7 @@ thumbnail: thumbnail/ternary-plot.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Filled Ternary Plot
-language: plotly\_js
 suite: ternary-contour
-order: 1
-sitemap: false
-arrangement: horizontal
 description: Inspired from Daven Quinn's [block](http://bl.ocks.org/davenquinn/988167471993bc2ece29)
 ---
 var url = 'https://gist.githubusercontent.com/davenquinn/988167471993bc2ece29/raw/f38d9cb3dd86e315e237fde5d65e185c39c931c2/data.json';
@@ -18430,10 +16523,7 @@ showgrid: true,
 description: How to create D3.js-based ternary contour plots. Examples of Ternary
 Contour Plots with plotly.
 display\_as: scientific
-language: plotly\_js
-layout: base
 name: Ternary Contour Plots
-order: 7
 permalink: javascript/ternary-contour/
 thumbnail: thumbnail/ternary-contour.jpg
 ---
@@ -18443,8 +16533,6 @@ thumbnail: thumbnail/ternary-contour.jpg
 name: Function Reference
 permalink: /javascript/plotlyjs-function-reference/
 description: Plotly.js function reference. How to create, update, and modify graphs drawn with Plotly's JavaScript Graphing Library.
-language: plotly\_js
-layout: base
 redirect\_from: /javascript-graphing-library/plotlyjs-function-reference
 ---
 
@@ -19039,11 +17127,7 @@ See the Pen [Plotly.toImage](http://codepen.io/plotly/pen/jrqzar) by plotly ([@p
 Plots emit events prefixed with `plotly_` when clicked or hovered over, and event handlers can be bound to events using the `on` method that is exposed by the plot div object. For more information and examples of how to use Plotly events see: <https://plotly.com/javascript/plotlyjs-events/>.
 ---
 name: Customizing the Figure with Shapes and Annotations
-language: plotly\_js
 suite: ohlc
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['2017-01-17', '2017-01-18', '2017-01-19', '2017-01-20', '2017-01-23', '2017-01-24', '2017-01-25', '2017-01-26', '2017-01-27', '2017-01-30', '2017-01-31', '2017-02-01', '2017-02-02', '2017-02-03', '2017-02-06', '2017-02-07', '2017-02-08', '2017-02-09', '2017-02-10'],
@@ -19115,11 +17199,8 @@ width: 0
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: OHLC Chart without Rangeslider
-language: plotly\_js
 suite: ohlc
 order: 1.5
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv', function(err, rows){
 function unpack(rows, key) {
@@ -19154,11 +17235,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Simple OHLC Chart
-language: plotly\_js
 suite: ohlc
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['2017-01-17', '2017-01-18', '2017-01-19', '2017-01-20', '2017-01-23', '2017-01-24', '2017-01-25', '2017-01-26', '2017-01-27', '2017-01-30', '2017-01-31', '2017-02-01', '2017-02-02', '2017-02-03', '2017-02-06', '2017-02-07', '2017-02-08', '2017-02-09', '2017-02-10'],
@@ -19199,11 +17276,7 @@ type: 'linear'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Customise OHLC Chart Colors
-language: plotly\_js
 suite: ohlc
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv', function(err, rows){
 function unpack(rows, key) {
@@ -19242,11 +17315,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Add Rangeselector
-language: plotly\_js
 suite: ohlc
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv', function(err, rows){
 function unpack(rows, key) {
@@ -19307,10 +17376,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to graph D3.js-based OHLC charts in javascript. Examples of OHCL
 charts.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: OHLC Charts
-order: 6
 permalink: javascript/ohlc-charts/
 thumbnail: thumbnail/ohlc.jpg
 ---
@@ -19318,11 +17384,7 @@ thumbnail: thumbnail/ohlc.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Horizontal Waterfall Chart
-language: plotly\_js
 suite: waterfall
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [
@@ -19408,11 +17470,7 @@ showlegend: true
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Style Waterfall Chart
-language: plotly\_js
 suite: waterfall
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [
@@ -19443,10 +17501,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based waterfall chart in javascript.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Waterfall Charts
-order: 1
 page\_type: example\_index
 permalink: javascript/waterfall-charts/
 thumbnail: thumbnail/waterfall-charts.jpg
@@ -19455,11 +17510,7 @@ thumbnail: thumbnail/waterfall-charts.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Waterfall Chart
-language: plotly\_js
 suite: waterfall
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -19522,11 +17573,7 @@ showlegend: true
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Multi Category Waterfall Chart
-language: plotly\_js
 suite: waterfall
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [
@@ -19564,11 +17611,7 @@ ticks: "outside"
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Overview
-language: plotly\_js
 suite: indicator
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In this tutorial we introduce a new trace named "Indicator". The purpose of "indicator" is to visualize a single value specified by the "value" attribute.
 Three distinct visual elements are available to represent that value: number, delta and gauge. Any combination of them can be specified via the "mode" attribute.
@@ -19647,11 +17690,7 @@ delta: { reference: 90 }
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: A Single Angular Gauge Chart
-language: plotly\_js
 suite: indicator
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 ---
 var data = [
@@ -19669,11 +17708,7 @@ var layout = { width: 600, height: 400 };
 Plotly.newPlot('myDiv', data, layout);
 ---
 name:
-language: plotly\_js
 suite: indicator
-order: 7
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 It's possible to display several numbers
 ---
@@ -19714,11 +17749,7 @@ margin: { t: 25, r: 25, l: 25, b: 25 }
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Bullet Gauge
-language: plotly\_js
 suite: indicator
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The equivalent of above "angular gauge":
 ---
@@ -19737,11 +17768,7 @@ var layout = { width: 600, height: 250 };
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Showing Information above Your Chart
-language: plotly\_js
 suite: indicator
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Another interesting feature is that indicator trace sits above the other traces (even the 3d ones). This way, it can be easily used as an overlay as demonstrated below:
 ---
@@ -19762,11 +17789,8 @@ var layout = { width: 600, height: 450, xaxis: { range: [0, 62] } };
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Data Cards / Big Numbers
-language: plotly\_js
 suite: indicator
 order: 4.1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Data card helps to display more contextual information about the data. Sometimes one number is all you want to see in a report, such as total sales, annual revenue, etc. This example shows how to visualize these big numbers:
 ---
@@ -19790,10 +17814,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based gauge chart in javascript.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Indicators
-order: 2
 page\_type: example\_index
 permalink: javascript/indicator/
 thumbnail: thumbnail/indicator.jpg
@@ -19802,11 +17823,7 @@ thumbnail: thumbnail/indicator.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Bullet Charts
-language: plotly\_js
 suite: bullet-charts
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Stephen Few's Bullet Chart was invented to replace dashboard [gauges](https://plotly.com/javascript/gauge-charts/) and meters, combining both types of charts into simple bar charts with qualitative bars (steps), quantitative bar (bar) and performance line (threshold); all into one simple layout.
 Steps typically are broken into several values, which are defined with an array. The bar represent the actual value that a particular variable reached, and the threshold usually indicate a goal point relative to the value achieved by the bar. See [indicator page](https://plotly.com/javascript/gauge-charts/) for more detail.
@@ -19826,11 +17843,7 @@ var layout = { width: 600, height: 250 };
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Add Steps, and Threshold
-language: plotly\_js
 suite: bullet-charts
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Below is the same example using "steps" attribute, which is shown as shading, and "threshold" to determine boundaries that visually alert you if the value cross a defined threshold.
 ---
@@ -19864,11 +17877,7 @@ var config = { responsive: true };
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: Custom Bullet Chart
-language: plotly\_js
 suite: bullet-charts
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example shows how to customize your charts. For more information about all possible options check our [reference page](https://plotly.com/javascript/reference/indicator/).
 ---
@@ -19905,10 +17914,7 @@ Plotly.newPlot('myDiv', data, layout, config);
 ---
 description: How to make a D3.js-based bullet chart in javascript.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Bullet Charts
-order: 8
 permalink: javascript/bullet-charts/
 redirect\_from: javascript-graphing-library/bullet-charts
 thumbnail: thumbnail/bullet.png
@@ -19917,11 +17923,7 @@ thumbnail: thumbnail/bullet.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Multi Bullet
-language: plotly\_js
 suite: bullet-charts
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Bullet charts can be stacked for comparing several values at once as illustrated below:
 ---
@@ -20003,11 +18005,7 @@ margin: { t: 10, r: 25, l: 25, b: 10 }
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Funnelarea Plot
-language: plotly\_js
 suite: funnel
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [{type: 'funnelarea', values: [5, 4, 3, 2, 1], text: ["The 1st", "The 2nd", "The 3rd", "The 4th", "The 5th"],
@@ -20018,11 +18016,7 @@ var layout = {margin: {l: 200 , r: 200}, funnelmode: "stack", showlegend: 'True'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Stacked Funnel
-language: plotly\_js
 suite: funnel
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [{type: 'funnel', name: 'Montreal',
@@ -20042,10 +18036,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based funnel chart in javascript.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Funnel and Funnelarea Charts
-order: 4
 page\_type: example\_index
 permalink: javascript/funnel-charts/
 thumbnail: thumbnail/funnel.jpg
@@ -20054,11 +18045,7 @@ thumbnail: thumbnail/funnel.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Funnel Plot
-language: plotly\_js
 suite: funnel
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [{type: 'funnel', y: ["Website visit", "Downloads", "Potential customers", "Invoice sent", "Closed delas"], x: [13873, 10533, 5443, 2703, 908], hoverinfo: 'x+percent previous+percent initial'}];
@@ -20066,11 +18053,7 @@ var layout = {margin: {l: 150}, width:600, height: 500}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Setting Marker Size and Color
-language: plotly\_js
 suite: funnel
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [{type: 'funnel',
@@ -20083,11 +18066,7 @@ var layout = {margin: {l: 100}, width: 600, height: 500}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Multi Funnelarea
-language: plotly\_js
 suite: funnel
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var gd = document.getElementById('myDiv');
 var data = [{type: 'funnelarea', scalegroup: "first", values: [500, 450, 340, 230, 220, 110],
@@ -20113,11 +18092,8 @@ var layout = {width: 600,shapes: [
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Candlestick Chart without Rangeslider
-language: plotly\_js
 suite: candlestick
 order: 1.5
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv', function(err, rows){
 function unpack(rows, key) {
@@ -20152,11 +18128,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Customizing Candlestick Chart Colors
-language: plotly\_js
 suite: candlestick
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv', function(err, rows){
 function unpack(rows, key) {
@@ -20195,11 +18167,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Simple Candlestick Chart
-language: plotly\_js
 suite: candlestick
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['2017-01-04', '2017-01-05', '2017-01-06', '2017-01-09', '2017-01-10', '2017-01-11', '2017-01-12', '2017-01-13', '2017-01-17', '2017-01-18', '2017-01-19', '2017-01-20', '2017-01-23', '2017-01-24', '2017-01-25', '2017-01-26', '2017-01-27', '2017-01-30', '2017-01-31', '2017-02-01', '2017-02-02', '2017-02-03', '2017-02-06', '2017-02-07', '2017-02-08', '2017-02-09', '2017-02-10', '2017-02-13', '2017-02-14', '2017-02-15'],
@@ -20244,11 +18212,7 @@ type: 'linear'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Add Rangeselector
-language: plotly\_js
 suite: candlestick
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv', function(err, rows){
 function unpack(rows, key) {
@@ -20307,11 +18271,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Customise Candlestick Chart with Shapes and Annotations
-language: plotly\_js
 suite: candlestick
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['2017-01-17', '2017-01-18', '2017-01-19', '2017-01-20', '2017-01-23', '2017-01-24', '2017-01-25', '2017-01-26', '2017-01-27', '2017-01-30', '2017-01-31', '2017-02-01', '2017-02-02', '2017-02-03', '2017-02-06', '2017-02-07', '2017-02-08', '2017-02-09', '2017-02-10'],
@@ -20384,10 +18344,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to graph D3.js-based candlestick charts in javascript. Examples of
 candlestick charts.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Candlestick Charts
-order: 3
 page\_type: example\_index
 permalink: javascript/candlestick-charts/
 thumbnail: thumbnail/candlestick.jpg
@@ -20399,7 +18356,6 @@ permalink: javascript/financial-charts/
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of how to make financial charts.
 name: Financial Charts
 layout: langindex
-language: plotly\_js
 display\_as: financial
 thumbnail: thumbnail/mixed.jpg
 ---
@@ -20414,11 +18370,7 @@ thumbnail: thumbnail/mixed.jpg
 {% include posts/documentation\_eg.html %}
 ---
 name: Manually Set Range
-language: plotly\_js
 suite: time-series
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 function unpack(rows, key) {
@@ -20459,10 +18411,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to plot D3.js-based date and time in Plotly.js. An example of a time-series
 plot.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Time Series
-order: 5
 page\_type: example\_index
 permalink: javascript/time-series/
 redirect\_from: javascript-graphing-library/time-series/
@@ -20472,11 +18421,7 @@ thumbnail: thumbnail/time-series.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Date Strings
-language: plotly\_js
 suite: time-series
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -20488,11 +18433,7 @@ type: 'scatter'
 Plotly.newPlot('myDiv', data);
 ---
 name: Time Series with Rangeslider
-language: plotly\_js
 suite: time-series
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 function unpack(rows, key) {
@@ -20548,11 +18489,7 @@ Plotly.newPlot('myDiv', data, layout);
 })
 ---
 name: Basic Time Series
-language: plotly\_js
 suite: time-series
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/finance-charts-apple.csv", function(err, rows){
 function unpack(rows, key) {
@@ -20584,11 +18521,7 @@ Plotly.newPlot('myDiv', data, layout);
 })
 ---
 name: Basic Gauge
-language: plotly\_js
 suite: gauge-charts
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 A radial gauge chart has a circular arc, which displays a single value to estimate progress toward a goal.
 The bar shows the target value, and the shading represents the progress toward that goal. Gauge charts, known as
@@ -20609,10 +18542,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based gauge chart in javascript.
 display\_as: financial
-language: plotly\_js
-layout: base
 name: Gauge Charts
-order: 7
 permalink: javascript/gauge-charts/
 redirect\_from: javascript-graphing-library/gauge-charts
 thumbnail: thumbnail/gauge.jpg
@@ -20621,11 +18551,7 @@ thumbnail: thumbnail/gauge.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Custom Gauge Chart
-language: plotly\_js
 suite: gauge-charts
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example shows how to style your gauge charts. For more information about all possible options check our [reference page](https://plotly.com/javascript/reference/indicator/).
 ---
@@ -20664,11 +18590,7 @@ font: { color: "darkblue", family: "Arial" }
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Add Steps, Threshold, and Delta
-language: plotly\_js
 suite: gauge-charts
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following examples include "steps" attribute shown as shading inside the radial arc, "delta" which is the
 difference of the value and goal (reference - value), and "threshold" to determine boundaries that visually alert you if the value cross a defined threshold.
@@ -20699,12 +18621,7 @@ var layout = { width: 600, height: 450, margin: { t: 0, b: 0 } };
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Remove Trace
-plot\_url: https://codepen.io/plotly/embed/963044d434248ee56d8236203c390017/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: remove-trace
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 function plotGraph(){
 var trace1 = {
@@ -20737,9 +18654,7 @@ Plotly.deleteTraces('myDiv', 0);
 name: Remove Trace from Plot
 permalink: javascript/remove-trace/
 description: How to remove a trace from a plot in JavaScript with D3.js.
-layout: base
 thumbnail: thumbnail/remove-trace.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: reference
 redirect\_from: javascript-graphing-library/remove-trace/
@@ -20748,12 +18663,7 @@ redirect\_from: javascript-graphing-library/remove-trace/
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Binding to Zoom Events
-plot\_url: https://codepen.io/plotly/embed/dogexw/?height=530&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: zoom-events
-sitemap: false
-order: 0
-arrangement: horizontal
 ---
 var graphDiv = document.getElementById('myDiv');
 var N = 40,
@@ -20774,23 +18684,16 @@ JSON.stringify(eventdata) + '\n\n' +
 name: Zoom Events
 permalink: javascript/zoom-events/
 description: How to bind callback functions to zoom events in D3.js-based JavaScript charts.
-layout: base
 thumbnail: thumbnail/zoom.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: chart\_events
-order: 4
 redirect\_from: javascript-graphing-library/zoom-events/
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","zoom-events" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Hover Event Data
-language: plotly\_js
 suite: hover-events
-sitemap: false
-arrangement: horizontal
-order: 0
 ---
 {
 points: [{
@@ -20808,12 +18711,7 @@ yaxis: {/\* \*/} // ref to y-axis object " "
 }
 ---
 name: Coupled Hover Events
-plot\_url: https://codepen.io/plotly/embed/zvzdGb/?height=550&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: hover-events
-sitemap: false
-arrangement: horizontal
-order: 3
 ---
 var myPlot = document.getElementById('myDiv'),
 N = 12,
@@ -20853,12 +18751,7 @@ Plotly.Fx.hover('myDiv',[
 });
 ---
 name: Capturing Hover Events: Data
-plot\_url: https://codepen.io/plotly/embed/oXadPM/?height=550&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: hover-events
-sitemap: false
-arrangement: horizontal
-order: 1
 ---
 var myPlot = document.getElementById('myDiv'),
 hoverInfo = document.getElementById('hoverinfo'),
@@ -20889,25 +18782,17 @@ hoverInfo.innerHTML = '';
 name: Hover Events
 permalink: javascript/hover-events/
 description: How to bind callback functions to hover events in D3.js-based JavaScript charts.
-layout: base
 thumbnail: thumbnail/hover.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: chart\_events
-order: 2
-arrangement: horizontal
 redirect\_from: javascript-graphing-library/hover-events/
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","hover-events" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Capturing Hover Events: Pixels
-plot\_url: https://codepen.io/plotly/embed/xgaEaR/?height=550&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: hover-events
 order: 1.5
-sitemap: false
-arrangement: horizontal
 ---
 var myPlot = document.getElementById('myDiv'),
 hoverInfo = document.getElementById('hoverinfo'),
@@ -20932,23 +18817,13 @@ return ('width: '+xaxis.l2p(d.x)+', height: '+yaxis.l2p(d.y));
 hoverInfo.innerHTML = infotext.join('
 ---
 name: Combined Click and Hover Events
-plot\_url: https://codepen.io/plotly/embed/eJOyej/?height=600&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: hover-events
-sitemap: false
-arrangement: horizontal
 height: 600
-order: 4
 ---
 This is a more complex example that uses both hover, and click events to display traces. Take a look in the codepen javascript!
 ---
 name: Triggering Hover Events
-plot\_url: https://codepen.io/plotly/embed/bdmMQN/?height=550&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: hover-events
-sitemap: false
-arrangement: horizontal
-order: 2
 ---
 var myPlot = document.getElementById('myDiv'),
 hoverButton = document.getElementById('hoverbutton'),
@@ -20980,12 +18855,7 @@ Plotly.Fx.hover('myDiv',[
 });
 ---
 name: Disabling Zoom Events for X Axis
-plot\_url: https://codepen.io/plotly/embed/LGppGV/?height=460&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: unbind-zoom-events
-sitemap: false
-order: 0
-arrangement: horizontal
 ---
 function makeplot() {
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014\_apple\_stock.csv", function(data){ processData(data) } );
@@ -21020,12 +18890,7 @@ Plotly.newPlot('myDiv', traces, layout);
 makeplot();
 ---
 name: Disabling Zoom Events for X and Y Axis
-plot\_url: https://codepen.io/plotly/embed/PZPPPj/?height=480&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: unbind-zoom-events
-sitemap: false
-order: 1
-arrangement: horizontal
 ---
 function makeplot() {
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/2014\_apple\_stock.csv", function(data){ processData(data) } );
@@ -21059,9 +18924,7 @@ makeplot();
 name: Disable Zoom Events
 permalink: javascript/disable-zoom/
 description: How to disable zoom events in JavaScript charts.
-layout: base
 thumbnail: thumbnail/zoom.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: chart\_events
 order: 4.75
@@ -21074,7 +18937,6 @@ permalink: javascript/chart-events/
 name: More Chart Events
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of binding callbacks to Plotly chart interactions.
 layout: langindex
-language: plotly\_js
 display\_as: chart\_events
 thumbnail: thumbnail/mixed.jpg
 page\_type: example\_index
@@ -21090,11 +18952,7 @@ page\_type: example\_index
 {% include posts/documentation\_eg.html %}
 ---
 name: Hovertemplate
-language: plotly\_js
 suite: hover
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -21125,12 +18983,7 @@ text: "Set hover text with hovertemplate"
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Create annotation on click event
-plot\_url: https://codepen.io/plotly/embed/Kzjamd/?height=465&theme-id=15263&default-tab=result
-arrangement: horizontal
-language: plotly\_js
 suite: click-events
-sitemap: false
-order: 2
 ---
 var myPlot = document.getElementById('myDiv'),
 N = 100,
@@ -21166,22 +19019,16 @@ Plotly.relayout('myDiv',{annotations: annotations})
 name: Click Events
 permalink: javascript/click-events/
 description: How to bind callback functions to click events in D3.js-based JavaScript charts.
-layout: base
 thumbnail: thumbnail/click.jpg
-language: plotly\_js
 page\_type: example\_index
 display\_as: chart\_events
-order: 1
 redirect\_from: javascript-graphing-library/click-events/
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","click-events" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Click Event Data
-language: plotly\_js
 suite: click-events
-sitemap: false
-order: 0
 ---
 {
 points: [{
@@ -21199,12 +19046,7 @@ yaxis: {/\* \*/} // ref to y-axis object " "
 }
 ---
 name: Binding to Click Events
-plot\_url: https://codepen.io/plotly/embed/QbZmZY/?height=465&theme-id=15263&default-tab=result
-arrangement: horizontal
-language: plotly\_js
 suite: click-events
-sitemap: false
-order: 1
 ---
 var myPlot = document.getElementById('myDiv'),
 N = 16,
@@ -21227,11 +19069,8 @@ alert('Closest point clicked:\n\n'+pts);
 });
 ---
 name: Webgl Context Lost Event
-language: plotly\_js
 suite: events
 order: 10.1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Plotly graphs which use WebGL receive a "WebGL context" from the browser which gives them access to gpu resources.
 A program may lose its WebGL context if the browser is overloaded with them and is forced to shut one down.
@@ -21239,12 +19078,8 @@ The event handler: `plotly\_webglcontextlost`, can be used to trigger an event a
 ---
 ---
 name: Legend Click Events
-plot\_url: https://codepen.io/plotly/embed/vazxKv/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
 order: 4.1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 `plotly\_legendclick` and `plotly\_legenddoubleclick` allow customization of the plotly legend. The default behaviour of `plotly\_legendclick` is to hide a trace and the default behavior of `plotly\_legenddoubleclick` is to select one trace and hide all the others.
 We can add to the default behaviour by creating a new `plotly\_legendclick` event with a function of our choice. We can also disable the default behaviour by creating a function that returns `false`. In the example below, we do both in order to create a `plotly\_legendclick` event which changes the marker color back to black instead of erasing the trace.
@@ -21288,12 +19123,7 @@ return false;
 });
 ---
 name: Event Data
-plot\_url:
-language: plotly\_js
 suite: events
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Many Plotly events emit event data when the event is triggered. Event data is information about the data point related to the event (i.e. the point clicked).
 The following events emit event data: [`plotly\_click`](), [`plotly\_hover`](), [`plotly\_unhover`](), [`plotly\_selecting`](), and [`plotly\_selected`]().
@@ -21363,12 +19193,8 @@ location: //
 }
 ---
 name: Additional Events
-plot\_url:
-language: plotly\_js
 suite: events
 order: 10
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following Plotly events do not emit additional data or update information: [`plotly\_webglcontextlost`](#webgl-context-lost-event), [`plotly\_afterplot`](#afterplot-event), [`plotly\_autosize`](), [`plotly\_deselect`](), [`plotly\_doubleclick`](#double-click-event), [`plotly\_redraw`](), and [`plotly\_animated`](). These event handlers can be used to notify or trigger an additional event with the following syntax:
 ---
@@ -21378,12 +19204,7 @@ function eventTriggeredHandler() {
 myDiv.on('plotly\_event', eventTriggeredHandler);
 ---
 name: Simple Event Example
-plot\_url: https://codepen.io/plotly/embed/NbvPLa/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here's a simple example using a Plotly event. Click on a point on the chart below to see an alert triggered by the `plotly\_click` event.
 ---
@@ -21402,12 +19223,7 @@ alert('You clicked this Plotly chart!');
 });
 ---
 name: Hover Event
-plot\_url: https://codepen.io/plotly/embed/xgxbrj/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here's a simple example of using the data returned from the `plotly\_hover` and `plotly\_unhover` events to restyle the graph. After creating a plot, we can change the color of the point hovered on by updating the `marker.color` array at the index of the point we hovered on then using `Plotly.restyle()` to apply the update. Then we can use `plotly\_unhover` to change the `marker.color` back to the original color. For more examples of using `plotly\_hover` events, see: https://plotly.com/javascript/hover-events/
 ---
@@ -21454,12 +19270,8 @@ Plotly.restyle('myDiv', update, [tn]);
 });
 ---
 name: Double Click Event
-plot\_url: https://codepen.io/plotly/embed/WoZOdq/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
 order: 10.3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In addition to `plotly\_click`, `plotly\_doubleclick` can be used as an event handle in Plotly charts as well. You may already be familiar with `plotly\_doubleclick` if you regularly use Plotly's zoom and pan functionality, double clicking on the graph will restore the axes ranges after zooming into a specific area. Unlike `plotly\_click`, a `plotly\_doubleclick` is registered upon clicking anywhere on the graph (not just data points), therefore, `plotly\_doubleclick` does not return data. In the following example, we'll build off of our `plotly\_click` example, and reset the color of our data points upon double clicking anywhere on the graph.
 ---
@@ -21497,12 +19309,7 @@ Plotly.restyle('myDiv', update);
 });
 ---
 name: Click Event
-plot\_url: https://codepen.io/plotly/embed/Obxbdv/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here's a simple example of using the data returned from the `plotly\_click` event to restyle the graph. After creating a plot, we can change the color of the point clicked on by updating the `marker.color` array at the index of the point we clicked on then using `Plotly.restyle()` to apply the update. For more examples of using `plotly\_click` events, see: [https://plotly.com/javascript/click-events/]()
 ---
@@ -21534,12 +19341,7 @@ Plotly.restyle('myDiv', update, [tn]);
 });
 ---
 name: Update Data
-plot\_url:
-language: plotly\_js
 suite: events
-order: 7
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following Plotly events emit update information when the event is triggered: [`plotly\_restyle`]() and [`plotly\_relayout`]().
 The update emitted with `plotly\_restyle` is similar across plot types and includes an array containing an object of the newly updated
@@ -21594,12 +19396,7 @@ z: 1
 }
 ---
 name: Select Event
-plot\_url: https://codepen.io/plotly/embed/BpayyX/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here's a simple example using the data returned from the `plotly\_selected` event. `plotly\_selected` returns event data for all points selected simultaneously. After creating a scatter plot with random data and two histograms that display the x and y distributions of that random data, we can select points by clicking and dragging on the plot. Upon `plotly\_selected` the histograms will update to display the distribution of the x and y values of the selected points. The color of the scatter plot will be updated as well to highlight the selected points. For more examples of using `plotly\_selected` and `plotly\_selecting` events, see: https://plotly.com/javascript/lasso-selection/
 ---
@@ -21687,12 +19484,7 @@ Plotly.restyle(graphDiv, 'marker.color', [colors], [0]);
 });
 ---
 name: Using Plotly.js Events
-plot\_url:
-language: plotly\_js
 suite: events
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Plotly graphs emit events prefixed with plotly\_ (i.e. `'plotly\_click'`, `'plotly\_hover'`, `'plotly\_relayout'`) when interacted with (clicked, hovered, zoomed). Event handlers can be bound to events using the `.on` method that is exposed by the plot div object.
 In addition to the event handler, some events emit additional information about the point(s) or plot interacted with. The following documentation organizes Plotly events based on the accessible information emitted with the event: [event data](), [update data](), or [no additional data](). The following page provides a description and example of each Plotly event as well as the structure of the data or update returned with the event.
@@ -21704,20 +19496,14 @@ myDiv.on('plotly\_event', function(){
 name: Event Handlers
 permalink: javascript/plotlyjs-events/
 description: Definitions and examples of how to use Plotly.js event handlers to add additional interactive capabilities to Plotly charts.
-layout: base
-language: plotly\_js
 page\_type: example\_index
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","events" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Afterplot Event
-plot\_url: https://codepen.io/plotly/embed/YeGGdy/?height=500&theme-id=15263&default-tab=result
-language: plotly\_js
 suite: events
 order: 10.2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The event handler: `plotly\_afterplot`, can be used to trigger an event each time a chart is plotted. This also includes re-plotting after the restyling or relayout of a plot.
 Users also have the option of adding a post-plot handler to the plot call with the following syntax: `Plotly.newPlot('myDiv', data, layout, config).then(postPlotHandler);`
@@ -21736,11 +19522,7 @@ console.log('done plotting');
 });
 ---
 name: Overview
-language: plotly\_js
 suite: filled-area-on-map
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 There are three different ways to show a filled area in a tile-based map.
 
@@ -21774,11 +19556,7 @@ width: 600
 Plotly.newPlot("myDiv", data, layout);
 ---
 name: Multiple Filled Areas with a Scattermap trace
-language: plotly\_js
 suite: filled-area-on-map
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example shows how to use `null` in your data to draw multiple filled areas. Such gaps in trace data are unconnected by default, but this can be controlled via the [connectgaps](https://plotly.com/javascript/reference/scattermap/#scattermap-connectgaps) attribute.
 ---
@@ -21798,8 +19576,6 @@ Plotly.newPlot("myDiv", data, layout)
 description: How to make an area on Map using a D3.js-based scattermap.
 display\_as: maps
 has\_thumbnail: true
-language: plotly\_js
-layout: base
 name: Filled Area on Tile Maps
 order: 10
 page\_type: u-guide
@@ -21811,11 +19587,7 @@ thumbnail: thumbnail/area.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: GeoJSON Layers
-language: plotly\_js
 suite: filled-area-on-map
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example shows an area below [water layer](https://plotly.com/javascript/reference/choroplethmap/#choroplethmap-below), and sets geojson object of type feature and geometries of type [MultiPolygon](https://plotly.com/javascript/reference/choroplethmap/#choroplethmap-geojson).
 ---
@@ -21865,11 +19637,7 @@ height: 450, width: 700
 Plotly.newPlot("myDiv", data, layout);
 ---
 name: Lines on an Orthographic Map
-language: plotly\_js
 suite: lines-on-maps
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/globe\_contours.csv', function(err, rows){
 function unpack(rows, key) {
@@ -21933,10 +19701,7 @@ description: How to draw D3.js-based lines, great circles, and contours on maps 
 JavaScript. Lines on maps can show distance between geographic points or be contour
 lines (isolines, isopleths, or isarithms).
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Lines on Maps
-order: 5
 page\_type: example\_index
 permalink: javascript/lines-on-maps/
 redirect\_from: javascript-graphing-library/lines-on-maps/
@@ -21946,11 +19711,7 @@ thumbnail: thumbnail/flight-paths.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: US Flight Paths Map
-language: plotly\_js
 suite: lines-on-maps
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/c34aaa0b1b3cddad335173cb7bc0181897201ee6/2011\_february\_aa\_flight\_paths.csv', function(err, rows){
 function unpack(rows, key) {
@@ -21997,11 +19758,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 });
 ---
 name: London to NYC Great Circle
-language: plotly\_js
 suite: lines-on-maps
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: 'scattergeo',
@@ -22044,11 +19801,7 @@ dtick: 20
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Dark tile
-language: plotly\_js
 suite: tile-county-choropleth
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example uses [zmin and zmax](https://plotly.com/javascript/reference/choroplethmap/#choroplethmap-zmin) to define the lower bound and upper bound of the color domain. If these attributes are not set, Plotly [determines the color domain](https://plotly.com/javascript/reference/heatmap/#heatmap-zauto) based on the input data.
 ---
@@ -22061,11 +19814,7 @@ var layout = {map: {style: "dark", center: {lon: -110, lat: 50}, zoom: 0.8}, wid
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Streets Tile
-language: plotly\_js
 suite: tile-county-choropleth
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example sets `geojson object` of type `feature` and geometries of type 'Polygon'. For more information see [geojson attribute](https://plotly.com/javascript/reference/choroplethmap/#choroplethmap-geojson) in the reference page.
 As you see, the scattermap trace is above the Choropleth map trace. To set the Choropleth map trace above all the other traces you should set [below attribute](https://plotly.com/javascript/reference/choroplethmap/#choroplethmap-below).
@@ -22085,10 +19834,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a tile-based choropleth map in JavaScript. A Choropleth map shades geographic regions by value.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Choropleth Tile Map
-order: 4
 page\_type: example\_index
 permalink: javascript/tile-county-choropleth/
 redirect\_from: javascript/mapbox-county-choropleth/
@@ -22098,11 +19844,7 @@ thumbnail: thumbnail/mapbox-choropleth.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Tile
-language: plotly\_js
 suite: tile-county-choropleth
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This tutorial uses [Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/) to make a map of US states using [vector tiles](https://plotly.com/javascript/map-layers/).
 ---
@@ -22115,11 +19857,7 @@ width: 600, height:400};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Basic Tile using Mapbox
-language: plotly\_js
 suite: tile-county-choropleth
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 **> Mapbox traces are deprecated and may be removed in a future version of Plotly.js.**
 Earlier examples use traces that render with [Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/).
@@ -22136,11 +19874,7 @@ var config = {mapboxAccessToken: "your access token"};
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: USA Bubble Map
-language: plotly\_js
 suite: bubble-maps
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2014\_us\_cities.csv', function(err, rows){
 function unpack(rows, key) {
@@ -22195,11 +19929,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 });
 ---
 name: Europe Bubble Map
-language: plotly\_js
 suite: bubble-maps
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: 'scattergeo',
@@ -22233,10 +19963,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based bubble map in JavaScript. A bubble map overlays
 a bubble chart on a map.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Bubble Maps
-order: 6
 page\_type: example\_index
 permalink: javascript/bubble-maps/
 redirect\_from: javascript-graphing-library/bubble-maps/
@@ -22246,11 +19973,8 @@ thumbnail: thumbnail/bubble-map.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Example (Mapbox)
-language: plotly\_js
 suite: scatter-tile-maps
 order: 10
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 **> Mapbox traces are deprecated and may be removed in a future version of Plotly.js.**
 Earlier examples use traces that render with [Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/).
@@ -22286,11 +20010,7 @@ mapboxAccessToken: "your access token"
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Adding Colorscale to Maps
-language: plotly\_js
 suite: scatter-tile-maps
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2015\_06\_30\_precipitation.csv', function(err, rows){
 function unpack(rows, key) {
@@ -22353,11 +20073,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Multiple Markers
-language: plotly\_js
 suite: scatter-tile-maps
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/bcdunbar/datasets/master/meteorites\_subset.csv', function(err, rows){
 var classArray = unpack(rows, 'class');
@@ -22417,11 +20133,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Adding Lines to Maps
-language: plotly\_js
 suite: scatter-tile-maps
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/c34aaa0b1b3cddad335173cb7bc0181897201ee6/2011\_february\_aa\_flight\_paths.csv', function(err, rows){
 function unpack(rows, key) {
@@ -22479,11 +20191,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 });
 ---
 name: Set Marker Symbols
-language: plotly\_js
 suite: scatter-tile-maps
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example uses [symbol attribute](https://plotly.com/javascript/reference/scattermap/#scattermap-marker-symbol) to set the marker symbol.
 ---
@@ -22505,11 +20213,7 @@ showlegend: false, height: 500, width: 700
 Plotly.newPlot("myDiv", data, layout);
 ---
 name: Basic Example
-language: plotly\_js
 suite: scatter-tile-maps
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type:'scattermap',
@@ -22538,10 +20242,7 @@ Plotly.newPlot('myDiv', data, layout)
 ---
 description: How to make scatter plots on tile maps in Plotly.JS
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Scatter Plots on Tile Maps
-order: 8
 permalink: javascript/scatter-tile-maps/
 redirect\_from: javascript/scattermapbox/
 thumbnail: thumbnail/scatter-mapbox.jpg
@@ -22551,10 +20252,7 @@ thumbnail: thumbnail/scatter-mapbox.jpg
 ---
 description: How to migrate from Mapbox traces to Maplibre traces.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Migrate to Maplibre
-order: 1
 page\_type: example\_index
 permalink: javascript/maplibre-migration/
 thumbnail: thumbnail/area.jpg
@@ -22598,12 +20296,7 @@ Note that Mapbox API keys are no longer required for Plotly-provided styles, but
 maps remains supported with the existing API.
 ---
 name: Light Tile
-language: plotly\_js
-layout: base
 suite: tile-density-heatmaps
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {type: "densitymap", lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2],
@@ -22615,12 +20308,7 @@ var layout = {map: {style: 'light', center: {lat: 20}}, width: 600, height: 400}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Outdoors Tile
-language: plotly\_js
-layout: base
 suite: tile-density-heatmaps
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv',
 function(err, rows){function unpack(rows, key) {return rows.map(function(row){ return row[key];
@@ -22639,10 +20327,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a tile-based density heatmap in JavaScript. A density heatmap
 uses a variable binding expression to display population density.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Tile Density Heatmap
-order: 3
 page\_type: example\_index
 permalink: javascript/tile-density-heatmaps/
 redirect\_from: javascript/mapbox-density-heatmaps/
@@ -22652,12 +20337,7 @@ thumbnail: thumbnail/mapbox-density.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Light Tile (Mapbox) - Requires Token
-language: plotly\_js
-layout: base
 suite: tile-density-heatmaps
-order: 7
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 \*\*Mapbox traces are deprecated and may be removed in a future version of Plotly.js.\*\*
 Earlier examples use traces that render with [Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/).
@@ -22675,12 +20355,7 @@ var config = {mapboxAccessToken: "your access token"};
 Plotly.newPlot('myDiv', data, layout, config);
 ---
 name: Stamen Terrain Tile
-language: plotly\_js
 suite: tile-density-heatmaps
-order: 5
-sitemap: false
-layout: base
-arrangement: horizontal
 markdown\_content: |
 ---
 var data = [{type: 'densitymapbox', lon: [10, 20, 30], lat: [15, 25, 35], z: [1, 3, 2]}];
@@ -22688,22 +20363,14 @@ var layout = {width: 600, height: 400, mapbox: {style: 'https://tiles.stadiamaps
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Using "layout.map.layers" to Specify a Base Map
-language: plotly\_js
 suite: map-layers
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 If you have access to your own private tile servers, or wish to use a tile server not included in the list above, the recommended approach is to set layout.map.style to "white-bg" and to use layout.map.layers with below to specify a custom base map.
 If you omit the below attribute when using this approach, your data will likely be hidden by fully-opaque raster tiles!
 ---
 ---
 name: Dark tiles
-language: plotly\_js
 suite: map-layers
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var url = "https://maplibre.org/maplibre-gl-js/docs/assets/significant-earthquakes-2015.geojson";
 d3.json(url, (err, raw) => {
@@ -22721,11 +20388,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Base Tiles from the USGS
-language: plotly\_js
 suite: map-layers
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here is an example of a map which uses a public USGS imagery map, specified in layout.map.layers, and which is rendered below the data layer.
 ---
@@ -22767,11 +20430,7 @@ Plotly.newPlot("myDiv", data, layout);
 );
 ---
 name: Base Tiles from the USGS, radar overlay from Environment Canada
-language: plotly\_js
 suite: map-layers
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here is the same example, with in addition, a WMS layer from Environment Canada which displays near-real-time radar imagery in partly-transparent raster tiles, rendered above the go.Scattermap trace, as is the default.
 ---
@@ -22807,11 +20466,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: How Layers work in Tile-based Maps
-language: plotly\_js
 suite: map-layers
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 If your figure contains one or more traces of type `Scattermap`, `Choroplethmap` or `Densitymap`, the `layout` object in your figure contains configuration information for the map itself. The map is composed of various layers, of three different types.
 
@@ -22822,11 +20477,7 @@ If your figure contains one or more traces of type `Scattermap`, `Choroplethmap`
 ---
 ---
 name: OpenStreetMap tiles
-language: plotly\_js
 suite: map-layers
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Here is a simple map rendered with "open-street-map" tiles.
 ---
@@ -22857,11 +20508,8 @@ Plotly.newPlot("myDiv", data, layout);
 );
 ---
 name: Mapbox Maps and Access Tokens
-language: plotly\_js
 suite: map-layers
 order: 10
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 **> Mapbox traces are deprecated and may be removed in a future version of Plotly.js.**
 The word "mapbox" in the trace names and `layout.mapbox` refers to the Mapbox GL JS open-source library.
@@ -22886,10 +20534,7 @@ The accepted values for `layout.mapbox.style` are one of the following tiles.
 ---
 description: How to make a tile-based maps in JavaScript with various base layers.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Tile Map Layers
-order: 2
 page\_type: example\_index
 permalink: javascript/tile-map-layers/
 redirect\_from: javascript/mapbox-layers/
@@ -22899,11 +20544,7 @@ thumbnail: thumbnail/mapbox-layers.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: US Airports Map
-language: plotly\_js
 suite: scatter-plots-on-maps
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2011\_february\_us\_airport\_traffic.csv', function(err, rows){
 function unpack(rows, key) {
@@ -22956,11 +20597,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 });
 ---
 name: Canadian Cities Map
-language: plotly\_js
 suite: scatter-plots-on-maps
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: 'scattergeo',
@@ -23024,11 +20661,7 @@ subunitcolor: '#d3d3d3'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: North America Precipitation Map
-language: plotly\_js
 suite: scatter-plots-on-maps
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2015\_06\_30\_precipitation.csv', function(err, rows){
 function unpack(rows, key) {
@@ -23105,10 +20738,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make D3.js-based scatter plots on maps in JavaScript. Scatter
 plots on maps highlight geographic areas and can be colored by value.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Scatter Plots on Maps
-order: 7
 permalink: javascript/scatter-plots-on-maps/
 redirect\_from: javascript-graphing-library/scatter-plots-on-maps/
 thumbnail: thumbnail/scatter-plot-on-maps.jpg
@@ -23120,7 +20750,6 @@ permalink: javascript/maps/
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of how to make maps.
 name: Maps
 layout: langindex
-language: plotly\_js
 display\_as: maps
 thumbnail: thumbnail/mixed.jpg
 ---
@@ -23135,11 +20764,7 @@ thumbnail: thumbnail/mixed.jpg
 {% include posts/documentation\_eg.html %}
 ---
 name: Choropleth Map of Florida Counties Colored by Political Party
-language: plotly\_js
 suite: choropleth-maps
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/florida-red-data.json', function(redjson) {
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/florida-blue-data.json', function(bluejson) {
@@ -23178,11 +20803,7 @@ color: 'rgba(40,0,113,0.8)'
 });
 ---
 name: USA Choropleth Map
-language: plotly\_js
 suite: choropleth-maps
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2011\_us\_ag\_exports.csv', function(err, rows){
 function unpack(rows, key) {
@@ -23226,10 +20847,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 description: How to make a D3.js-based choropleth map in JavaScript. A choropleth
 map shades geographic regions by value.
 display\_as: maps
-language: plotly\_js
-layout: base
 name: Choropleth Maps
-order: 9
 permalink: javascript/choropleth-maps/
 redirect\_from: javascript-graphing-library/choropleth-maps/
 thumbnail: thumbnail/choropleth.jpg
@@ -23238,11 +20856,7 @@ thumbnail: thumbnail/choropleth.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Choropleth Map of 2014 US Population by State
-language: plotly\_js
 suite: choropleth-maps
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2014\_usa\_states.csv', function(err, rows){
 function unpack(rows, key) {
@@ -23274,11 +20888,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 });
 ---
 name: World Choropleth Map (Robinson Projection)
-language: plotly\_js
 suite: choropleth-maps
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2010\_alcohol\_consumption\_by\_country.csv', function(err, rows){
 function unpack(rows, key) {
@@ -23305,11 +20915,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 });
 ---
 name: Country GDP Choropleth Map
-language: plotly\_js
 suite: choropleth-maps
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/2014\_world\_gdp\_with\_codes.csv', function(err, rows){
 function unpack(rows, key) {
@@ -23358,10 +20964,7 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 ---
 description: How to make a graph with D3.js-based multiple axes in javascript.
 display\_as: multiple\_axes
-language: plotly\_js
-layout: base
 name: Multiple Axes
-order: 6
 permalink: javascript/multiple-axes/
 redirect\_from: javascript-graphing-library/multiple-axes/
 thumbnail: thumbnail/multiple-axes.jpg
@@ -23370,11 +20973,7 @@ thumbnail: thumbnail/multiple-axes.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Two Y-Axes
-language: plotly\_js
 suite: multiple-axes
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -23410,11 +21009,7 @@ side: 'right'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Multiple Y-Axes
-language: plotly\_js
 suite: multiple-axes
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -23497,7 +21092,6 @@ permalink: javascript/subplot-charts/
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of how to make subplots, insets, and multiple axes charts.
 name: Subplots
 layout: langindex
-language: plotly\_js
 display\_as: multiple\_axes
 thumbnail: thumbnail/mixed.jpg
 ---
@@ -23513,10 +21107,7 @@ thumbnail: thumbnail/mixed.jpg
 ---
 description: How to make an inset graph in D3.js-based javascript charts.
 display\_as: multiple\_axes
-language: plotly\_js
-layout: base
 name: Inset Plots
-order: 2
 page\_type: example\_index
 permalink: javascript/insets/
 redirect\_from: javascript-graphing-library/insets/
@@ -23526,11 +21117,7 @@ thumbnail: thumbnail/insets.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Simple Inset Graph
-language: plotly\_js
 suite: insets
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -23559,10 +21146,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make 3D Subplots in javascript.
 display\_as: multiple\_axes
-language: plotly\_js
-layout: base
 name: 3D Subplots
-order: 3
 page\_type: example\_index
 permalink: javascript/3d-subplots/
 redirect\_from: javascript-graphing-library/3d-subplots/
@@ -23572,11 +21156,7 @@ thumbnail: thumbnail/3d-subplots.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Multiple 3D Subplots
-language: plotly\_js
 suite: 3d-subplots
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 function getrandom(num , mul) {
 var value = [ ];
@@ -23669,11 +21249,7 @@ pad: 0
 Plotly.newPlot('myDiv', [trace1,trace2,trace3,trace4,trace5], layout);
 ---
 name: Table and Chart Subplot
-language: plotly\_js
 suite: subplot\_table
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/Mining-BTC-180.csv", function(err, rows){
 function unpack(rows, key) {
@@ -23781,10 +21357,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based table subplots in javascript.
 display\_as: multiple\_axes
-language: plotly\_js
-layout: base
 name: Table Subplots
-order: 5
 page\_type: example\_index
 permalink: javascript/table-subplots/
 thumbnail: thumbnail/table\_subplots.jpg
@@ -23793,11 +21366,7 @@ thumbnail: thumbnail/table\_subplots.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Subplots with Shared Axes
-language: plotly\_js
 suite: subplots
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -23839,10 +21408,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make D3.js-based subplots in Plotly.js. Seven examples of stacked,
 custom-sized, and gridded subplots.
 display\_as: multiple\_axes
-language: plotly\_js
-layout: base
 name: Subplots
-order: 1
 page\_type: example\_index
 permalink: javascript/subplots/
 redirect\_from: javascript-graphing-library/subplots/
@@ -23852,11 +21418,7 @@ thumbnail: thumbnail/subplots.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Stacked Subplots with a Shared X-Axis
-language: plotly\_js
 suite: subplots
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2],
@@ -23885,11 +21447,7 @@ yaxis3: {domain: [0.66, 1]}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Simple Subplot
-language: plotly\_js
 suite: subplots
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -23910,11 +21468,7 @@ grid: {rows: 1, columns: 2, pattern: 'independent'},
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Multiple Subplots
-language: plotly\_js
 suite: subplots
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -23949,11 +21503,7 @@ grid: {rows: 2, columns: 2, pattern: 'independent'},
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Multiple Custom Sized Subplots
-language: plotly\_js
 suite: subplots
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2],
@@ -24024,11 +21574,7 @@ anchor: 'x4'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Custom Sized Subplot
-language: plotly\_js
 suite: subplots
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3],
@@ -24051,11 +21597,7 @@ xaxis2: {domain: [0.8, 1]}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Stacked Subplots
-language: plotly\_js
 suite: subplots
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2],
@@ -24088,10 +21630,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make Mixed Subplots in javascript.
 display\_as: multiple\_axes
-language: plotly\_js
-layout: base
 name: Mixed Subplots
-order: 4
 page\_type: example\_index
 permalink: javascript/mixed-subplots/
 thumbnail: thumbnail/mixed\_subplot.JPG
@@ -24100,11 +21639,7 @@ thumbnail: thumbnail/mixed\_subplot.JPG
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Mixed Subplots
-language: plotly\_js
 suite: mixed-subplots
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/volcano\_db.csv', function(err, rows){
 function unpack(rows, key) {
@@ -24239,8 +21774,6 @@ Plotly.newPlot("myDiv", data, layout, {showLink: false});
 name: Getting Started
 permalink: javascript/getting-started/
 description: Getting Started with plotly
-layout: base
-language: plotly\_js
 redirect\_from: javascript-graphing-library/getting-started/
 ---
 
@@ -24307,7 +21840,6 @@ permalink: javascript/3d-charts/
 description: Plotly.js makes interactive, publication-quality graphs online. Examples of how to make 3D graphs such as 3D scatter and surface charts.
 name: 3D Charts
 layout: langindex
-language: plotly\_js
 display\_as: 3d\_charts
 thumbnail: thumbnail/mixed.jpg
 ---
@@ -24322,11 +21854,7 @@ thumbnail: thumbnail/mixed.jpg
 {% include posts/documentation\_eg.html %}
 ---
 name: Basic 3D Cone
-language: plotly\_js
 suite: 3dcone
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "cone",
@@ -24343,11 +21871,7 @@ var layout = {
 Plotly.newPlot('myDiv',data,layout)
 ---
 name: Multiple 3D Cone
-language: plotly\_js
 suite: 3dcone
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "cone",
@@ -24378,11 +21902,7 @@ width: 800
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: 3D Cone Lighting
-language: plotly\_js
 suite: 3dcone
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "cone",
@@ -24502,10 +22022,7 @@ Plotly.newPlot('myDiv',data,layout)
 ---
 description: How to make 3D cone plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Cone Plots
-order: 8
 permalink: javascript/cone-plot/
 redirect\_from: javascript/3d-cone/
 thumbnail: thumbnail/3dcone.png
@@ -24514,11 +22031,7 @@ thumbnail: thumbnail/3dcone.png
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Trisurf Plot
-language: plotly\_js
 suite: trisurf
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 function trisurf(Tri, X, Y, Z, C) {
 var data = {
@@ -24554,10 +22067,7 @@ trisurf(
 ---
 description: How to make Trisurf in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: Tri-Surf Plots
-order: 6
 permalink: javascript/trisurf/
 thumbnail: thumbnail/trisurf.jpg
 ---
@@ -24565,11 +22075,7 @@ thumbnail: thumbnail/trisurf.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Extending the Cube Example for Boxes
-language: plotly\_js
 suite: trisurf
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 // Note x, y, z define the vertices for a unit cube
 var x = [0, 0, 1, 1, 0, 0, 1, 1];
@@ -24628,11 +22134,7 @@ type: 'mesh3d'
 Plotly.newPlot('myDiv', [data]);
 ---
 name: Trisurf Cube
-language: plotly\_js
 suite: trisurf
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var x = [0, 0, 1, 1, 0, 0, 1, 1]
 var y = [0, 1, 1, 0, 0, 1, 1, 0]
@@ -24665,11 +22167,7 @@ type: 'mesh3d'
 Plotly.newPlot('myDiv', [data])
 ---
 name: Multiple 3D Surface Plots
-language: plotly\_js
 suite: 3d-surface
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 z1 = [
 [8.83,8.89,8.81,8.87,8.9,8.87],
@@ -24710,11 +22208,7 @@ var data\_z3 = {z: z3, showscale: false, opacity:0.9, type: 'surface'};
 Plotly.newPlot('myDiv', [data\_z1, data\_z2, data\_z3]);
 ---
 name: Topographical 3D Surface Plot
-language: plotly\_js
 suite: 3d-surface
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/api\_docs/mt\_bruno\_elevation.csv', function(err, rows){
 function unpack(rows, key) {
@@ -24748,10 +22242,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make 3D surface plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Surface Plots
-order: 3
 page\_type: example\_index
 permalink: javascript/3d-surface-plots/
 redirect\_from: javascript-graphing-library/3d-surface-plots/
@@ -24761,11 +22252,8 @@ thumbnail: thumbnail/3d-surface.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Surface Plot With Contours
-language: plotly\_js
 suite: 3d-surface
 order: 0.5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Display and customize contour data for each axis using the `contours` attribute ([reference](/javascript/reference/surface/#surface-contours)).
 ---
@@ -24809,11 +22297,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: 3D Scatter Plot
-language: plotly\_js
 suite: 3d-scatter
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-scatter.csv', function(err, rows){
 function unpack(rows, key) {
@@ -24854,10 +22338,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make 3D scatter plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Scatter Plots
-order: 1
 page\_type: example\_index
 permalink: javascript/3d-scatter-plots/
 redirect\_from: javascript-graphing-library/3d-scatter-plots/
@@ -24867,11 +22348,7 @@ thumbnail: thumbnail/3d-scatter.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: 3D Point Clustering
-language: plotly\_js
 suite: 3d-cluster
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/alpha\_shape.csv', function(err, rows){
 function unpack(rows, key) {
@@ -24944,10 +22421,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a 3D Cluster Graph in JavaScript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Cluster Graph
-order: 7
 permalink: javascript/3d-point-clustering/
 redirect\_from: javascript-graphing-library/3d-point-clustering/
 thumbnail: thumbnail/3d-clusters.jpg
@@ -24957,10 +22431,7 @@ thumbnail: thumbnail/3d-clusters.jpg
 ---
 description: How to make a D3.js-based ribbon plot in JavaScript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: Ribbon Plots
-order: 2
 page\_type: example\_index
 permalink: javascript/ribbon-plots/
 redirect\_from: javascript-graphing-library/ribbon-plots/
@@ -24970,11 +22441,7 @@ thumbnail: thumbnail/ribbon-plot.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Ribbon Plot
-language: plotly\_js
 suite: ribbon-plot
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.json('https://raw.githubusercontent.com/plotly/datasets/master/3d-ribbon.json', function(figure){
 var trace1 = {
@@ -25041,11 +22508,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: 3D Mesh Plot with Alphahull
-language: plotly\_js
 suite: 3d-mesh
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 // Generating random data..
 a=[]; b=[]; c=[];
@@ -25073,11 +22536,7 @@ z: c,
 Plotly.newPlot('myDiv', data);
 ---
 name: 3D Mesh Cube
-language: plotly\_js
 suite: 3d-mesh
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var intensity = [0, 0.14285714285714285, 0.2857142857142857, 0.42857142857142855, 0.5714285714285714, 0.7142857142857143, 0.8571428571428571, 1];
 var data = [{
@@ -25100,10 +22559,7 @@ Plotly.newPlot('myDiv', data, {});
 ---
 description: How to make 3D mesh plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Mesh Plots
-order: 4
 page\_type: example\_index
 permalink: javascript/3d-mesh/
 thumbnail: thumbnail/3d-mesh.jpg
@@ -25112,11 +22568,8 @@ thumbnail: thumbnail/3d-mesh.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Simple 3D Mesh Plot
-language: plotly\_js
 suite: 3d-mesh
-order: 0
 sitemap: true
-arrangement: horizontal
 ---
 // Generating random data..
 a=[]; b=[]; c=[];
@@ -25143,11 +22596,7 @@ z: c,
 Plotly.newPlot('myDiv', data);
 ---
 name: 3D Mesh Tetrahedron
-language: plotly\_js
 suite: 3d-mesh
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "mesh3d",
@@ -25168,11 +22617,7 @@ colorscale: [
 Plotly.newPlot('myDiv', data, {});
 ---
 name: 3D Line + Markers Plot
-language: plotly\_js
 suite: 3d-line
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var pointCount = 31;
 var i, r;
@@ -25208,11 +22653,7 @@ cmax: 50
 ]);
 ---
 name: 3D Line Plot
-language: plotly\_js
 suite: 3d-line
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/3d-line1.csv', function(err, rows){
 function unpack(rows, key) {
@@ -25240,11 +22681,7 @@ height: 640
 });
 ---
 name: 3D Line Spiral Plot
-language: plotly\_js
 suite: 3d-line
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var pointCount = 3142;
 var i, r;
@@ -25274,11 +22711,7 @@ colorscale: 'Viridis'}
 }]);
 ---
 name: 3D Random Walk Plot
-language: plotly\_js
 suite: 3d-line
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/\_3d-line-plot.csv', function(err, rows){
 function unpack(rows, key) {
@@ -25362,10 +22795,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make 3D line plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Line Plots
-order: 5
 page\_type: example\_index
 permalink: javascript/3d-line-plots/
 redirect\_from: javascript-graphing-library/3d-line-plots/
@@ -25375,11 +22805,7 @@ thumbnail: thumbnail/3d-line.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Isosurface Plot
-language: plotly\_js
 suite: isosurface
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -25408,11 +22834,7 @@ z: 0.96
 Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
 ---
 name: Multiple Isosurfaces with Caps
-language: plotly\_js
 suite: isosurface
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/clebsch-cubic.csv', function(err, rows){
 function unpack(rows, key) {
@@ -25452,8 +22874,6 @@ Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
 ---
 description: How to make 3D isosurface plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Isosurface Plots
 order: 10
 permalink: javascript/3d-isosurface-plots/
@@ -25463,11 +22883,7 @@ thumbnail: thumbnail/isosurface.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Isosurface with Additional Slices
-language: plotly\_js
 suite: isosurface
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/clebsch-cubic.csv', function(err, rows){
 function unpack(rows, key) {
@@ -25509,11 +22925,7 @@ Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
 });
 ---
 name: Starting Position and Segments
-language: plotly\_js
 suite: streamtube
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/streamtube-wind.csv', function(err, rows){
 function unpack(rows, key) {
@@ -25558,21 +22970,13 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Introduction
-language: plotly\_js
 suite: streamtube
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In streamtube plots, attributes inlcude `x`, `y`, and `z`, which set the coorindates of the vector field, and `u`, `v`, and `w`, which sets the x, y, and z components of the vector field. Additionally, you can use `starts` to determine the streamtube's starting position. Lastly, `maxdisplayed` determines the maximum segments displayed in a streamtube.
 ---
 ---
 name: Basic Streamtube Plot
-language: plotly\_js
 suite: streamtube
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/streamtube-basic.csv', function(err, rows){
 function unpack(rows, key) {
@@ -25606,10 +23010,7 @@ Plotly.newPlot('myDiv', data, layout)
 ---
 description: How to make 3D streamtube plots in javascript.
 display\_as: 3d\_charts
-language: plotly\_js
-layout: base
 name: 3D Streamtube Plots
-order: 9
 permalink: javascript/streamtube-plot/
 thumbnail: thumbnail/streamtube.jpg
 ---
@@ -25656,7 +23057,6 @@ thumbnail: thumbnail/mixed.jpg
 language: plotly_js
 page_type: example_index
 display_as: **SEE BELOW
-order: 5
 ---
   {% assign examples = site.posts | where:"language","plotly_js" | where:"suite","add-chart-type-or-topic"| sort: "order" %}
   {% include posts/auto_examples.html examples=examples %}
@@ -25678,9 +23078,7 @@ description: How to make a D3.js-based bar chart in javascript. Seven examples o
 grouped, stacked, overlaid, and colored bar charts.
 display_as: basic
 language: plotly_js
-layout: base
 name: Bar Charts
-order: 3
 page_type: example_index
 permalink: javascript/bar-charts/
 redirect_from: javascript-graphing-library/bar-charts/
@@ -25772,12 +23170,9 @@ permalink: https://dash.plotly.com/?/
 description: Analytical Apps with Dash
 name: Analytical Apps with Dash
 thumbnail: thumbnail/dash_apps.png
-layout: base
 page_type: example_index
 language: plotly_js
 display_as: file_settings
-order: 5
-sitemap: false
 ---
 
 ---
@@ -25785,7 +23180,6 @@ name: Is Plotly.js Free?
 permalink: javascript/is-plotly-free/
 redirect_from: javascript/open-source-announcement/
 description: Plotly's open-source graphing libraries are free to use, work offline and don't require any account registration. Plotly also has a commercial offering called Dash Enterprise.
-layout: base
 no_in_language: true
 language: plotly_js
 ---
@@ -25816,11 +23210,7 @@ which use tiles from a cloud-hosted service, such as Open Street Maps or Mapbox,
 
 ---
 name: Adding Names to Line and Scatter Plot
-language: plotly\_js
 suite: line-plots
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -25847,11 +23237,8 @@ title: {text: 'Adding Names to Line and Scatter Plot'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Connect Gaps Between Data
-language: plotly\_js
 suite: line-plots
 order: 12
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 5, 6, 7, 8],
@@ -25875,11 +23262,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Styling Line Plot
-language: plotly\_js
 suite: line-plots
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 trace1 = {
 type: 'scatter',
@@ -25911,11 +23294,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Line and Scatter Plot
-language: plotly\_js
 suite: line-plots
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -25939,11 +23318,7 @@ title: {text: 'Line and Scatter Plot'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Line Shape Options for Interpolation
-language: plotly\_js
 suite: line-plots
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 5],
@@ -26011,11 +23386,7 @@ yref: 'paper'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Graph and Axes Titles
-language: plotly\_js
 suite: line-plots
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -26055,10 +23426,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make D3.js-based line charts in JavaScript.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Line Charts
-order: 2
 page\_type: example\_index
 permalink: javascript/line-charts/
 redirect\_from: javascript-graphing-library/line-charts/
@@ -26068,11 +23436,8 @@ thumbnail: thumbnail/line-plots.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Labelling Lines with Annotations
-language: plotly\_js
 suite: line-plots
 order: 13
-sitemap: false
-arrangement: horizontal
 ---
 var xData = [
 [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013],
@@ -26216,11 +23581,7 @@ layout.annotations.push(result, result2);
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Colored and Styled Scatter Plot
-language: plotly\_js
 suite: line-plots
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [52698, 43117],
@@ -26296,11 +23657,8 @@ showline: false
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Line Dash
-language: plotly\_js
 suite: line-plots
 order: 10
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 5],
@@ -26366,11 +23724,7 @@ size: 16
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Line and Scatter Styling
-language: plotly\_js
 suite: line-plots
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -26412,11 +23766,7 @@ text: 'Line and Scatter Styling'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Basic Line Plot
-language: plotly\_js
 suite: line-plots
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -26432,11 +23782,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data);
 ---
 name: Colored and Styled Bar Chart
-language: plotly\_js
 suite: bar
-order: 9
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012],
@@ -26487,11 +23833,8 @@ bargroupgap: 0.1
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Grouped Bar Chart with Direct Labels
-language: plotly\_js
 suite: bar
 order: 5.5
-sitemap: false
-arrangement: horizontal
 ---
 var xValue = ['Product A', 'Product B', 'Product C'];
 var yValue = [20, 14, 23];
@@ -26536,11 +23879,7 @@ text: 'January 2013 Sales Report'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Rounded Corners on Bars
-language: plotly\_js
 suite: bar
-order: 9
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 To create rounded corners on bars, set `barcornerradius` on the layout to a number of pixels, or a string with a percentage of the bar width, for example, 25%.
 You can also configure traces individually with `marker.cornerradius` on the trace.
@@ -26584,11 +23923,7 @@ barcornerradius: 15,
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Customizing Individual Bar Widths
-language: plotly\_js
 suite: bar
-order: 8
-sitemap: false
-arrangement: horizontal
 ---
 var trace0 = {
 type: 'bar',
@@ -26600,11 +23935,8 @@ var data = [trace0]
 Plotly.newPlot('myDiv', data);
 ---
 name: Waterfall Bar Chart
-language: plotly\_js
 suite: bar
 order: 10
-sitemap: false
-arrangement: horizontal
 ---
 // Base
 var xData = ['Product
@@ -26697,11 +24029,7 @@ layout.annotations.push(result);
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Bar Chart with Hover Text
-language: plotly\_js
 suite: bar
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['Liam', 'Sophie', 'Jacob', 'Mia', 'William', 'Olivia'],
@@ -26733,11 +24061,8 @@ bargap :0.05
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Bar Chart with Relative Barmode
-language: plotly\_js
 suite: bar
 order: 11
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -26785,10 +24110,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based bar chart in javascript. Seven examples of
 grouped, stacked, overlaid, and colored bar charts.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Bar Charts
-order: 3
 page\_type: example\_index
 permalink: javascript/bar-charts/
 redirect\_from: javascript-graphing-library/bar-charts/
@@ -26798,11 +24120,8 @@ thumbnail: thumbnail/bar.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Customizing Individual Bar Base
-language: plotly\_js
 suite: bar
 order: 8.5
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -26829,11 +24148,7 @@ name: 'revenue'
 Plotly.newPlot('myDiv', data);
 ---
 name: Customizing Individual Bar Colors
-language: plotly\_js
 suite: bar
-order: 7
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['Feature A', 'Feature B', 'Feature C', 'Feature D', 'Feature E'],
@@ -26852,11 +24167,7 @@ text: 'Least Used Feature'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Bar Chart with Rotated Labels
-language: plotly\_js
 suite: bar
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
@@ -26891,11 +24202,7 @@ barmode: 'group'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Stacked Bar Chart
-language: plotly\_js
 suite: bar
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['giraffes', 'orangutans', 'monkeys'],
@@ -26914,11 +24221,7 @@ var layout = {barmode: 'stack'};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Basic Bar Chart
-language: plotly\_js
 suite: bar
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -26930,11 +24233,7 @@ type: 'bar'
 Plotly.newPlot('myDiv', data);
 ---
 name: Grouped Bar Chart
-language: plotly\_js
 suite: bar
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['giraffes', 'orangutans', 'monkeys'],
@@ -26953,11 +24252,7 @@ var layout = {barmode: 'group'};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Bar Chart with Direct Labels
-language: plotly\_js
 suite: bar
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var xValue = ['Product A', 'Product B', 'Product C'];
 var yValue = [20, 14, 23];
@@ -26987,11 +24282,7 @@ barmode: 'stack'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: WebGL with 1 Million points
-language: plotly\_js
 suite: webgl-vs-svg
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 function gaussianRand() {
 var rand = 0;
@@ -27023,11 +24314,7 @@ y: Y
 Plotly.newPlot('myDiv', data)
 ---
 name: WebGL with many traces
-language: plotly\_js
 suite: webgl-vs-svg
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 function gaussianRand() {
 var rand = 0;
@@ -27063,8 +24350,6 @@ Plotly.newPlot('myDiv', data = data, layout = layout)
 description: Implement WebGL for increased speed, improved interactivity, and the
 ability to plot even more data!
 display\_as: basic
-language: plotly\_js
-layout: base
 name: WebGL vs SVG
 order: 14
 permalink: javascript/webgl-vs-svg/
@@ -27085,11 +24370,7 @@ To use it, add the following script on your page:
 ```
 ---
 name: WebGL with 100,000 points
-language: plotly\_js
 suite: webgl-vs-svg
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 function gaussianRand() {
 var rand = 0;
@@ -27122,10 +24403,7 @@ Plotly.newPlot('myDiv', data)
 description: How to make a D3.js-based filled area plot in javascript. An area chart
 displays a solid color between the traces of a graph.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Filled Area Plots
-order: 7
 permalink: javascript/filled-area-plots/
 redirect\_from: javascript-graphing-library/filled-area-plots/
 thumbnail: thumbnail/area1.jpg
@@ -27134,11 +24412,8 @@ thumbnail: thumbnail/area1.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Normalized Stacked Area Chart
-language: plotly\_js
 suite: area
 order: 2.1
-sitemap: false
-arrangement: horizontal
 ---
 var plotDiv = document.getElementById('plot');
 var traces = [
@@ -27151,22 +24426,15 @@ Plotly.newPlot('myDiv', traces, {title: {text: 'Normalized stacked and filled li
 name: Filled-Area Animation
 permalink: javascript/filled-area-animation/
 description: How to make an animated filled-area plot with Plotly JS
-layout: base
 thumbnail: thumbnail/apple\_stock\_animation.gif
-language: plotly\_js
 page\_type: example\_index
 display\_as: animations
-order: 3
 ---
 {% assign examples = site.posts | where:"language","plotly\_js" | where:"suite","filled-area-animations" | sort: "order" %}
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Select Hover Points
-language: plotly\_js
 suite: area
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [
 {
@@ -27207,11 +24475,7 @@ range: [0,3]
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Stacked Area Chart
-language: plotly\_js
 suite: area
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var plotDiv = document.getElementById('plot');
 var traces = [
@@ -27222,11 +24486,7 @@ var traces = [
 Plotly.newPlot('myDiv', traces, {title: {text: 'stacked and filled line chart'}});
 ---
 name: Basic Overlaid Area Chart
-language: plotly\_js
 suite: area
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -27244,11 +24504,7 @@ var data = [trace1, trace2];
 Plotly.newPlot('myDiv', data);
 ---
 name: Overlaid Area Chart Without Boundary Lines
-language: plotly\_js
 suite: area
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -27275,10 +24531,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based sunburst chart in javascript. Visualize hierarchical
 data spanning outward radially from root to leaves.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Sunburst Charts
-order: 9
 permalink: javascript/sunburst-charts/
 thumbnail: thumbnail/sunburst.gif
 ---
@@ -27287,11 +24540,7 @@ thumbnail: thumbnail/sunburst.gif
 See [https://plotly/.com/javascript/reference/sunburst](https://plotly.com/javascript/reference/sunburst)/ for more information and chart attribute options!
 ---
 name: Basic Sunburst Chart
-language: plotly\_js
 suite: sunburst
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "sunburst",
@@ -27310,11 +24559,7 @@ height: 500
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Sunburst with Repeated Labels
-language: plotly\_js
 suite: sunburst
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: "sunburst",
@@ -27354,11 +24599,7 @@ sunburstcolorway:["#636efa","#ef553b","#00cc96"],
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Large Number of Slices
-language: plotly\_js
 suite: sunburst
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/coffee-flavors.csv', function(err, rows){
 function unpack(rows, key) {
@@ -27385,11 +24626,7 @@ Plotly.newPlot('myDiv', data, layout, {showSendToCloud: true});
 })
 ---
 name: Control Text Orientation Inside Sunburst Chart Sectors
-language: plotly\_js
 suite: sunburst
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The `insidetextorientation` attribute controls the orientation of the text inside chart sectors. When set to \*auto\*, text may be oriented in any direction in order to be as big as possible in the middle of a sector. The \*horizontal\* option orients text to be parallel with the bottom of the chart, and may make text smaller in order to achieve that goal. The \*radial\* option orients text along the radius of the sector. The \*tangential\* option orients text perpendicular to the radius of the sector.
 ---
@@ -27411,11 +24648,8 @@ Plotly.newPlot('myDiv', data, layout)
 })
 ---
 name: Branchvalues
-language: plotly\_js
 suite: sunburst
 order: 1.5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 With branchvalues "total", the value of the parent represents the width of its wedge. In the example below,
 "Enoch" is 4 and "Awan" is 6 and so Enoch's width is 4/6ths of Awans. With branchvalues "remainder", the
@@ -27445,10 +24679,7 @@ myPlot = document.getElementById("myDiv");
 description: How to make D3.js-based line and scatter plots in JavaScript. Examples
 of basic and colored line and scatter plots.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Scatter Plots
-order: 1
 page\_type: example\_index
 permalink: javascript/line-and-scatter/
 redirect\_from: javascript-graphing-library/line-and-scatter/
@@ -27458,11 +24689,7 @@ thumbnail: thumbnail/line-and-scatter.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Grouped Scatter Plot with Custom Scatter Gap
-language: plotly\_js
 suite: line\_and\_scatter
-order: 6
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['South Korea', 'China', 'Canada'],
@@ -27506,11 +24733,7 @@ scattergap: 0.7
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Data Labels Hover
-language: plotly\_js
 suite: line\_and\_scatter
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 5],
@@ -27543,11 +24766,7 @@ title: {text: 'Data Labels Hover'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Grouped Scatter Plot
-language: plotly\_js
 suite: line\_and\_scatter
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: ['South Korea', 'China', 'Canada'],
@@ -27590,11 +24809,7 @@ text: 'Medals'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Data Labels on The Plot
-language: plotly\_js
 suite: line\_and\_scatter
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4, 5],
@@ -27644,11 +24859,7 @@ title: {text: 'Data Labels on the Plot'}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Scatter Plot with a Color Dimension
-language: plotly\_js
 suite: line\_and\_scatter
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 y: [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
@@ -27667,11 +24878,7 @@ text: 'Scatter Plot with a Color Dimension'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Line and Scatter Plot
-language: plotly\_js
 suite: line\_and\_scatter
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -27695,11 +24902,7 @@ var data = [trace1, trace2, trace3];
 Plotly.newPlot('myDiv', data);
 ---
 name: Line Chart and a Bar Chart
-language: plotly\_js
 suite: mixed
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [0, 1, 2, 3, 4, 5],
@@ -27716,11 +24919,7 @@ Plotly.newPlot('myDiv', data);
 ---
 name: A Contour and Scatter Plot
 of the Method of Steepest Descent
-language: plotly\_js
 suite: mixed
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 z: [[1.5, 1.23469387755, 1.01020408163, 0.826530612245, 0.683673469388, 0.581632653061, 0.520408163265, 0.5, 0.520408163265, 0.581632653061, 0.683673469388, 0.826530612245, 1.01020408163, 1.23469387755, 1.5], [1.36734693878, 1.10204081633, 0.877551020408, 0.69387755102, 0.551020408163, 0.448979591837, 0.387755102041, 0.367346938776, 0.387755102041, 0.448979591837, 0.551020408163, 0.69387755102, 0.877551020408, 1.10204081633, 1.36734693878], [1.25510204082, 0.989795918367, 0.765306122449, 0.581632653061, 0.438775510204, 0.336734693878, 0.275510204082, 0.255102040816, 0.275510204082, 0.336734693878, 0.438775510204, 0.581632653061, 0.765306122449, 0.989795918367, 1.25510204082], [1.16326530612, 0.897959183673, 0.673469387755, 0.489795918367, 0.34693877551, 0.244897959184, 0.183673469388, 0.163265306122, 0.183673469388, 0.244897959184, 0.34693877551, 0.489795918367, 0.673469387755, 0.897959183673, 1.16326530612], [1.09183673469, 0.826530612245, 0.602040816327, 0.418367346939, 0.275510204082, 0.173469387755, 0.112244897959, 0.0918367346939, 0.112244897959, 0.173469387755, 0.275510204082, 0.418367346939, 0.602040816327, 0.826530612245, 1.09183673469], [1.04081632653, 0.775510204082, 0.551020408163, 0.367346938776, 0.224489795918, 0.122448979592, 0.0612244897959, 0.0408163265306, 0.0612244897959, 0.122448979592, 0.224489795918, 0.367346938776, 0.551020408163, 0.775510204082, 1.04081632653], [1.01020408163, 0.744897959184, 0.520408163265, 0.336734693878, 0.19387755102, 0.0918367346939, 0.030612244898, 0.0102040816327, 0.030612244898, 0.0918367346939, 0.19387755102, 0.336734693878, 0.520408163265, 0.744897959184, 1.01020408163], [1.0, 0.734693877551, 0.510204081633, 0.326530612245, 0.183673469388, 0.0816326530612, 0.0204081632653, 0.0, 0.0204081632653, 0.0816326530612, 0.183673469388, 0.326530612245, 0.510204081633, 0.734693877551, 1.0], [1.01020408163, 0.744897959184, 0.520408163265, 0.336734693878, 0.19387755102, 0.0918367346939, 0.030612244898, 0.0102040816327, 0.030612244898, 0.0918367346939, 0.19387755102, 0.336734693878, 0.520408163265, 0.744897959184, 1.01020408163], [1.04081632653, 0.775510204082, 0.551020408163, 0.367346938776, 0.224489795918, 0.122448979592, 0.0612244897959, 0.0408163265306, 0.0612244897959, 0.122448979592, 0.224489795918, 0.367346938776, 0.551020408163, 0.775510204082, 1.04081632653], [1.09183673469, 0.826530612245, 0.602040816327, 0.418367346939, 0.275510204082, 0.173469387755, 0.112244897959, 0.0918367346939, 0.112244897959, 0.173469387755, 0.275510204082, 0.418367346939, 0.602040816327, 0.826530612245, 1.09183673469], [1.16326530612, 0.897959183673, 0.673469387755, 0.489795918367, 0.34693877551, 0.244897959184, 0.183673469388, 0.163265306122, 0.183673469388, 0.244897959184, 0.34693877551, 0.489795918367, 0.673469387755, 0.897959183673, 1.16326530612], [1.25510204082, 0.989795918367, 0.765306122449, 0.581632653061, 0.438775510204, 0.336734693878, 0.275510204082, 0.255102040816, 0.275510204082, 0.336734693878, 0.438775510204, 0.581632653061, 0.765306122449, 0.989795918367, 1.25510204082], [1.36734693878, 1.10204081633, 0.877551020408, 0.69387755102, 0.551020408163, 0.448979591837, 0.387755102041, 0.367346938776, 0.387755102041, 0.448979591837, 0.551020408163, 0.69387755102, 0.877551020408, 1.10204081633, 1.36734693878], [1.5, 1.23469387755, 1.01020408163, 0.826530612245, 0.683673469388, 0.581632653061, 0.520408163265, 0.5, 0.520408163265, 0.581632653061, 0.683673469388, 0.826530612245, 1.01020408163, 1.23469387755, 1.5]],
@@ -27744,8 +24943,6 @@ Plotly.newPlot('myDiv', data);
 description: How to makes figures with D3.js-based mixed chart types in JavaScript.
 Examples of a contour plot with a scatter plot and a bar chart with a line chart.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Multiple Chart Types
 order: 13
 permalink: javascript/graphing-multiple-chart-types/
@@ -27756,11 +24953,7 @@ thumbnail: thumbnail/mixed2.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Donut Chart
-language: plotly\_js
 suite: pie
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 values: [16, 15, 12, 6, 5, 4, 42],
@@ -27815,10 +25008,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to graph D3.js-based pie charts in javascript with D3.js. Examples
 of pie charts, donut charts and pie chart subplots.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Pie Charts
-order: 4
 page\_type: example\_index
 permalink: javascript/pie-charts/
 redirect\_from:
@@ -27830,11 +25020,7 @@ thumbnail: thumbnail/pie-chart.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Pie Chart Subplots
-language: plotly\_js
 suite: pie
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 In order to create pie chart subplots, you need to use the [domain](https://plotly.com/javascript/reference/pie/#pie-domain) attribute. `domain` allows you to place each trace on a [grid](https://plotly.com/javascript/reference/layout/#layout-grid) of rows and columns defined in the layout or within a rectangle defined by `X` and `Y` arrays. The example below uses the `grid` method (with a 2 x 2 grid defined in the layout) for the first three traces and the X and Y method for the fourth trace.
 ---
@@ -27916,11 +25102,7 @@ grid: {rows: 2, columns: 2}
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Control Text Orientation Inside Pie Chart Sectors
-language: plotly\_js
 suite: pie
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The `insidetextorientation` attribute controls the orientation of the text inside chart sectors. When set to \*auto\*, text may be oriented in any direction in order to be as big as possible in the middle of a sector. The \*horizontal\* option orients text to be parallel with the bottom of the chart, and may make text smaller in order to achieve that goal. The \*radial\* option orients text along the radius of the sector. The \*tangential\* option orients text perpendicular to the radius of the sector.
 ---
@@ -27938,11 +25120,7 @@ width: 700
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Basic Pie Chart
-language: plotly\_js
 suite: pie
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 values: [19, 26, 55],
@@ -27956,11 +25134,7 @@ width: 500
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Automatically Adjust Margins
-language: plotly\_js
 suite: pie
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example sets [automargin](https://plotly.com/javascript/setting-graph-size/#automatically-adjust-margins) attribute to true, which automatically increases the margin size.
 ---
@@ -27981,11 +25155,7 @@ showlegend: false
 Plotly.newPlot('myDiv', data, layout)
 ---
 name:
-language: plotly\_js
 suite: treemap
-order: 5
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example uses marker.colorscale to change the sector's color.
 ---
@@ -28002,11 +25172,7 @@ marker: {colorscale: 'Blues'}
 Plotly.newPlot('myDiv', data)
 ---
 name:
-language: plotly\_js
 suite: treemap
-order: 4
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example uses `treemapcolorway` attribute, which should be set in layout.
 ---
@@ -28021,11 +25187,7 @@ var layout = {treemapcolorway: ["pink", "lightgray"]}
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Nested Layers in Treemap
-language: plotly\_js
 suite: treemap
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 The following example uses hierarchical data that includes layers and grouping. Treemap and [Sunburst](https://plotly.com/javascript/sunburst-charts/) charts reveal insights into the data, and the format of your hierarchical data. [maxdepth](https://plotly.com/javascript/reference/treemap/#treemap-maxdepth) attribute sets the number of rendered sectors from the given level.
 ---
@@ -28043,11 +25205,7 @@ Plotly.newPlot('myDiv', data);
 })
 ---
 name: Basic Treemap
-language: plotly\_js
 suite: treemap
-order: 1
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 [Treemap charts](https://en.wikipedia.org/wiki/Treemapping) visualize hierarchical data using nested rectangles. Same as [Sunburst](https://plotly.com/javascript/sunburst-charts/) the hierarchy is defined by [labels](https://plotly.com/javascript/reference/treemap/#treemap-labels) and [parents](https://plotly.com/javascript/reference/treemap/#treemap-parents) attributes. Click on one sector to zoom in/out, which also displays a pathbar in the upper-left corner of your treemap. To zoom out you can use the path bar as well.
 ---
@@ -28059,11 +25217,7 @@ parents: ["", "Eve", "Eve", "Seth", "Seth", "Eve", "Eve", "Awan", "Eve" ]
 Plotly.newPlot('myDiv', data)
 ---
 name: Set Color of Treemap Sectors
-language: plotly\_js
 suite: treemap
-order: 3
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 There are three different ways to change the color of the sectors in Treemap:
 1) [marker.colors](https://plotly.com/javascript/reference/treemap/#treemap-marker-colors), 2) [colorway](https://plotly.com/javascript/reference/layout/#layout-colorway), 3) [colorscale](https://plotly.com/javascript/reference/treemap/#treemap-marker-colorscale). The following examples show how to use each of them.
@@ -28081,8 +25235,6 @@ Plotly.newPlot('myDiv', data)
 description: How to make a D3.js-based treemap chart in javascript to visualize hierarchical
 data.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Treemaps
 order: 11
 permalink: javascript/treemaps/
@@ -28093,11 +25245,7 @@ thumbnail: thumbnail/treemap.png
 See [https://plotly/.com/javascript/reference/treemap](https://plotly.com/javascript/reference/treemap)/ for more information and chart attribute options!
 ---
 name: Set Different Attributes in Treemap
-language: plotly\_js
 suite: treemap
-order: 2
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 This example uses the following attributes:
 
@@ -28151,11 +25299,7 @@ yanchor: "bottom"
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Bar Chart with Line Plot
-language: plotly\_js
 suite: horizontal-bar
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var xSavings = [1.3586, 2.2623000000000002, 4.9821999999999997, 6.5096999999999996,
 7.4812000000000003, 7.5133000000000001, 15.2148, 17.520499999999998
@@ -28279,10 +25423,7 @@ Plotly.newPlot('myDiv', data, layout);
 ---
 description: How to make a D3.js-based hortizontal bar chart in JavaScript.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Horizontal Bar Charts
-order: 8
 permalink: javascript/horizontal-bar-charts/
 redirect\_from: javascript-graphing-library/horizontal-bar-charts/
 thumbnail: thumbnail/horizontal-bar.jpg
@@ -28291,11 +25432,7 @@ thumbnail: thumbnail/horizontal-bar.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Basic Horizontal Bar Chart
-language: plotly\_js
 suite: horizontal-bar
-order: 0
-sitemap: false
-arrangement: horizontal
 ---
 var data = [{
 type: 'bar',
@@ -28306,11 +25443,7 @@ orientation: 'h'
 Plotly.newPlot('myDiv', data);
 ---
 name: Colored Bar Chart
-language: plotly\_js
 suite: horizontal-bar
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [20, 14, 23],
@@ -28344,11 +25477,7 @@ barmode: 'stack'
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Categorical Dot Plot
-language: plotly\_js
 suite: dot
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var country = ['Switzerland (2011)', 'Chile (2013)', 'Japan (2014)', 'United States (2012)', 'Slovenia (2014)', 'Canada (2011)', 'Poland (2010)', 'Estonia (2015)', 'Luxembourg (2013)', 'Portugal (2011)'];
 var votingPop = [40, 45.7, 52, 53.6, 54.1, 54.2, 54.5, 54.7, 55.1, 56.6];
@@ -28430,10 +25559,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make D3.js-based dot plots in JavaScript. Example of a styled,
 categorical dot plot.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Dot Plots
-order: 6
 permalink: javascript/dot-plots/
 thumbnail: thumbnail/dot-plot.jpg
 ---
@@ -28442,7 +25568,6 @@ thumbnail: thumbnail/dot-plot.jpg
 ---
 description: Plotly.js makes interactive, publication-quality graphs online. Examples
 of how to make basic charts.
-language: plotly\_js
 layout: langindex
 name: Basic Charts
 display\_as: basic
@@ -28460,11 +25585,7 @@ thumbnail: thumbnail/mixed.jpg
 {% include posts/documentation\_eg.html %}
 ---
 name: Marker Size on Bubble Charts
-language: plotly\_js
 suite: bubble
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -28486,11 +25607,7 @@ width: 600
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Bubble Size Scaling on Charts
-language: plotly\_js
 suite: bubble
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 // To scale the bubble size, use the attribute sizeref. We recommend using the following formula to calculate a sizeref value:
 // sizeref = 2.0 \* Math.max(...size) / (desired\_maximum\_marker\_size\*\*2)
@@ -28562,10 +25679,7 @@ Plotly.newPlot('myDiv', data, layout);
 description: How to make a D3.js-based bubble chart in javascript. Examples of scatter
 charts whose markers have variable color, size, and symbols.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Bubble Charts
-order: 5
 page\_type: example\_index
 permalink: javascript/bubble-charts/
 redirect\_from: javascript-graphing-library/bubble-charts/
@@ -28575,11 +25689,7 @@ thumbnail: thumbnail/bubble.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Marker Size, Color, and Symbol as an Array
-language: plotly\_js
 suite: bubble
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -28621,11 +25731,7 @@ var layout = {showlegend: false};
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Marker Size and Color on Bubble Charts
-language: plotly\_js
 suite: bubble
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -28649,11 +25755,7 @@ width: 600
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Hover Text on Bubble Charts
-language: plotly\_js
 suite: bubble
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var trace1 = {
 x: [1, 2, 3, 4],
@@ -28681,11 +25783,7 @@ width: 600
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Changing Size of Rows and Columns
-language: plotly\_js
 suite: tables
-order: 4
-sitemap: false
-arrangement: horizontal
 ---
 var values = [
 ['Salaries', 'Office', 'Merchandise', 'Legal', '**TOTAL
@@ -28720,21 +25818,13 @@ font: {family: "Arial", size: 11, color: ["#506784"]}
 Plotly.newPlot('myDiv', data);
 ---
 name: Table Subplots
-language: plotly\_js
 suite: tables
-order: 6
-sitemap: false
-arrangement: horizontal
 markdown\_content: |
 Please see [Table Subplots](https://plotly.com/javascript/table-subplots) documentation.
 ---
 ---
 name: Styled Table
-language: plotly\_js
 suite: tables
-order: 2
-sitemap: false
-arrangement: horizontal
 ---
 var values = [
 ['Salaries', 'Office', 'Merchandise', 'Legal', '**TOTAL**'],
@@ -28764,8 +25854,6 @@ Plotly.newPlot('myDiv', data);
 ---
 description: How to make a D3.js-based tables in javascript.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Tables
 order: 12
 permalink: javascript/table/
@@ -28775,11 +25863,7 @@ thumbnail: thumbnail/table.gif
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Alternating Row Colors
-language: plotly\_js
 suite: tables
-order: 5
-sitemap: false
-arrangement: horizontal
 ---
 var values = [
 ['Salaries', 'Office', 'Merchandise', 'Legal', '**TOTAL**'],
@@ -28812,11 +25896,7 @@ font: {family: "Arial", size: 11, color: ["black"]}
 Plotly.newPlot('myDiv', data);
 ---
 name: Table From a CSV
-language: plotly\_js
 suite: tables
-order: 3
-sitemap: false
-arrangement: horizontal
 ---
 d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/Mining-BTC-180.csv", function(err, rows){
 function unpack(rows, key) {
@@ -28864,11 +25944,7 @@ Plotly.newPlot('myDiv', data, layout);
 });
 ---
 name: Basic Table
-language: plotly\_js
 suite: tables
-order: 1
-sitemap: false
-arrangement: horizontal
 ---
 var values = [
 ['Salaries', 'Office', 'Merchandise', 'Legal', '**TOTAL**'],
@@ -28897,8 +25973,6 @@ Plotly.newPlot('myDiv', data);
 ---
 description: How to make D3.js-based sankey diagrams in Plotly.js.
 display\_as: basic
-language: plotly\_js
-layout: base
 name: Sankey Diagrams
 order: 10
 permalink: javascript/sankey-diagram/
@@ -28908,11 +25982,7 @@ thumbnail: thumbnail/sankey.jpg
 {% include posts/auto\_examples.html examples=examples %}
 ---
 name: Style Sankey Diagram
-language: plotly\_js
 suite: sankey
-order: 5
-sitemap: false
-arrangement: horizontal
 description:
 ---
 d3.json('https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey\_energy\_dark.json', function(fig){
@@ -28961,11 +26031,7 @@ Plotly.newPlot('myDiv', data, layout)
 });
 ---
 name: Add Links
-language: plotly\_js
 suite: sankey
-order: 4
-sitemap: false
-arrangement: horizontal
 description:
 ---
 d3.json('https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey\_energy.json', function(fig){
@@ -29011,11 +26077,7 @@ Plotly.newPlot('myDiv', data, layout)
 });
 ---
 name: Define Node Position
-language: plotly\_js
 suite: sankey
-order: 6
-sitemap: false
-arrangement: horizontal
 description:
 markdown\_content: |
 The following example sets [node.x](https://plotly.com/javascript/reference/sankey/#sankey-node-x) and `node.y` to place nodes in the specified locations, except in the `snap arrangement` (default behaviour when `node.x` and `node.y` are not defined) to avoid overlapping of the nodes, therefore, an automatic snapping of elements will be set to define the padding between nodes via [nodepad](https://plotly.com/javascript/reference/sankey/#sankey-node-pad). The other possible arrangements are: 1) perpendicular 2) freeform 3) fixed
@@ -29041,11 +26103,7 @@ text: "Sankey with manually positioned node"
 Plotly.newPlot('myDiv', data, layout)
 ---
 name: Add Nodes
-language: plotly\_js
 suite: sankey
-order: 3
-sitemap: false
-arrangement: horizontal
 description:
 ---
 d3.json('https://raw.githubusercontent.com/plotly/plotly.js/master/test/image/mocks/sankey\_energy.json', function(fig){
@@ -29085,11 +26143,7 @@ Plotly.newPlot('myDiv', data, layout)
 });
 ---
 name: Basic Sankey Diagram
-language: plotly\_js
 suite: sankey
-order: 1
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var data = {
@@ -29123,11 +26177,7 @@ size: 10
 Plotly.react('myDiv', data, layout)
 ---
 name: Node Alignment
-language: plotly\_js
 suite: sankey
-order: 7
-sitemap: false
-arrangement: horizontal
 markdown\_content : |
 You can set the alignment of nodes using `node.align`. In this example, we align nodes to the "right". `node.align` can also be set to "left", "center", or "justify". The default is "justify" if ``node.align` is not set, and is similar to aligning to the "left", except that nodes without outgoing links are moved to the right of the figure.
 ---
@@ -29156,11 +26206,7 @@ size: 10,
 Plotly.newPlot('myDiv', data, layout);
 ---
 name: Create Sankey Canvas
-language: plotly\_js
 suite: sankey
-order: 2
-sitemap: false
-arrangement: horizontal
 description:
 ---
 var data = {
@@ -29189,7 +26235,6 @@ size: 10
 permalink: /javascript/reference/scatter/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scatter Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29201,7 +26246,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/contour/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: contour Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29213,7 +26257,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/shapes/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.shapes
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29226,7 +26269,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scatterpolar/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scatterpolar Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29238,7 +26280,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/barpolar/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: barpolar Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29250,7 +26291,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/box/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: box Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29262,7 +26302,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/table/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: table Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29274,7 +26313,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/densitymap/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: densitymap Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29286,7 +26324,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/cone/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: cone Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29298,7 +26335,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/carpet/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: carpet Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29310,7 +26346,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scatter3d/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scatter3d Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29322,7 +26357,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/sliders/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.sliders
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29335,7 +26369,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/choroplethmap/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: choroplethmap Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29347,7 +26380,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/contourcarpet/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: contourcarpet Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29359,7 +26391,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/isosurface/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: isosurface Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29371,7 +26402,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/pie/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: pie Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29383,7 +26413,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/annotations/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.annotations
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29396,7 +26425,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/histogram2dcontour/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: histogram2dcontour Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29408,7 +26436,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scatterternary/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scatterternary Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29420,7 +26447,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/ternary/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.ternary
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29433,7 +26459,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/xaxis/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.xaxis
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29446,7 +26471,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/mapbox/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.mapbox
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29459,7 +26483,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scattermap/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scattermap Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29471,7 +26494,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/densitymapbox/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: densitymapbox Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29483,7 +26505,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scattergl/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scattergl Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29495,7 +26516,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/splom/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: splom Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29507,7 +26527,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/funnel/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: funnel Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29519,7 +26538,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/parcoords/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: parcoords Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29531,7 +26549,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/pointcloud/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: pointcloud Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29543,7 +26560,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/sunburst/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: sunburst Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29555,7 +26571,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/treemap/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: treemap Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29567,7 +26582,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/bar/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: bar Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29579,7 +26593,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/selections/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.selections
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29592,7 +26605,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/surface/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: surface Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29604,7 +26616,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/funnelarea/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: funnelarea Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29616,7 +26627,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/smith/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.smith
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29629,7 +26639,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/histogram/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: histogram Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29641,7 +26650,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/ohlc/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: ohlc Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29653,7 +26661,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/volume/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: volume Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29665,7 +26672,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/histogram2d/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: histogram2d Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29677,7 +26683,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/indicator/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: indicator Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29689,7 +26694,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/violin/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: violin Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29701,7 +26705,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/scene/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.scene
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29714,7 +26717,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/candlestick/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: candlestick Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29726,7 +26728,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scattercarpet/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scattercarpet Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29738,7 +26739,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/images/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.images
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29751,7 +26751,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/heatmap/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: heatmap Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29763,7 +26762,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/updatemenus/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.updatemenus
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29776,7 +26774,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/icicle/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: icicle Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29788,7 +26785,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/image/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: image Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29800,7 +26796,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/sankey/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: sankey Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29812,7 +26807,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scattergeo/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scattergeo Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29824,7 +26818,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/streamtube/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: streamtube Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29836,7 +26829,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/mesh3d/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: mesh3d Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29848,7 +26840,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29867,7 +26858,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/geo/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.geo
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29880,7 +26870,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/heatmapgl/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: heatmapgl Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29892,7 +26881,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/parcats/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: parcats Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29904,7 +26892,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/coloraxis/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.coloraxis
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29917,7 +26904,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scatterpolargl/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scatterpolargl Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29929,7 +26915,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scattermapbox/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scattermapbox Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29941,7 +26926,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/yaxis/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.yaxis
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29954,7 +26938,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/choropleth/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: choropleth Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29966,7 +26949,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/scattersmith/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: scattersmith Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29978,7 +26960,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/layout/polar/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: layout.polar
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -29991,7 +26972,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/waterfall/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: waterfall Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
@@ -30003,7 +26983,6 @@ description: Figure attribute reference for Plotly's JavaScript open-source grap
 permalink: /javascript/reference/choroplethmapbox/
 layout: langindex
 page\_type: reference
-language: plotly\_js
 name: choroplethmapbox Traces
 description: Figure attribute reference for Plotly's JavaScript open-source graphing library.
 ---
